@@ -1,10 +1,212 @@
 /*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
+ * Borderline Genius – basic landing page styles
  */
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  color: #0f172a;
+  background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #020617 100%);
+}
+
+main.bg-slate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+}
+
+.hero {
+  width: 100%;
+  max-width: 960px;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 1.75rem;
+  box-shadow:
+    0 30px 80px rgba(15, 23, 42, 0.85),
+    0 0 0 1px rgba(148, 163, 184, 0.25);
+  padding: 2.75rem 2.5rem 2.5rem;
+  box-sizing: border-box;
+  color: #e5e7eb;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 3.25rem 3rem 3rem;
+  }
+}
+
+.hero-header {
+  text-align: left;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(15, 118, 110, 0.18);
+  color: #a5f3fc;
+  border: 1px solid rgba(34, 211, 238, 0.6);
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  letter-spacing: -0.04em;
+  margin: 0 0 0.75rem;
+  color: #f9fafb;
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 40rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cbd5f5;
+}
+
+.subtitle .highlight {
+  color: #f97316;
+  font-weight: 600;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.9rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease,
+    background 150ms ease,
+    color 150ms ease,
+    border-color 150ms ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #22c55e, #a3e635);
+  color: #052e16;
+  box-shadow: 0 12px 30px rgba(34, 197, 94, 0.45);
+}
+
+.btn-primary[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 40px rgba(34, 197, 94, 0.55);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #bfdbfe;
+  border-color: rgba(148, 163, 184, 0.7);
+}
+
+.btn-secondary:hover {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: rgba(148, 163, 184, 1);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.card {
+  background: radial-gradient(circle at top left, rgba(248, 250, 252, 0.1), transparent 55%),
+    rgba(15, 23, 42, 0.9);
+  border-radius: 1.1rem;
+  padding: 1.25rem 1.15rem;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.85);
+}
+
+.card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  color: #e5e7eb;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+.metrics {
+  margin-top: 2.4rem;
+  padding-top: 1.7rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.metrics h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  color: #e5e7eb;
+}
+
+.metrics ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.metrics li {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.5);
+}
+
+.teaser {
+  margin-top: 2.2rem;
+  padding-top: 1.7rem;
+  border-top: 1px dashed rgba(148, 163, 184, 0.5);
+}
+
+.teaser h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  color: #e5e7eb;
+}
+
+.teaser p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
