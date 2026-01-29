@@ -1,63 +1,127 @@
-import fs from "fs";
+import fs from "fs/promises";
 
-const BASE_URL = "https://api.worldbank.org/v2";
+const OUTPUT_FILE = "data/worldbank_2023.json";
 const YEAR = 2023;
-const PER_PAGE = 300;
+const PER_PAGE = 1000;
 
-const indicators = {
+// Indicators to use in your game
+const INDICATORS = {
   population: "SP.POP.TOTL",
-  gdp_per_capita: "NY.GDP.PCAP.CD",
-  life_expectancy: "SP.DYN.LE00.IN",
+  gdpPerCapita: "NY.GDP.PCAP.CD",
+  lifeExpectancy: "SP.DYN.LE00.IN",
+  medianAge: "SP.POP.MEDN"
 };
 
-async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed: ${url}`);
-  return res.json();
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+async function safeFetchJSON(url) {
+  try {
+    console.log(`🌐 Fetching: ${url}`);
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "global-stats-game/1.0"
+      }
+    });
+
+    const text = await response.text();
+
+    try {
+      return JSON.parse(text);
+    } catch {
+      console.warn("⚠️ Failed to parse JSON");
+      return null;
+    }
+  } catch (err) {
+    console.warn("⚠️ Network error:", err.message);
+    return null;
+  }
 }
 
-async function fetchCountries() {
-  const url = `${BASE_URL}/country?format=json&per_page=${PER_PAGE}`;
-  const data = await fetchJSON(url);
-  return data[1].filter(c => c.region.value !== "Aggregates");
+async function fetchAllCountries() {
+  console.log("🌍 Fetching country list...");
+
+  const url = `https://api.worldbank.org/v2/country?format=json&per_page=${PER_PAGE}`;
+  const data = await safeFetchJSON(url);
+
+  if (!Array.isArray(data) || !Array.isArray(data[1])) {
+    throw new Error("Failed to fetch country list");
+  }
+
+  const countries = data[1]
+    .filter(c => c.region?.id !== "NA") // exclude aggregates
+    .map(c => c.id);
+
+  console.log(`✅ Found ${countries.length} countries`);
+  return countries;
 }
 
 async function fetchIndicator(country, indicator) {
-  const url = `${BASE_URL}/country/${country}/indicator/${indicator}?date=${YEAR}&format=json&per_page=1`;
-  const data = await fetchJSON(url);
-  return data?.[1]?.[0]?.value ?? null;
+  const url = `https://api.worldbank.org/v2/country/${country}/indicator/${indicator}?date=${YEAR}&format=json&per_page=1`;
+  const data = await safeFetchJSON(url);
+
+  if (!Array.isArray(data) || !Array.isArray(data[1])) {
+    console.warn(`⚠️ ${country} ${indicator}: malformed response`);
+    return null;
+  }
+
+  const value = data[1][0]?.value ?? null;
+
+  if (value === null) {
+    console.log(`➖ ${country} ${indicator}: no data`);
+  } else {
+    console.log(`✔️ ${country} ${indicator}: ${value}`);
+  }
+
+  return value;
 }
 
 async function main() {
-  const countries = await fetchCountries();
-  const output = {};
+  console.log("🚀 Starting World Bank data fetch");
+  console.log(`📅 Target year: ${YEAR}`);
+
+  const countries = await fetchAllCountries();
+  const result = {};
+
+  let countryCount = 0;
 
   for (const country of countries) {
-    const code = country.id;
-    output[code] = {
-      name: country.name,
-      region: country.region.value,
-      income_level: country.incomeLevel.value,
-    };
+    console.log(`\n🏳️ Processing ${country}`);
+    result[country] = {};
 
-    for (const [key, indicator] of Object.entries(indicators)) {
-      output[code][key] = await fetchIndicator(code, indicator);
+    for (const [key, indicator] of Object.entries(INDICATORS)) {
+      const value = await fetchIndicator(country, indicator);
+      result[country][key] = value;
+
+      // IMPORTANT: rate limit
+      await sleep(150);
     }
 
-    // be polite to the API
-    await new Promise(r => setTimeout(r, 150));
+    countryCount++;
+    console.log(`✅ Finished ${country} (${countryCount}/${countries.length})`);
   }
 
-  fs.mkdirSync("data", { recursive: true });
-  fs.writeFileSync(
-    "data/countries_2023.json",
-    JSON.stringify(output, null, 2)
+  console.log("\n💾 Writing output file...");
+  // ensure output directory exists
+  await fs.mkdir("data", { recursive: true });
+
+  await fs.writeFile(
+    OUTPUT_FILE,
+    JSON.stringify(
+      {
+        year: YEAR,
+        generatedAt: new Date().toISOString(),
+        indicators: Object.keys(INDICATORS),
+        countries: result
+      },
+      null,
+      2
+    )
   );
 
-  console.log("✅ countries_2023.json generated");
+  console.log(`🎉 Done! Saved to ${OUTPUT_FILE}`);
 }
 
 main().catch(err => {
-  console.error(err);
+  console.error("🔥 Fatal error:", err);
   process.exit(1);
 });
