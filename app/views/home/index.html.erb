@@ -1,10 +1,196 @@
-<main class="bg-slate">
-  <div class="hero">
-    <header class="hero-header" style="text-align: center;">
-      <h1>Borderline Genius</h1>
-      <div class="hero-actions" style="justify-content: center; margin-top: 2.25rem;">
-        <a href="#" class="btn-primary" aria-disabled="true">Play Game (coming soon)</a>
+<div class="top-title" style="display:flex; align-items:center; justify-content:center; gap:0.75rem; padding:0.5rem 1rem; margin-top:0;">
+  <%= image_tag "borderline-genius.png", alt: "logo", style: "width:48px; height:48px; object-fit:contain; display:block;" %>
+  <h1 style="margin:0; font-size:clamp(1.4rem,4vw,2rem); font-weight:800;">Borderline Genius</h1>
+</div>
+
+<style>
+  /* Page-specific overrides to reduce hero prominence and center game */
+  #game-root { margin: 0.25rem auto 0 !important; }
+  .top-title h1 { color: #f8fafc; }
+</style>
+
+    <div id="game-root" style="display:flex; align-items:center; justify-content:center; padding:1rem; max-width:720px; margin: 0.5rem auto 0; min-height:50vh;">
+  <div id="round" style="background: rgba(255,255,255,0.02); border-radius:12px; padding:2rem; text-align:center;">
+    <div id="question" style="color:#cbd5e1; margin-bottom:2rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;"></div>
+    <div id="players" style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
+      <div id="left" style="min-width:160px;">
+        <img id="left-flag" src="" alt="" style="width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5)"/>
+        <div id="left-name" style="margin-top:0.75rem; color:#e5e7eb; font-weight:600"></div>
+        <div id="left-value" style="margin-top:0.6rem; color:#cbd5e1; font-weight:700"></div>
       </div>
-    </header>
+      <div style="align-self:center; color:#cbd5e1; font-weight:600">VS</div>
+      <div id="right" style="min-width:160px;">
+        <img id="right-flag" src="" alt="" style="width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5)"/>
+        <div id="right-name" style="margin-top:0.75rem; color:#e5e7eb; font-weight:600"></div>
+        <div id="right-value" style="margin-top:0.6rem; color:#cbd5e1; font-weight:700"></div>
+      </div>
+    </div>
+    <div id="streak-display" style="margin-top:0.75rem; color:#a7f3d0; font-weight:700">Streak: 0</div>
+    <div id="result" style="height:1.25rem; color:#a7f3d0; font-weight:700; margin-top:0.75rem;"></div>
+    <div style="margin-top:0.6rem;">
+      <button id="play-again" class="btn-secondary" style="display:none; padding:0.55rem 1rem; border-radius:999px; border:1px solid rgba(148,163,184,0.6); background:transparent; color:#cbd5e1;">Play again</button>
+    </div>
   </div>
-</main>
+</div>
+
+<script>
+  const gameRoot = document.getElementById('game-root');
+  const leftFlag = document.getElementById('left-flag');
+  const rightFlag = document.getElementById('right-flag');
+  const leftValueEl = document.getElementById('left-value');
+  const rightValueEl = document.getElementById('right-value');
+
+  let currentRound = null;
+  let locked = false;
+  let streak = 0;
+  const streakEl = document.getElementById('streak-display');
+  // start immediately
+  document.addEventListener('DOMContentLoaded', () => {
+    loadRound().catch(console.error);
+  });
+
+  async function loadRound() {
+    document.getElementById('result').textContent = '';
+    leftValueEl.textContent = '';
+    rightValueEl.textContent = '';
+    clearHighlights();
+    const res = await fetch('/api/round');
+    const payload = await res.json();
+    currentRound = payload;
+    await renderRound(payload);
+  }
+
+  async function renderRound(payload) {
+    const left = payload.left;
+    const right = payload.right;
+    document.getElementById('question').textContent = `Which country has a higher ${payload.indicator_label}?`;
+
+    // use restcountries to get names and flags
+    const leftInfo = await fetchCountryInfo(left);
+    const rightInfo = await fetchCountryInfo(right);
+
+    document.getElementById('left-flag').src = leftInfo.flag;
+    document.getElementById('left-name').textContent = leftInfo.name;
+    document.getElementById('right-flag').src = rightInfo.flag;
+    document.getElementById('right-name').textContent = rightInfo.name;
+    // make flags clickable
+    leftFlag.style.cursor = 'pointer';
+    rightFlag.style.cursor = 'pointer';
+  }
+
+  async function fetchCountryInfo(iso3) {
+    try {
+      const res = await fetch(`https://restcountries.com/v3.1/alpha/${iso3}`);
+      const data = await res.json();
+      const country = Array.isArray(data) ? data[0] : data;
+      return {
+        name: country.name.common || iso3,
+        flag: country.flags && (country.flags.svg || country.flags.png) || ''
+      };
+    } catch (err) {
+      return { name: iso3, flag: '' };
+    }
+  }
+  async function submitGuess(iso3) {
+    if (locked) return;
+    locked = true;
+    const body = {
+      left: currentRound.left,
+      right: currentRound.right,
+      indicator: currentRound.indicator,
+      guess: iso3
+    };
+    const res = await fetch('/api/guess', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    const data = await res.json();
+    // show values for 1s then load next round
+    const leftVal = data.left_value;
+    const rightVal = data.right_value;
+    leftValueEl.textContent = formatNumber(leftVal);
+    rightValueEl.textContent = formatNumber(rightVal);
+
+    const resultEl = document.getElementById('result');
+    if (data.correct) {
+      resultEl.style.color = '#a7f3d0';
+      resultEl.textContent = 'Correct!';
+      streak = (streak || 0) + 1;
+      // hide play again when correct
+      playAgainBtn.style.display = 'none';
+    } else {
+      resultEl.style.color = '#ffb4b4';
+      resultEl.textContent = 'Wrong';
+      streak = 0;
+      // show play again and keep round on screen
+      playAgainBtn.style.display = 'inline-block';
+    }
+    if (streakEl) streakEl.textContent = `Streak: ${streak}`;
+
+    // highlight winner
+    clearHighlights();
+    if (data.winner) {
+      if (data.winner === currentRound.left) {
+        highlightEl('left');
+      } else {
+        highlightEl('right');
+      }
+    }
+
+    // wait a moment to show values
+    await new Promise(r => setTimeout(r, 1000));
+
+    // If answer was correct, auto-advance to next round.
+    if (data.correct) {
+      if (data.next_round) {
+        currentRound = data.next_round;
+        leftValueEl.textContent = '';
+        rightValueEl.textContent = '';
+        resultEl.textContent = '';
+        clearHighlights();
+        await renderRound(currentRound);
+      } else {
+        // fallback: request a fresh round
+        await loadRound();
+      }
+      locked = false;
+    } else {
+      // incorrect: keep results on screen and show "Play again" button.
+      // leave `locked` true until the user clicks Play again.
+      // nothing else to do here.
+    }
+  }
+
+  function formatNumber(v) {
+    if (v === null || v === undefined) return '';
+    if (Number.isInteger(v)) return new Intl.NumberFormat().format(v);
+    return new Intl.NumberFormat(undefined, { maximumFractionDigits: 2 }).format(v);
+  }
+
+  function highlightEl(side) {
+    const el = document.getElementById(side === 'left' ? 'left-flag' : 'right-flag');
+    if (el) el.style.boxShadow = '0 18px 40px rgba(34,197,94,0.45)';
+  }
+
+  function clearHighlights() {
+    document.getElementById('left-flag').style.boxShadow = '0 6px 18px rgba(0,0,0,0.5)';
+    document.getElementById('right-flag').style.boxShadow = '0 6px 18px rgba(0,0,0,0.5)';
+  }
+
+  leftFlag.addEventListener('click', () => submitGuess(currentRound.left));
+  rightFlag.addEventListener('click', () => submitGuess(currentRound.right));
+
+  const playAgainBtn = document.getElementById('play-again');
+  playAgainBtn.addEventListener('click', async () => {
+    playAgainBtn.style.display = 'none';
+    streak = 0;
+    if (streakEl) streakEl.textContent = `Streak: ${streak}`;
+    clearHighlights();
+    document.getElementById('result').textContent = '';
+    leftValueEl.textContent = '';
+    rightValueEl.textContent = '';
+    locked = false;
+    await loadRound();
+  });
+</script>

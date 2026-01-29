@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-  color: #0f172a;
-  background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #020617 100%);
+  color: #e6eef8;
+  background: #071025; /* solid dark navy background */
 }
 
 main.bg-slate {
