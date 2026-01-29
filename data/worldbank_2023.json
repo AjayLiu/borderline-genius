@@ -1,0 +1,1750 @@
+{
+  "year": 2023,
+  "generatedAt": "2026-01-29T13:44:06.771Z",
+  "indicators": [
+    "population",
+    "gdpPerCapita",
+    "lifeExpectancy",
+    "educationExpenditure",
+    "fertilityRate",
+    "literacyRate"
+  ],
+  "countries": {
+    "ABW": {
+      "population": 107359,
+      "gdpPerCapita": 35718.7531191634,
+      "lifeExpectancy": 76.353,
+      "educationExpenditure": null,
+      "fertilityRate": 1.602,
+      "literacyRate": null
+    },
+    "AFG": {
+      "population": 41454761,
+      "gdpPerCapita": 413.757894705303,
+      "lifeExpectancy": 66.035,
+      "educationExpenditure": null,
+      "fertilityRate": 4.84,
+      "literacyRate": null
+    },
+    "AGO": {
+      "population": 36749906,
+      "gdpPerCapita": 2916.13663284275,
+      "lifeExpectancy": 64.617,
+      "educationExpenditure": 2.51273663315785,
+      "fertilityRate": 5.124,
+      "literacyRate": null
+    },
+    "ALB": {
+      "population": 2414095,
+      "gdpPerCapita": 9730.86921906893,
+      "lifeExpectancy": 79.602,
+      "educationExpenditure": 3.09153008460998,
+      "fertilityRate": 1.348,
+      "literacyRate": 97.6800003051758
+    },
+    "AND": {
+      "population": 80856,
+      "gdpPerCapita": 46812.4261013102,
+      "lifeExpectancy": 84.041,
+      "educationExpenditure": 1.89867997169495,
+      "fertilityRate": 1.082,
+      "literacyRate": null
+    },
+    "ARE": {
+      "population": 10483751,
+      "gdpPerCapita": 49850.6872175164,
+      "lifeExpectancy": 82.909,
+      "educationExpenditure": null,
+      "fertilityRate": 1.2,
+      "literacyRate": 98.0599975585938
+    },
+    "ARG": {
+      "population": 45538401,
+      "gdpPerCapita": 14261.8465667948,
+      "lifeExpectancy": 77.395,
+      "educationExpenditure": 5.89754023690244,
+      "fertilityRate": 1.5,
+      "literacyRate": null
+    },
+    "ARM": {
+      "population": 2964300,
+      "gdpPerCapita": 8159.08720967996,
+      "lifeExpectancy": 77.4658536585366,
+      "educationExpenditure": 2.43869996070862,
+      "fertilityRate": 1.9,
+      "literacyRate": 99.8399963378906
+    },
+    "ASM": {
+      "population": 47521,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 72.852,
+      "educationExpenditure": null,
+      "fertilityRate": 2.286,
+      "literacyRate": null
+    },
+    "ATG": {
+      "population": 93316,
+      "gdpPerCapita": 21494.5474000727,
+      "lifeExpectancy": 77.598,
+      "educationExpenditure": 3.10505161832136,
+      "fertilityRate": 1.578,
+      "literacyRate": null
+    },
+    "AUS": {
+      "population": 26659922,
+      "gdpPerCapita": 65058.3773146674,
+      "lifeExpectancy": 83.0512195121951,
+      "educationExpenditure": null,
+      "fertilityRate": 1.5,
+      "literacyRate": null
+    },
+    "AUT": {
+      "population": 9131761,
+      "gdpPerCapita": 56579.504175468,
+      "lifeExpectancy": 81.5414634146342,
+      "educationExpenditure": null,
+      "fertilityRate": 1.32,
+      "literacyRate": null
+    },
+    "AZE": {
+      "population": 10153958,
+      "gdpPerCapita": 7133.02838048328,
+      "lifeExpectancy": 74.429,
+      "educationExpenditure": 3.66400003433227,
+      "fertilityRate": 1.55,
+      "literacyRate": 99.7799987792969
+    },
+    "BDI": {
+      "population": 13689450,
+      "gdpPerCapita": 250.627253097255,
+      "lifeExpectancy": 63.651,
+      "educationExpenditure": null,
+      "fertilityRate": 4.878,
+      "literacyRate": null
+    },
+    "BEL": {
+      "population": 11779946,
+      "gdpPerCapita": 55291.4754541329,
+      "lifeExpectancy": 82.3975609756098,
+      "educationExpenditure": null,
+      "fertilityRate": 1.47,
+      "literacyRate": null
+    },
+    "BEN": {
+      "population": 14111034,
+      "gdpPerCapita": 1394.17784721831,
+      "lifeExpectancy": 60.774,
+      "educationExpenditure": 3.22974322056608,
+      "fertilityRate": 4.556,
+      "literacyRate": null
+    },
+    "BFA": {
+      "population": 23025776,
+      "gdpPerCapita": 873.482589651003,
+      "lifeExpectancy": 61.092,
+      "educationExpenditure": 5.32757840997187,
+      "fertilityRate": 4.186,
+      "literacyRate": 41.442033530681
+    },
+    "BGD": {
+      "population": 171466990,
+      "gdpPerCapita": 2551.01773827307,
+      "lifeExpectancy": 74.672,
+      "educationExpenditure": 2.16213826344701,
+      "fertilityRate": 2.163,
+      "literacyRate": null
+    },
+    "BGR": {
+      "population": 6446596,
+      "gdpPerCapita": 15853.208636704,
+      "lifeExpectancy": 75.7073170731707,
+      "educationExpenditure": null,
+      "fertilityRate": 1.81,
+      "literacyRate": null
+    },
+    "BHR": {
+      "population": 1577059,
+      "gdpPerCapita": 29290.1284215098,
+      "lifeExpectancy": 81.284,
+      "educationExpenditure": 1.88778167912993,
+      "fertilityRate": 1.824,
+      "literacyRate": 97.8499984741211
+    },
+    "BHS": {
+      "population": 399440,
+      "gdpPerCapita": 38231.774484278,
+      "lifeExpectancy": 74.552,
+      "educationExpenditure": 2.74191570247934,
+      "fertilityRate": 1.373,
+      "literacyRate": null
+    },
+    "BIH": {
+      "population": 3185073,
+      "gdpPerCapita": 8663.02326458629,
+      "lifeExpectancy": 77.85,
+      "educationExpenditure": 3.24564826597779,
+      "fertilityRate": 1.486,
+      "literacyRate": null
+    },
+    "BLR": {
+      "population": 9178298,
+      "gdpPerCapita": 7896.75388295584,
+      "lifeExpectancy": 74.1837804878049,
+      "educationExpenditure": 4.9514799118042,
+      "fertilityRate": 1.208,
+      "literacyRate": null
+    },
+    "BLZ": {
+      "population": 411106,
+      "gdpPerCapita": 7424.75821321022,
+      "lifeExpectancy": 73.566,
+      "educationExpenditure": 4.23143005371094,
+      "fertilityRate": 2.007,
+      "literacyRate": null
+    },
+    "BMU": {
+      "population": 64698,
+      "gdpPerCapita": 132604.439086216,
+      "lifeExpectancy": 82.309,
+      "educationExpenditure": 1.86510440752276,
+      "fertilityRate": 1.401,
+      "literacyRate": null
+    },
+    "BOL": {
+      "population": 12244159,
+      "gdpPerCapita": 4274.70820547613,
+      "lifeExpectancy": 68.581,
+      "educationExpenditure": 8.31589071412357,
+      "fertilityRate": 2.547,
+      "literacyRate": 95.5500030517578
+    },
+    "BRA": {
+      "population": 211140729,
+      "gdpPerCapita": 10377.5897719195,
+      "lifeExpectancy": 75.848,
+      "educationExpenditure": null,
+      "fertilityRate": 1.619,
+      "literacyRate": 94.5839624750993
+    },
+    "BRB": {
+      "population": 282336,
+      "gdpPerCapita": 25583.878782727,
+      "lifeExpectancy": 76.178,
+      "educationExpenditure": 3.7754499912262,
+      "fertilityRate": 1.708,
+      "literacyRate": null
+    },
+    "BRN": {
+      "population": 458949,
+      "gdpPerCapita": 32890.5491812019,
+      "lifeExpectancy": 75.327,
+      "educationExpenditure": null,
+      "fertilityRate": 1.747,
+      "literacyRate": null
+    },
+    "BTN": {
+      "population": 786385,
+      "gdpPerCapita": 3831.32535494609,
+      "lifeExpectancy": 72.975,
+      "educationExpenditure": 5.84519004821777,
+      "fertilityRate": 1.462,
+      "literacyRate": null
+    },
+    "BWA": {
+      "population": 2480244,
+      "gdpPerCapita": 7826.35376483298,
+      "lifeExpectancy": 69.163,
+      "educationExpenditure": null,
+      "fertilityRate": 2.732,
+      "literacyRate": null
+    },
+    "CAF": {
+      "population": 5152421,
+      "gdpPerCapita": 495.978897288721,
+      "lifeExpectancy": 57.408,
+      "educationExpenditure": 1.82995911310419,
+      "fertilityRate": 6.012,
+      "literacyRate": null
+    },
+    "CAN": {
+      "population": 40083484,
+      "gdpPerCapita": 54220.3285039875,
+      "lifeExpectancy": 81.6465853658537,
+      "educationExpenditure": null,
+      "fertilityRate": 1.26,
+      "literacyRate": null
+    },
+    "CHE": {
+      "population": 8888822,
+      "gdpPerCapita": 100623.549627296,
+      "lifeExpectancy": 84.0560975609756,
+      "educationExpenditure": null,
+      "fertilityRate": 1.33,
+      "literacyRate": null
+    },
+    "CHI": {
+      "population": 167691,
+      "gdpPerCapita": 74585.5224096294,
+      "lifeExpectancy": 81.1,
+      "educationExpenditure": null,
+      "fertilityRate": 1.37,
+      "literacyRate": null
+    },
+    "CHL": {
+      "population": 19658835,
+      "gdpPerCapita": 17067.0364799154,
+      "lifeExpectancy": 81.167,
+      "educationExpenditure": null,
+      "fertilityRate": 1.167,
+      "literacyRate": null
+    },
+    "CHN": {
+      "population": 1410710000,
+      "gdpPerCapita": 12951.1782397043,
+      "lifeExpectancy": 77.953,
+      "educationExpenditure": 4.00127983093262,
+      "fertilityRate": 0.999,
+      "literacyRate": null
+    },
+    "CIV": {
+      "population": 31165654,
+      "gdpPerCapita": 2591.9659048119,
+      "lifeExpectancy": 61.944,
+      "educationExpenditure": 3.42617011070252,
+      "fertilityRate": 4.283,
+      "literacyRate": null
+    },
+    "CMR": {
+      "population": 28372687,
+      "gdpPerCapita": 1720.47510154506,
+      "lifeExpectancy": 63.7,
+      "educationExpenditure": 2.83907623667935,
+      "fertilityRate": 4.322,
+      "literacyRate": null
+    },
+    "COD": {
+      "population": 105789731,
+      "gdpPerCapita": 660.21205238997,
+      "lifeExpectancy": 61.895,
+      "educationExpenditure": null,
+      "fertilityRate": 6.051,
+      "literacyRate": null
+    },
+    "COG": {
+      "population": 6182885,
+      "gdpPerCapita": 2477.97845544866,
+      "lifeExpectancy": 65.772,
+      "educationExpenditure": 3.34005209256916,
+      "fertilityRate": 4.157,
+      "literacyRate": null
+    },
+    "COL": {
+      "population": 52321152,
+      "gdpPerCapita": 7000.83660501046,
+      "lifeExpectancy": 77.725,
+      "educationExpenditure": null,
+      "fertilityRate": 1.645,
+      "literacyRate": 95.4625553716428
+    },
+    "COM": {
+      "population": 850387,
+      "gdpPerCapita": 1560.27378476855,
+      "lifeExpectancy": 66.777,
+      "educationExpenditure": 2.34146896682989,
+      "fertilityRate": 3.878,
+      "literacyRate": null
+    },
+    "CPV": {
+      "population": 522331,
+      "gdpPerCapita": 4794.90121917259,
+      "lifeExpectancy": 76.059,
+      "educationExpenditure": 4.3482854136693,
+      "fertilityRate": 1.522,
+      "literacyRate": null
+    },
+    "CRI": {
+      "population": 5105525,
+      "gdpPerCapita": 16942.0268119375,
+      "lifeExpectancy": 80.799,
+      "educationExpenditure": null,
+      "fertilityRate": 1.33,
+      "literacyRate": null
+    },
+    "CUB": {
+      "population": 11019931,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 78.085,
+      "educationExpenditure": null,
+      "fertilityRate": 1.439,
+      "literacyRate": null
+    },
+    "CUW": {
+      "population": 154654,
+      "gdpPerCapita": 21217.8110321785,
+      "lifeExpectancy": 76.8,
+      "educationExpenditure": 5.30074159005788,
+      "fertilityRate": 1.2,
+      "literacyRate": null
+    },
+    "CYM": {
+      "population": 73038,
+      "gdpPerCapita": 99143.5180243123,
+      "lifeExpectancy": 80.358,
+      "educationExpenditure": 1.57024002075195,
+      "fertilityRate": 1.531,
+      "literacyRate": null
+    },
+    "CYP": {
+      "population": 1344976,
+      "gdpPerCapita": 36623.69140625,
+      "lifeExpectancy": 81.648,
+      "educationExpenditure": null,
+      "fertilityRate": 1.389,
+      "literacyRate": null
+    },
+    "CZE": {
+      "population": 10864042,
+      "gdpPerCapita": 31761.5944102491,
+      "lifeExpectancy": 79.8780487804878,
+      "educationExpenditure": null,
+      "fertilityRate": 1.45,
+      "literacyRate": null
+    },
+    "DEU": {
+      "population": 83287273,
+      "gdpPerCapita": 54776.7668235491,
+      "lifeExpectancy": 80.5414634146342,
+      "educationExpenditure": null,
+      "fertilityRate": 1.39,
+      "literacyRate": null
+    },
+    "DJI": {
+      "population": 1152944,
+      "gdpPerCapita": 3381.29779710722,
+      "lifeExpectancy": 65.987,
+      "educationExpenditure": null,
+      "fertilityRate": 2.609,
+      "literacyRate": null
+    },
+    "DMA": {
+      "population": 66510,
+      "gdpPerCapita": 9912.96212766668,
+      "lifeExpectancy": 71.132,
+      "educationExpenditure": 4.69423746286593,
+      "fertilityRate": 1.484,
+      "literacyRate": null
+    },
+    "DNK": {
+      "population": 5946952,
+      "gdpPerCapita": 68043.5466971243,
+      "lifeExpectancy": 81.8536585365854,
+      "educationExpenditure": null,
+      "fertilityRate": 1.5,
+      "literacyRate": null
+    },
+    "DOM": {
+      "population": 11331265,
+      "gdpPerCapita": 10630.431743829,
+      "lifeExpectancy": 73.72,
+      "educationExpenditure": 3.7606477375256,
+      "fertilityRate": 2.243,
+      "literacyRate": 94.3123758236054
+    },
+    "DZA": {
+      "population": 46164219,
+      "gdpPerCapita": 5370.477235078,
+      "lifeExpectancy": 76.261,
+      "educationExpenditure": 5.61015717726636,
+      "fertilityRate": 2.766,
+      "literacyRate": null
+    },
+    "ECU": {
+      "population": 17980083,
+      "gdpPerCapita": 6737.84748379638,
+      "lifeExpectancy": 77.392,
+      "educationExpenditure": 3.89365005493164,
+      "fertilityRate": 1.823,
+      "literacyRate": null
+    },
+    "EGY": {
+      "population": 114535772,
+      "gdpPerCapita": 3456.78968456253,
+      "lifeExpectancy": 71.633,
+      "educationExpenditure": null,
+      "fertilityRate": 2.75,
+      "literacyRate": null
+    },
+    "ERI": {
+      "population": 3470390,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 68.624,
+      "educationExpenditure": null,
+      "fertilityRate": 3.713,
+      "literacyRate": null
+    },
+    "ESP": {
+      "population": 48352528,
+      "gdpPerCapita": 33493.2225409111,
+      "lifeExpectancy": 83.8829268292683,
+      "educationExpenditure": null,
+      "fertilityRate": 1.12,
+      "literacyRate": null
+    },
+    "EST": {
+      "population": 1370286,
+      "gdpPerCapita": 30264.0064885057,
+      "lifeExpectancy": 78.490243902439,
+      "educationExpenditure": null,
+      "fertilityRate": 1.31,
+      "literacyRate": null
+    },
+    "ETH": {
+      "population": 128691692,
+      "gdpPerCapita": 1055.81091592527,
+      "lifeExpectancy": 67.315,
+      "educationExpenditure": 2.9272447768927,
+      "fertilityRate": 3.989,
+      "literacyRate": null
+    },
+    "FIN": {
+      "population": 5583911,
+      "gdpPerCapita": 52834.2916752703,
+      "lifeExpectancy": 81.6853658536585,
+      "educationExpenditure": null,
+      "fertilityRate": 1.26,
+      "literacyRate": null
+    },
+    "FJI": {
+      "population": 924145,
+      "gdpPerCapita": 5926.20586394763,
+      "lifeExpectancy": 67.316,
+      "educationExpenditure": 4.24679790890603,
+      "fertilityRate": 2.281,
+      "literacyRate": null
+    },
+    "FRA": {
+      "population": 68372286,
+      "gdpPerCapita": 44700.1384177544,
+      "lifeExpectancy": 82.9292682926829,
+      "educationExpenditure": null,
+      "fertilityRate": 1.66,
+      "literacyRate": null
+    },
+    "FRO": {
+      "population": 54414,
+      "gdpPerCapita": 72465.3769660215,
+      "lifeExpectancy": 83.1439024390244,
+      "educationExpenditure": null,
+      "fertilityRate": 1.8586,
+      "literacyRate": null
+    },
+    "FSM": {
+      "population": 112630,
+      "gdpPerCapita": 3919.64307910859,
+      "lifeExpectancy": 67.198,
+      "educationExpenditure": null,
+      "fertilityRate": 2.748,
+      "literacyRate": null
+    },
+    "GAB": {
+      "population": 2484789,
+      "gdpPerCapita": 7802.82433276138,
+      "lifeExpectancy": 68.337,
+      "educationExpenditure": 2.31594287726056,
+      "fertilityRate": 3.647,
+      "literacyRate": null
+    },
+    "GBR": {
+      "population": 68492000,
+      "gdpPerCapita": 49944.4702124201,
+      "lifeExpectancy": 81.2380975609756,
+      "educationExpenditure": null,
+      "fertilityRate": 1.56,
+      "literacyRate": null
+    },
+    "GEO": {
+      "population": 3715483,
+      "gdpPerCapita": 8283.66960652261,
+      "lifeExpectancy": 74.496,
+      "educationExpenditure": 3.70918011665344,
+      "fertilityRate": 1.81,
+      "literacyRate": 99.5599975585938
+    },
+    "GHA": {
+      "population": 33787914,
+      "gdpPerCapita": 2383.90410483418,
+      "lifeExpectancy": 65.498,
+      "educationExpenditure": null,
+      "fertilityRate": 3.397,
+      "literacyRate": null
+    },
+    "GIB": {
+      "population": 38471,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 83.553,
+      "educationExpenditure": null,
+      "fertilityRate": 1.888,
+      "literacyRate": null
+    },
+    "GIN": {
+      "population": 14405468,
+      "gdpPerCapita": 1555.49375806861,
+      "lifeExpectancy": 60.74,
+      "educationExpenditure": 1.72470879088585,
+      "fertilityRate": 4.217,
+      "literacyRate": null
+    },
+    "GMB": {
+      "population": 2697845,
+      "gdpPerCapita": 883.024111719809,
+      "lifeExpectancy": 65.86,
+      "educationExpenditure": 2.80838156544977,
+      "fertilityRate": 4.006,
+      "literacyRate": null
+    },
+    "GNB": {
+      "population": 2153339,
+      "gdpPerCapita": 988.087886357022,
+      "lifeExpectancy": 64.085,
+      "educationExpenditure": null,
+      "fertilityRate": 3.836,
+      "literacyRate": null
+    },
+    "GNQ": {
+      "population": 1847549,
+      "gdpPerCapita": 6677.793435386,
+      "lifeExpectancy": 63.707,
+      "educationExpenditure": null,
+      "fertilityRate": 4.081,
+      "literacyRate": null
+    },
+    "GRC": {
+      "population": 10407351,
+      "gdpPerCapita": 23343.7103964562,
+      "lifeExpectancy": 81.5365853658537,
+      "educationExpenditure": null,
+      "fertilityRate": 1.32,
+      "literacyRate": null
+    },
+    "GRD": {
+      "population": 117081,
+      "gdpPerCapita": 11414.4781691181,
+      "lifeExpectancy": 75.205,
+      "educationExpenditure": 5.12544845968893,
+      "fertilityRate": 1.487,
+      "literacyRate": null
+    },
+    "GRL": {
+      "population": 56865,
+      "gdpPerCapita": 58498.9707973609,
+      "lifeExpectancy": 71.549756097561,
+      "educationExpenditure": null,
+      "fertilityRate": 1.769,
+      "literacyRate": null
+    },
+    "GTM": {
+      "population": 18124838,
+      "gdpPerCapita": 5758.32760847852,
+      "lifeExpectancy": 72.602,
+      "educationExpenditure": 3.10633993148804,
+      "fertilityRate": 2.311,
+      "literacyRate": 83.0440590538501
+    },
+    "GUM": {
+      "population": 166506,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 77.209,
+      "educationExpenditure": null,
+      "fertilityRate": 2.781,
+      "literacyRate": null
+    },
+    "GUY": {
+      "population": 826353,
+      "gdpPerCapita": 20473.7002190617,
+      "lifeExpectancy": 70.18,
+      "educationExpenditure": null,
+      "fertilityRate": 2.412,
+      "literacyRate": null
+    },
+    "HKG": {
+      "population": 7536100,
+      "gdpPerCapita": 50562.3633144379,
+      "lifeExpectancy": 85.2473170731707,
+      "educationExpenditure": 3.80327010154724,
+      "fertilityRate": 0.751,
+      "literacyRate": null
+    },
+    "HND": {
+      "population": 10644851,
+      "gdpPerCapita": 3227.45762509776,
+      "lifeExpectancy": 72.884,
+      "educationExpenditure": 4.54962037172702,
+      "fertilityRate": 2.5,
+      "literacyRate": 87.0899963378906
+    },
+    "HRV": {
+      "population": 3859686,
+      "gdpPerCapita": 22184.2279304842,
+      "lifeExpectancy": 78.4731707317073,
+      "educationExpenditure": null,
+      "fertilityRate": 1.46,
+      "literacyRate": null
+    },
+    "HTI": {
+      "population": 11637398,
+      "gdpPerCapita": 1705.75808460999,
+      "lifeExpectancy": 64.936,
+      "educationExpenditure": 0.964648012977964,
+      "fertilityRate": 2.656,
+      "literacyRate": null
+    },
+    "HUN": {
+      "population": 9592186,
+      "gdpPerCapita": 22230.6277875187,
+      "lifeExpectancy": 76.7707317073171,
+      "educationExpenditure": null,
+      "fertilityRate": 1.51,
+      "literacyRate": null
+    },
+    "IDN": {
+      "population": 281190067,
+      "gdpPerCapita": 4876.30774512252,
+      "lifeExpectancy": 71.146,
+      "educationExpenditure": 1.27517088245674,
+      "fertilityRate": 2.127,
+      "literacyRate": null
+    },
+    "IMN": {
+      "population": 84165,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 80.999,
+      "educationExpenditure": null,
+      "fertilityRate": 1.548,
+      "literacyRate": null
+    },
+    "IND": {
+      "population": 1438069596,
+      "gdpPerCapita": 2530.12031278204,
+      "lifeExpectancy": 72.003,
+      "educationExpenditure": null,
+      "fertilityRate": 1.975,
+      "literacyRate": 81.6999969482422
+    },
+    "IRL": {
+      "population": 5311538,
+      "gdpPerCapita": 106818.917130804,
+      "lifeExpectancy": 82.8609756097561,
+      "educationExpenditure": null,
+      "fertilityRate": 1.5,
+      "literacyRate": null
+    },
+    "IRN": {
+      "population": 90608707,
+      "gdpPerCapita": 5049.29931642754,
+      "lifeExpectancy": 77.654,
+      "educationExpenditure": 2.82443290958712,
+      "fertilityRate": 1.695,
+      "literacyRate": 88.9233339833467
+    },
+    "IRQ": {
+      "population": 45074049,
+      "gdpPerCapita": 5965.31835077761,
+      "lifeExpectancy": 72.324,
+      "educationExpenditure": null,
+      "fertilityRate": 3.249,
+      "literacyRate": null
+    },
+    "ISL": {
+      "population": 385663,
+      "gdpPerCapita": 82138.7892973557,
+      "lifeExpectancy": 82.6073170731707,
+      "educationExpenditure": null,
+      "fertilityRate": 1.59,
+      "literacyRate": null
+    },
+    "ISR": {
+      "population": 9849000,
+      "gdpPerCapita": 52003.7200729997,
+      "lifeExpectancy": 83.1951219512195,
+      "educationExpenditure": null,
+      "fertilityRate": 2.85,
+      "literacyRate": null
+    },
+    "ITA": {
+      "population": 58984216,
+      "gdpPerCapita": 39277.0838783918,
+      "lifeExpectancy": 83.7,
+      "educationExpenditure": null,
+      "fertilityRate": 1.2,
+      "literacyRate": null
+    },
+    "JAM": {
+      "population": 2839786,
+      "gdpPerCapita": 7542.40084275345,
+      "lifeExpectancy": 71.479,
+      "educationExpenditure": 5.65453693979426,
+      "fertilityRate": 1.358,
+      "literacyRate": null
+    },
+    "JOR": {
+      "population": 11439213,
+      "gdpPerCapita": 4466.08314208575,
+      "lifeExpectancy": 77.814,
+      "educationExpenditure": 3.51486315596325,
+      "fertilityRate": 2.639,
+      "literacyRate": 94.8499984741211
+    },
+    "JPN": {
+      "population": 124516650,
+      "gdpPerCapita": 33836.1756271617,
+      "lifeExpectancy": 84.0412195121951,
+      "educationExpenditure": null,
+      "fertilityRate": 1.2,
+      "literacyRate": null
+    },
+    "KAZ": {
+      "population": 20330104,
+      "gdpPerCapita": 12879.4275257974,
+      "lifeExpectancy": 74.402,
+      "educationExpenditure": 4.84984016418457,
+      "fertilityRate": 3.012,
+      "literacyRate": null
+    },
+    "KEN": {
+      "population": 55339003,
+      "gdpPerCapita": 1942.58802756191,
+      "lifeExpectancy": 63.646,
+      "educationExpenditure": 3.96229304413263,
+      "fertilityRate": 3.208,
+      "literacyRate": null
+    },
+    "KGZ": {
+      "population": 7099750,
+      "gdpPerCapita": 2138.22210211478,
+      "lifeExpectancy": 72.2487804878049,
+      "educationExpenditure": 6.82694680798777,
+      "fertilityRate": 2.7,
+      "literacyRate": null
+    },
+    "KHM": {
+      "population": 17423880,
+      "gdpPerCapita": 2429.74853452838,
+      "lifeExpectancy": 70.668,
+      "educationExpenditure": 2.1809128340295,
+      "fertilityRate": 2.579,
+      "literacyRate": null
+    },
+    "KIR": {
+      "population": 132530,
+      "gdpPerCapita": 2177.70125812262,
+      "lifeExpectancy": 66.473,
+      "educationExpenditure": 16.39053,
+      "fertilityRate": 3.147,
+      "literacyRate": null
+    },
+    "KNA": {
+      "population": 46758,
+      "gdpPerCapita": 22576.9248439166,
+      "lifeExpectancy": 72.145,
+      "educationExpenditure": 3.49726171629099,
+      "fertilityRate": 1.505,
+      "literacyRate": null
+    },
+    "KOR": {
+      "population": 51712619,
+      "gdpPerCapita": 35674.095995632,
+      "lifeExpectancy": 83.4292682926829,
+      "educationExpenditure": null,
+      "fertilityRate": 0.721,
+      "literacyRate": null
+    },
+    "KWT": {
+      "population": 4853420,
+      "gdpPerCapita": 34075.849012909,
+      "lifeExpectancy": 83.1878048780488,
+      "educationExpenditure": 5.0262608311279,
+      "fertilityRate": 1.524,
+      "literacyRate": null
+    },
+    "LAO": {
+      "population": 7664993,
+      "gdpPerCapita": 2066.94979776957,
+      "lifeExpectancy": 68.964,
+      "educationExpenditure": 1.23375160355741,
+      "fertilityRate": 2.421,
+      "literacyRate": 75.6399993896484
+    },
+    "LBN": {
+      "population": 5773493,
+      "gdpPerCapita": 3477.72489842684,
+      "lifeExpectancy": 77.817,
+      "educationExpenditure": 1.50416361108086,
+      "fertilityRate": 2.239,
+      "literacyRate": null
+    },
+    "LBR": {
+      "population": 5493031,
+      "gdpPerCapita": 799.194470229642,
+      "lifeExpectancy": 62.163,
+      "educationExpenditure": 2.2665256232687,
+      "fertilityRate": 3.95,
+      "literacyRate": null
+    },
+    "LBY": {
+      "population": 7305659,
+      "gdpPerCapita": 6026.51518708812,
+      "lifeExpectancy": 69.339,
+      "educationExpenditure": null,
+      "fertilityRate": 2.355,
+      "literacyRate": null
+    },
+    "LCA": {
+      "population": 179285,
+      "gdpPerCapita": 13554.7684784933,
+      "lifeExpectancy": 72.697,
+      "educationExpenditure": 2.74212002754211,
+      "fertilityRate": 1.379,
+      "literacyRate": null
+    },
+    "LIE": {
+      "population": 39846,
+      "gdpPerCapita": 206780.590353385,
+      "lifeExpectancy": 84.8414634146342,
+      "educationExpenditure": null,
+      "fertilityRate": 1.45,
+      "literacyRate": null
+    },
+    "LKA": {
+      "population": 22037000,
+      "gdpPerCapita": 3798.89016573011,
+      "lifeExpectancy": 77.483,
+      "educationExpenditure": 1.82774571561927,
+      "fertilityRate": 1.974,
+      "literacyRate": 92.6600036621094
+    },
+    "LSO": {
+      "population": 2311472,
+      "gdpPerCapita": 916.282976983803,
+      "lifeExpectancy": 57.375,
+      "educationExpenditure": 7.29011355590957,
+      "fertilityRate": 2.694,
+      "literacyRate": null
+    },
+    "LTU": {
+      "population": 2871585,
+      "gdpPerCapita": 27786.0057829276,
+      "lifeExpectancy": 76.9878048780488,
+      "educationExpenditure": null,
+      "fertilityRate": 1.18,
+      "literacyRate": null
+    },
+    "LUX": {
+      "population": 666430,
+      "gdpPerCapita": 133230.619178899,
+      "lifeExpectancy": 83.3585365853659,
+      "educationExpenditure": null,
+      "fertilityRate": 1.25,
+      "literacyRate": null
+    },
+    "LVA": {
+      "population": 1883710,
+      "gdpPerCapita": 22710.2637544197,
+      "lifeExpectancy": 75.6780487804878,
+      "educationExpenditure": null,
+      "fertilityRate": 1.36,
+      "literacyRate": null
+    },
+    "MAC": {
+      "population": 678800,
+      "gdpPerCapita": 67216.3631112124,
+      "lifeExpectancy": 83.1804878048781,
+      "educationExpenditure": 3.50183010101318,
+      "fertilityRate": 0.586,
+      "literacyRate": null
+    },
+    "MAF": {
+      "population": 27515,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 80.224,
+      "educationExpenditure": null,
+      "fertilityRate": 2.718,
+      "literacyRate": null
+    },
+    "MAR": {
+      "population": 37712505,
+      "gdpPerCapita": 3813.72607421875,
+      "lifeExpectancy": 75.313,
+      "educationExpenditure": 6.02096928801329,
+      "fertilityRate": 2.23,
+      "literacyRate": null
+    },
+    "MCO": {
+      "population": 38956,
+      "gdpPerCapita": 256799.788612806,
+      "lifeExpectancy": 86.372,
+      "educationExpenditure": 1.73223996162415,
+      "fertilityRate": 2.11,
+      "literacyRate": null
+    },
+    "MDA": {
+      "population": 2457783,
+      "gdpPerCapita": 6799.58594644576,
+      "lifeExpectancy": 71.198,
+      "educationExpenditure": 6.62547016143799,
+      "fertilityRate": 1.731,
+      "literacyRate": null
+    },
+    "MDG": {
+      "population": 31195932,
+      "gdpPerCapita": 508.718427705591,
+      "lifeExpectancy": 63.632,
+      "educationExpenditure": 3.04770386693564,
+      "fertilityRate": 3.972,
+      "literacyRate": null
+    },
+    "MDV": {
+      "population": 525994,
+      "gdpPerCapita": 12587.6126038651,
+      "lifeExpectancy": 81.041,
+      "educationExpenditure": 5.16706374664829,
+      "fertilityRate": 1.575,
+      "literacyRate": null
+    },
+    "MEX": {
+      "population": 129739759,
+      "gdpPerCapita": 13860.9597809326,
+      "lifeExpectancy": 75.069,
+      "educationExpenditure": null,
+      "fertilityRate": 1.91,
+      "literacyRate": 95.8346901734281
+    },
+    "MHL": {
+      "population": 38827,
+      "gdpPerCapita": 6793.24495895856,
+      "lifeExpectancy": 66.945,
+      "educationExpenditure": null,
+      "fertilityRate": 2.919,
+      "literacyRate": null
+    },
+    "MKD": {
+      "population": 1827816,
+      "gdpPerCapita": 8674.35846327485,
+      "lifeExpectancy": 75.3160975609756,
+      "educationExpenditure": null,
+      "fertilityRate": 1.5,
+      "literacyRate": null
+    },
+    "MLI": {
+      "population": 23769127,
+      "gdpPerCapita": 1043.9533853528,
+      "lifeExpectancy": 60.439,
+      "educationExpenditure": 4.18465094218116,
+      "fertilityRate": 5.614,
+      "literacyRate": null
+    },
+    "MLT": {
+      "population": 552747,
+      "gdpPerCapita": 40905.8059585057,
+      "lifeExpectancy": 83.5073170731707,
+      "educationExpenditure": null,
+      "fertilityRate": 1.06,
+      "literacyRate": null
+    },
+    "MMR": {
+      "population": 54133798,
+      "gdpPerCapita": 1233.19666209269,
+      "lifeExpectancy": 66.889,
+      "educationExpenditure": null,
+      "fertilityRate": 2.115,
+      "literacyRate": null
+    },
+    "MNE": {
+      "population": 623529,
+      "gdpPerCapita": 12259.8775034436,
+      "lifeExpectancy": 77.5878048780488,
+      "educationExpenditure": null,
+      "fertilityRate": 1.74,
+      "literacyRate": null
+    },
+    "MNG": {
+      "population": 3481145,
+      "gdpPerCapita": 5838.63108083902,
+      "lifeExpectancy": 72.1224390243902,
+      "educationExpenditure": 3.65764999389648,
+      "fertilityRate": 2.7,
+      "literacyRate": 98.6399993896484
+    },
+    "MNP": {
+      "population": 45143,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 78.808,
+      "educationExpenditure": null,
+      "fertilityRate": 2.348,
+      "literacyRate": null
+    },
+    "MOZ": {
+      "population": 33635160,
+      "gdpPerCapita": 622.000297682823,
+      "lifeExpectancy": 63.611,
+      "educationExpenditure": null,
+      "fertilityRate": 4.763,
+      "literacyRate": null
+    },
+    "MRT": {
+      "population": 5022441,
+      "gdpPerCapita": 2135.78187606359,
+      "lifeExpectancy": 68.484,
+      "educationExpenditure": 4.71521997451782,
+      "fertilityRate": 4.697,
+      "literacyRate": null
+    },
+    "MUS": {
+      "population": 1248647,
+      "gdpPerCapita": 11269.9684462139,
+      "lifeExpectancy": 73.4121951219512,
+      "educationExpenditure": 4.56763982772827,
+      "fertilityRate": 1.39,
+      "literacyRate": 94.3265215627
+    },
+    "MWI": {
+      "population": 21104482,
+      "gdpPerCapita": 633.214767978695,
+      "lifeExpectancy": 67.353,
+      "educationExpenditure": null,
+      "fertilityRate": 3.648,
+      "literacyRate": null
+    },
+    "MYS": {
+      "population": 35126298,
+      "gdpPerCapita": 11386.0395636528,
+      "lifeExpectancy": 76.657,
+      "educationExpenditure": 3.51480007171631,
+      "fertilityRate": 1.55,
+      "literacyRate": null
+    },
+    "NAM": {
+      "population": 2963095,
+      "gdpPerCapita": 4187.60500396525,
+      "lifeExpectancy": 67.385,
+      "educationExpenditure": null,
+      "fertilityRate": 3.212,
+      "literacyRate": 87.6399993896484
+    },
+    "NCL": {
+      "population": 289870,
+      "gdpPerCapita": 33701.8923322781,
+      "lifeExpectancy": 78.766,
+      "educationExpenditure": null,
+      "fertilityRate": 1.98,
+      "literacyRate": null
+    },
+    "NER": {
+      "population": 26159867,
+      "gdpPerCapita": 638.336080897887,
+      "lifeExpectancy": 61.183,
+      "educationExpenditure": 4.07412707618114,
+      "fertilityRate": 6.061,
+      "literacyRate": null
+    },
+    "NGA": {
+      "population": 227882945,
+      "gdpPerCapita": 2138.76383719983,
+      "lifeExpectancy": 54.462,
+      "educationExpenditure": 0.319069049792343,
+      "fertilityRate": 4.482,
+      "literacyRate": null
+    },
+    "NIC": {
+      "population": 6823613,
+      "gdpPerCapita": 2609.44492072931,
+      "lifeExpectancy": 74.947,
+      "educationExpenditure": 2.86578989028931,
+      "fertilityRate": 2.218,
+      "literacyRate": null
+    },
+    "NLD": {
+      "population": 17877117,
+      "gdpPerCapita": 63515.6030780019,
+      "lifeExpectancy": 81.9146341463415,
+      "educationExpenditure": null,
+      "fertilityRate": 1.43,
+      "literacyRate": null
+    },
+    "NOR": {
+      "population": 5519601,
+      "gdpPerCapita": 87497.2179649556,
+      "lifeExpectancy": 83.1121951219512,
+      "educationExpenditure": null,
+      "fertilityRate": 1.4,
+      "literacyRate": null
+    },
+    "NPL": {
+      "population": 29694614,
+      "gdpPerCapita": 1382.33055769304,
+      "lifeExpectancy": 70.354,
+      "educationExpenditure": 3.95641148036706,
+      "fertilityRate": 1.984,
+      "literacyRate": null
+    },
+    "NRU": {
+      "population": 11875,
+      "gdpPerCapita": 12752.4723855838,
+      "lifeExpectancy": 62.109,
+      "educationExpenditure": 5.67543983459473,
+      "fertilityRate": 3.331,
+      "literacyRate": 96.5899963378906
+    },
+    "NZL": {
+      "population": 5200000,
+      "gdpPerCapita": 49075.9562832927,
+      "lifeExpectancy": 83.0048780487805,
+      "educationExpenditure": 5.27568006515503,
+      "fertilityRate": 1.56,
+      "literacyRate": null
+    },
+    "OMN": {
+      "population": 5049269,
+      "gdpPerCapita": 21027.7384778886,
+      "lifeExpectancy": 80.031,
+      "educationExpenditure": null,
+      "fertilityRate": 2.525,
+      "literacyRate": null
+    },
+    "PAK": {
+      "population": 247504495,
+      "gdpPerCapita": 1360.32417758419,
+      "lifeExpectancy": 67.649,
+      "educationExpenditure": 1.94658005237579,
+      "fertilityRate": 3.605,
+      "literacyRate": null
+    },
+    "PAN": {
+      "population": 4458759,
+      "gdpPerCapita": 18797.1933994045,
+      "lifeExpectancy": 79.594,
+      "educationExpenditure": 2.47225999832153,
+      "fertilityRate": 2.119,
+      "literacyRate": 96.1092282909577
+    },
+    "PER": {
+      "population": 33845617,
+      "gdpPerCapita": 7887.54185920108,
+      "lifeExpectancy": 77.74,
+      "educationExpenditure": 4.23516988754272,
+      "fertilityRate": 1.98,
+      "literacyRate": null
+    },
+    "PHL": {
+      "population": 114891199,
+      "gdpPerCapita": 3804.08274131097,
+      "lifeExpectancy": 69.833,
+      "educationExpenditure": 3.6236863467978,
+      "fertilityRate": 1.916,
+      "literacyRate": null
+    },
+    "PLW": {
+      "population": 17727,
+      "gdpPerCapita": 15610.8231931032,
+      "lifeExpectancy": 69.269,
+      "educationExpenditure": 3.52595777106229,
+      "fertilityRate": 1.907,
+      "literacyRate": null
+    },
+    "PNG": {
+      "population": 10389635,
+      "gdpPerCapita": 2966.06830432055,
+      "lifeExpectancy": 66.134,
+      "educationExpenditure": 0.782122804685732,
+      "fertilityRate": 3.099,
+      "literacyRate": null
+    },
+    "POL": {
+      "population": 36687353,
+      "gdpPerCapita": 22145.2660647429,
+      "lifeExpectancy": 78.5073170731707,
+      "educationExpenditure": null,
+      "fertilityRate": 1.158,
+      "literacyRate": null
+    },
+    "PRI": {
+      "population": 3203792,
+      "gdpPerCapita": 36980.7884784287,
+      "lifeExpectancy": 81.69,
+      "educationExpenditure": 4.26898753959873,
+      "fertilityRate": 0.92,
+      "literacyRate": null
+    },
+    "PRK": {
+      "population": 26418204,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 73.642,
+      "educationExpenditure": null,
+      "fertilityRate": 1.78,
+      "literacyRate": null
+    },
+    "PRT": {
+      "population": 10578174,
+      "gdpPerCapita": 27634.6183139773,
+      "lifeExpectancy": 82.2804878048781,
+      "educationExpenditure": null,
+      "fertilityRate": 1.44,
+      "literacyRate": null
+    },
+    "PRY": {
+      "population": 6844146,
+      "gdpPerCapita": 6299.99026533713,
+      "lifeExpectancy": 73.844,
+      "educationExpenditure": 3.40649008750915,
+      "fertilityRate": 2.422,
+      "literacyRate": null
+    },
+    "PSE": {
+      "population": 5165775,
+      "gdpPerCapita": 3455.02852911712,
+      "lifeExpectancy": 65.17,
+      "educationExpenditure": null,
+      "fertilityRate": 3.311,
+      "literacyRate": null
+    },
+    "PYF": {
+      "population": 281118,
+      "gdpPerCapita": 21832.2831795569,
+      "lifeExpectancy": 84.07,
+      "educationExpenditure": null,
+      "fertilityRate": 1.501,
+      "literacyRate": null
+    },
+    "QAT": {
+      "population": 2656032,
+      "gdpPerCapita": 81816.9797967481,
+      "lifeExpectancy": 82.368,
+      "educationExpenditure": null,
+      "fertilityRate": 1.729,
+      "literacyRate": null
+    },
+    "ROU": {
+      "population": 19061062,
+      "gdpPerCapita": 18244.4186876321,
+      "lifeExpectancy": 76.6073170731707,
+      "educationExpenditure": null,
+      "fertilityRate": 1.71,
+      "literacyRate": null
+    },
+    "RUS": {
+      "population": 143826130,
+      "gdpPerCapita": 14159.3876953125,
+      "lifeExpectancy": 73.2546341463415,
+      "educationExpenditure": 4.16454853394225,
+      "fertilityRate": 1.41,
+      "literacyRate": null
+    },
+    "RWA": {
+      "population": 13954471,
+      "gdpPerCapita": 1027.03446826565,
+      "lifeExpectancy": 67.785,
+      "educationExpenditure": 4.92004013061523,
+      "fertilityRate": 3.698,
+      "literacyRate": null
+    },
+    "SAU": {
+      "population": 33702731,
+      "gdpPerCapita": 36156.848337701,
+      "lifeExpectancy": 78.732,
+      "educationExpenditure": 5.11466979980469,
+      "fertilityRate": 2.28,
+      "literacyRate": null
+    },
+    "SDN": {
+      "population": 50042791,
+      "gdpPerCapita": 797.283447265625,
+      "lifeExpectancy": 66.331,
+      "educationExpenditure": null,
+      "fertilityRate": 4.323,
+      "literacyRate": null
+    },
+    "SEN": {
+      "population": 18077573,
+      "gdpPerCapita": 1698.03387300843,
+      "lifeExpectancy": 68.683,
+      "educationExpenditure": 6.16277045366329,
+      "fertilityRate": 3.818,
+      "literacyRate": 50.3600006103516
+    },
+    "SGP": {
+      "population": 5917648,
+      "gdpPerCapita": 85412.230345235,
+      "lifeExpectancy": 82.8951219512195,
+      "educationExpenditure": 2.14826011657715,
+      "fertilityRate": 0.97,
+      "literacyRate": null
+    },
+    "SLB": {
+      "population": 800005,
+      "gdpPerCapita": 1882.64394148042,
+      "lifeExpectancy": 70.528,
+      "educationExpenditure": 8.29349080062944,
+      "fertilityRate": 3.557,
+      "literacyRate": null
+    },
+    "SLE": {
+      "population": 8460512,
+      "gdpPerCapita": 758.329137378248,
+      "lifeExpectancy": 61.786,
+      "educationExpenditure": 2.62455277942046,
+      "fertilityRate": 3.791,
+      "literacyRate": null
+    },
+    "SLV": {
+      "population": 6309624,
+      "gdpPerCapita": 5365.44491399171,
+      "lifeExpectancy": 72.099,
+      "educationExpenditure": 3.17218995094299,
+      "fertilityRate": 1.775,
+      "literacyRate": 89.8499984741211
+    },
+    "SMR": {
+      "population": 33860,
+      "gdpPerCapita": 59879.7173015651,
+      "lifeExpectancy": 85.706,
+      "educationExpenditure": null,
+      "fertilityRate": 1.149,
+      "literacyRate": null
+    },
+    "SOM": {
+      "population": 18358615,
+      "gdpPerCapita": 596.885985135589,
+      "lifeExpectancy": 58.816,
+      "educationExpenditure": 0.00000814262404011,
+      "fertilityRate": 6.132,
+      "literacyRate": null
+    },
+    "SRB": {
+      "population": 6623183,
+      "gdpPerCapita": 12281.707946167,
+      "lifeExpectancy": 76.2209756097561,
+      "educationExpenditure": 3.40377998352051,
+      "fertilityRate": 1.61,
+      "literacyRate": null
+    },
+    "SSD": {
+      "population": 11483374,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 57.617,
+      "educationExpenditure": null,
+      "fertilityRate": 3.864,
+      "literacyRate": null
+    },
+    "STP": {
+      "population": 230871,
+      "gdpPerCapita": 2990.6606143535,
+      "lifeExpectancy": 69.718,
+      "educationExpenditure": 5.0288576428727,
+      "fertilityRate": 3.644,
+      "literacyRate": null
+    },
+    "SUR": {
+      "population": 628886,
+      "gdpPerCapita": 5521.97602122638,
+      "lifeExpectancy": 73.631,
+      "educationExpenditure": 2.86623341491363,
+      "fertilityRate": 2.249,
+      "literacyRate": null
+    },
+    "SVK": {
+      "population": 5426740,
+      "gdpPerCapita": 24614.8734642794,
+      "lifeExpectancy": 78.0170731707317,
+      "educationExpenditure": null,
+      "fertilityRate": 1.49,
+      "literacyRate": null
+    },
+    "SVN": {
+      "population": 2120461,
+      "gdpPerCapita": 32660.4753581346,
+      "lifeExpectancy": 81.9780487804878,
+      "educationExpenditure": null,
+      "fertilityRate": 1.51,
+      "literacyRate": null
+    },
+    "SWE": {
+      "population": 10536632,
+      "gdpPerCapita": 54950.2834725622,
+      "lifeExpectancy": 83.309756097561,
+      "educationExpenditure": null,
+      "fertilityRate": 1.45,
+      "literacyRate": null
+    },
+    "SWZ": {
+      "population": 1230506,
+      "gdpPerCapita": 3755.52111232464,
+      "lifeExpectancy": 64.123,
+      "educationExpenditure": 5.00431592836751,
+      "fertilityRate": 2.753,
+      "literacyRate": null
+    },
+    "SXM": {
+      "population": 42749,
+      "gdpPerCapita": 39451.8223361963,
+      "lifeExpectancy": 76.371,
+      "educationExpenditure": 3.92363832601723,
+      "fertilityRate": 1.447,
+      "literacyRate": null
+    },
+    "SYC": {
+      "population": 119773,
+      "gdpPerCapita": 18262.7115849287,
+      "lifeExpectancy": 74.9585365853659,
+      "educationExpenditure": 4.45409960547034,
+      "fertilityRate": 2.02,
+      "literacyRate": null
+    },
+    "SYR": {
+      "population": 23594623,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 72.12,
+      "educationExpenditure": null,
+      "fertilityRate": 2.712,
+      "literacyRate": null
+    },
+    "TCA": {
+      "population": 46198,
+      "gdpPerCapita": 35470.2151608295,
+      "lifeExpectancy": 78.008,
+      "educationExpenditure": 2.68765461969981,
+      "fertilityRate": 1.463,
+      "literacyRate": null
+    },
+    "TCD": {
+      "population": 19319064,
+      "gdpPerCapita": 949.333453674592,
+      "lifeExpectancy": 55.069,
+      "educationExpenditure": 3.20149725837724,
+      "fertilityRate": 6.12,
+      "literacyRate": null
+    },
+    "TGO": {
+      "population": 9304337,
+      "gdpPerCapita": 1055.01727877926,
+      "lifeExpectancy": 62.739,
+      "educationExpenditure": 4.14281885166484,
+      "fertilityRate": 4.192,
+      "literacyRate": null
+    },
+    "THA": {
+      "population": 71702435,
+      "gdpPerCapita": 7195.10130919449,
+      "lifeExpectancy": 76.412,
+      "educationExpenditure": 2.52122219628772,
+      "fertilityRate": 1.212,
+      "literacyRate": null
+    },
+    "TJK": {
+      "population": 10389799,
+      "gdpPerCapita": 1178.47990060249,
+      "lifeExpectancy": 71.79,
+      "educationExpenditure": 5.43682120015444,
+      "fertilityRate": 3.072,
+      "literacyRate": null
+    },
+    "TKM": {
+      "population": 7364438,
+      "gdpPerCapita": 6231.91323839698,
+      "lifeExpectancy": 70.073,
+      "educationExpenditure": 2.71291995048523,
+      "fertilityRate": 2.69,
+      "literacyRate": null
+    },
+    "TLS": {
+      "population": 1384286,
+      "gdpPerCapita": 1502.41147438211,
+      "lifeExpectancy": 67.689,
+      "educationExpenditure": 5.24052834781801,
+      "fertilityRate": 2.707,
+      "literacyRate": null
+    },
+    "TON": {
+      "population": 104597,
+      "gdpPerCapita": 5651.59373063157,
+      "lifeExpectancy": 72.895,
+      "educationExpenditure": null,
+      "fertilityRate": 3.129,
+      "literacyRate": null
+    },
+    "TTO": {
+      "population": 1367510,
+      "gdpPerCapita": 18308.4536298575,
+      "lifeExpectancy": 73.49,
+      "educationExpenditure": 3.01114988327026,
+      "fertilityRate": 1.532,
+      "literacyRate": null
+    },
+    "TUN": {
+      "population": 12200431,
+      "gdpPerCapita": 3951.11683376921,
+      "lifeExpectancy": 76.508,
+      "educationExpenditure": 6.73398856321206,
+      "fertilityRate": 1.832,
+      "literacyRate": 86.25
+    },
+    "TUR": {
+      "population": 85325965,
+      "gdpPerCapita": 13375.0947282864,
+      "lifeExpectancy": 77.156,
+      "educationExpenditure": null,
+      "fertilityRate": 1.51,
+      "literacyRate": null
+    },
+    "TUV": {
+      "population": 9816,
+      "gdpPerCapita": 6344.7750188689,
+      "lifeExpectancy": 67.105,
+      "educationExpenditure": 12.8456897735596,
+      "fertilityRate": 3.208,
+      "literacyRate": null
+    },
+    "TZA": {
+      "population": 66617606,
+      "gdpPerCapita": 1224.00219726563,
+      "lifeExpectancy": 66.995,
+      "educationExpenditure": 3.25853222146531,
+      "fertilityRate": 4.606,
+      "literacyRate": null
+    },
+    "UGA": {
+      "population": 48656601,
+      "gdpPerCapita": 1002.30913917142,
+      "lifeExpectancy": 68.252,
+      "educationExpenditure": null,
+      "fertilityRate": 4.283,
+      "literacyRate": null
+    },
+    "UKR": {
+      "population": 37732836,
+      "gdpPerCapita": 5139.59814453125,
+      "lifeExpectancy": 73.422,
+      "educationExpenditure": null,
+      "fertilityRate": 0.977,
+      "literacyRate": null
+    },
+    "URY": {
+      "population": 3388081,
+      "gdpPerCapita": 23019.4221560046,
+      "lifeExpectancy": 78.138,
+      "educationExpenditure": 4.81125020980835,
+      "fertilityRate": 1.409,
+      "literacyRate": 98.8671517186373
+    },
+    "USA": {
+      "population": 336806231,
+      "gdpPerCapita": 81032.262117545,
+      "lifeExpectancy": 78.3853658536585,
+      "educationExpenditure": null,
+      "fertilityRate": 1.6165,
+      "literacyRate": null
+    },
+    "UZB": {
+      "population": 35652307,
+      "gdpPerCapita": 2878.96879292451,
+      "lifeExpectancy": 72.388,
+      "educationExpenditure": 5.47287597270024,
+      "fertilityRate": 3.5,
+      "literacyRate": null
+    },
+    "VCT": {
+      "population": 101323,
+      "gdpPerCapita": 10582.3656725229,
+      "lifeExpectancy": 71.23,
+      "educationExpenditure": 6.4582691706334,
+      "fertilityRate": 1.775,
+      "literacyRate": null
+    },
+    "VEN": {
+      "population": 28300854,
+      "gdpPerCapita": 3617.43594578269,
+      "lifeExpectancy": 72.514,
+      "educationExpenditure": 0.0031300000846386,
+      "fertilityRate": 2.079,
+      "literacyRate": null
+    },
+    "VGB": {
+      "population": 38985,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 77.276,
+      "educationExpenditure": 3.1728401184082,
+      "fertilityRate": 1.045,
+      "literacyRate": null
+    },
+    "VIR": {
+      "population": 104917,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 80.519512195122,
+      "educationExpenditure": null,
+      "fertilityRate": 1.98,
+      "literacyRate": null
+    },
+    "VNM": {
+      "population": 100352192,
+      "gdpPerCapita": 4323.35031982451,
+      "lifeExpectancy": 74.588,
+      "educationExpenditure": null,
+      "fertilityRate": 1.913,
+      "literacyRate": null
+    },
+    "VUT": {
+      "population": 320409,
+      "gdpPerCapita": 3482.61458237637,
+      "lifeExpectancy": 71.477,
+      "educationExpenditure": 7.58135986328125,
+      "fertilityRate": 3.596,
+      "literacyRate": 87.9599990844727
+    },
+    "WSM": {
+      "population": 216663,
+      "gdpPerCapita": 4822.74084650019,
+      "lifeExpectancy": 71.698,
+      "educationExpenditure": 6.1096302676416,
+      "fertilityRate": 3.829,
+      "literacyRate": null
+    },
+    "XKX": {
+      "population": 1682668,
+      "gdpPerCapita": 6221.20618847799,
+      "lifeExpectancy": 78.033,
+      "educationExpenditure": null,
+      "fertilityRate": 1.545,
+      "literacyRate": null
+    },
+    "YEM": {
+      "population": 39390799,
+      "gdpPerCapita": null,
+      "lifeExpectancy": 69.295,
+      "educationExpenditure": null,
+      "fertilityRate": 4.59,
+      "literacyRate": null
+    },
+    "ZAF": {
+      "population": 63212384,
+      "gdpPerCapita": 6034.27208964673,
+      "lifeExpectancy": 66.139,
+      "educationExpenditure": 6.12346982955933,
+      "fertilityRate": 2.216,
+      "literacyRate": null
+    },
+    "ZMB": {
+      "population": 20723965,
+      "gdpPerCapita": 1330.72780576709,
+      "lifeExpectancy": 66.349,
+      "educationExpenditure": 4.07374933049157,
+      "fertilityRate": 4.101,
+      "literacyRate": 82.0418064991238
+    },
+    "ZWE": {
+      "population": 16340822,
+      "gdpPerCapita": 2195.22492079245,
+      "lifeExpectancy": 62.775,
+      "educationExpenditure": 0.384771297211919,
+      "fertilityRate": 3.724,
+      "literacyRate": null
+    }
+  }
+}
