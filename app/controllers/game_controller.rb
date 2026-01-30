@@ -1,5 +1,5 @@
 class GameController < ApplicationController
-  protect_from_forgery with: :null_session, only: [:guess]
+  protect_from_forgery with: :null_session, only: [ :guess ]
 
   DATA_PATH = Rails.root.join("data", "worldbank.json")
 
@@ -83,7 +83,7 @@ class GameController < ApplicationController
       attempts += 1
       if previous_winner.present? && data["countries"].key?(previous_winner)
         left = previous_winner
-        right = (countries - [left]).sample
+        right = (countries - [ left ]).sample
       else
         pair = countries.sample(2)
         left, right = pair[0], pair[1]
@@ -98,7 +98,7 @@ class GameController < ApplicationController
 
       if available.any?
         indicator = available.sample
-        return [[left, right], indicator]
+        return [ [ left, right ], indicator ]
       end
 
       # safety break
@@ -107,7 +107,7 @@ class GameController < ApplicationController
     end
 
     # fallback: return any two countries with at least one non-nil across them
-    return [[countries[0], countries[1]], data["indicators"].first]
+    [ [ countries[0], countries[1] ], data["indicators"].first ]
   end
 
   def indicator_label(key)
