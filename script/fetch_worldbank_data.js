@@ -1,8 +1,9 @@
 import fs from "fs/promises";
 
 const OUTPUT_FILE = "data/worldbank.json";
-// Use a year range and keep the most recent non-null value per country/indicator (best coverage)
-const DATE_RANGE = "2015:2025";
+// Use a year range from 2015 to present (one year per indicator = fair comparison)
+const CURRENT_YEAR = new Date().getFullYear();
+const DATE_RANGE = `2015:${CURRENT_YEAR}`;
 const PER_PAGE = 1000;
 
 // Indicators to use in your game (World Bank codes)

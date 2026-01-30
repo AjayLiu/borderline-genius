@@ -122,7 +122,7 @@ class HomeController < ApplicationController
       attempts += 1
       if previous_winner.present? && data["countries"].key?(previous_winner)
         left = previous_winner
-        right = (countries - [left]).sample
+        right = (countries - [ left ]).sample
       else
         pair = countries.sample(2)
         left, right = pair[0], pair[1]
@@ -135,10 +135,10 @@ class HomeController < ApplicationController
       end
 
       if available.any?
-        return [[left, right], available.sample]
+        return [ [ left, right ], available.sample ]
       end
       break if attempts > 500
     end
-    [countries.sample(2), data["indicators"].first]
+    [ countries.sample(2), data["indicators"].first ]
   end
 end

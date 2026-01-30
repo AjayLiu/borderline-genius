@@ -7,8 +7,15 @@ class ApplicationHelperTest < ActiveSupport::TestCase
 
   DATA_PATH = Rails.root.join("data", "worldbank.json")
 
+  test "indicator_label returns a string for known keys" do
+    assert_equal "population", indicator_label("population")
+    assert_equal "GDP per capita", indicator_label("gdpPerCapita")
+    assert indicator_label("unknown_key").is_a?(String)
+  end
+
   test "all worldbank countries have valid name and flag" do
     skip "data/worldbank.json not present (run fetch script)" unless DATA_PATH.exist?
+    skip "skipped in CI (hits RestCountries API)" if ENV["CI"]
 
     data = JSON.parse(File.read(DATA_PATH))
     country_codes = data["countries"].keys
