@@ -4,193 +4,90 @@
 </div>
 
 <style>
-  /* Page-specific overrides to reduce hero prominence and center game */
   #game-root { margin: 0.25rem auto 0 !important; }
   .top-title h1 { color: #f8fafc; }
+  .card-form { display: block; min-width: 160px; text-align: center; cursor: pointer; background: none; border: none; padding: 0; }
+  .card-form img { width: 140px; height: 90px; object-fit: cover; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.5); display: block; margin: 0 auto; }
+  .card-form:hover img { box-shadow: 0 10px 24px rgba(0,0,0,0.6); }
+  .card-form .name { margin-top: 0.75rem; color: #e5e7eb; font-weight: 600; }
+  .card-form .value { margin-top: 0.6rem; color: #cbd5e1; font-weight: 700; }
+  .card-form.winner img { box-shadow: 0 18px 40px rgba(34,197,94,0.45); }
 </style>
 
-    <div id="game-root" style="display:flex; align-items:center; justify-content:center; padding:1rem; max-width:720px; margin: 0.5rem auto 0; min-height:50vh;">
+<div id="game-root" style="display:flex; align-items:center; justify-content:center; padding:1rem; max-width:720px; margin: 0.5rem auto 0; min-height:50vh;">
   <div id="round" style="background: rgba(255,255,255,0.02); border-radius:12px; padding:2rem; text-align:center;">
-    <div id="question" style="color:#cbd5e1; margin-bottom:2rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;"></div>
-    <div id="players" style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
-      <div id="left" style="min-width:160px;">
-        <img id="left-flag" src="" alt="" style="width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5)"/>
-        <div id="left-name" style="margin-top:0.75rem; color:#e5e7eb; font-weight:600"></div>
-        <div id="left-value" style="margin-top:0.6rem; color:#cbd5e1; font-weight:700"></div>
+    <% if @show_correct_result %>
+      <% content_for :head do %><meta http-equiv="refresh" content="1.5; url=<%= root_path %>"><% end %>
+      <% cr = @show_correct_result %>
+      <div style="color:#cbd5e1; margin-bottom:1.5rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country has a higher <%= cr[:indicator_label] %>?</div>
+      <div style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
+        <div style="min-width:160px;">
+          <%= image_tag cr[:left_flag_url], alt: cr[:left_name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:#{cr[:winner] == cr[:left] ? '0 18px 40px rgba(34,197,94,0.45)' : '0 6px 18px rgba(0,0,0,0.5)'};" %>
+          <div class="name" style="margin-top:0.75rem;"><%= cr[:left_name] %></div>
+          <div class="value" style="margin-top:0.6rem;"><%= format_stat_value(cr[:left_value]) %></div>
+        </div>
+        <div style="align-self:center; color:#cbd5e1; font-weight:600;">VS</div>
+        <div style="min-width:160px;">
+          <%= image_tag cr[:right_flag_url], alt: cr[:right_name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:#{cr[:winner] == cr[:right] ? '0 18px 40px rgba(34,197,94,0.45)' : '0 6px 18px rgba(0,0,0,0.5)'};" %>
+          <div class="name" style="margin-top:0.75rem;"><%= cr[:right_name] %></div>
+          <div class="value" style="margin-top:0.6rem;"><%= format_stat_value(cr[:right_value]) %></div>
+        </div>
       </div>
-      <div style="align-self:center; color:#cbd5e1; font-weight:600">VS</div>
-      <div id="right" style="min-width:160px;">
-        <img id="right-flag" src="" alt="" style="width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5)"/>
-        <div id="right-name" style="margin-top:0.75rem; color:#e5e7eb; font-weight:600"></div>
-        <div id="right-value" style="margin-top:0.6rem; color:#cbd5e1; font-weight:700"></div>
+      <div style="margin-top:0.75rem; color:#a7f3d0; font-weight:700;">Correct!</div>
+      <div style="margin-top:0.75rem; color:#a7f3d0; font-weight:700;">Streak: <%= @streak %></div>
+    <% elsif @game_over %>
+      <% r = @result %>
+      <% rr = @round || session[:result_round] %>
+      <% left_iso = rr.is_a?(Hash) ? rr["left"] : rr&.dig(:left) %>
+      <% right_iso = rr.is_a?(Hash) ? rr["right"] : rr&.dig(:right) %>
+      <% ind = rr.is_a?(Hash) ? rr["indicator"] : rr&.dig(:indicator) %>
+      <% left_info = left_iso ? country_info(left_iso) : {} %>
+      <% right_info = right_iso ? country_info(right_iso) : {} %>
+      <div style="color:#cbd5e1; margin-bottom:1.5rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country has a higher <%= indicator_label(ind) %>?</div>
+      <div style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
+        <div style="min-width:160px;">
+          <%= image_tag left_info[:flag_url], alt: left_info[:name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5);" %>
+          <div class="name" style="margin-top:0.75rem;"><%= left_info[:name] %></div>
+          <div class="value" style="margin-top:0.6rem;"><%= format_stat_value(r["left_value"]) %></div>
+        </div>
+        <div style="align-self:center; color:#cbd5e1; font-weight:600;">VS</div>
+        <div style="min-width:160px;">
+          <%= image_tag right_info[:flag_url], alt: right_info[:name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5);" %>
+          <div class="name" style="margin-top:0.75rem;"><%= right_info[:name] %></div>
+          <div class="value" style="margin-top:0.6rem;"><%= format_stat_value(r["right_value"]) %></div>
+        </div>
       </div>
-    </div>
-    <div id="streak-display" style="margin-top:0.75rem; color:#a7f3d0; font-weight:700">Streak: 0</div>
-    <div id="result" style="height:1.25rem; color:#a7f3d0; font-weight:700; margin-top:0.75rem;"></div>
-    <div style="margin-top:0.6rem;">
-      <button id="play-again" class="btn-secondary" style="display:none; padding:0.55rem 1rem; border-radius:999px; border:1px solid rgba(148,163,184,0.6); background:transparent; color:#cbd5e1;">Play again</button>
-    </div>
+      <div style="margin-top:0.75rem; color:#ffb4b4; font-weight:700;">Wrong</div>
+      <div style="margin-top:0.75rem; color:#a7f3d0; font-weight:700;">Streak: <%= @streak %></div>
+      <div style="margin-top:0.6rem;">
+        <%= link_to "Play again", restart_path, class: "btn-secondary", style: "display:inline-block; padding:0.55rem 1rem; border-radius:999px; border:1px solid rgba(148,163,184,0.6); background:transparent; color:#cbd5e1; text-decoration:none;" %>
+      </div>
+    <% else %>
+      <div id="question" style="color:#cbd5e1; margin-bottom:2rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country has a higher <%= @round[:indicator_label] %>?</div>
+      <div id="players" style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
+        <%= form_with url: guess_path, method: :post, local: true, html: { class: "card-form" } do |f| %>
+          <%= f.hidden_field :left, value: @round[:left] %>
+          <%= f.hidden_field :right, value: @round[:right] %>
+          <%= f.hidden_field :indicator, value: @round[:indicator] %>
+          <%= f.hidden_field :guess, value: @round[:left] %>
+          <button type="submit" style="background:none; border:none; padding:0; cursor:pointer; display:block; width:100%;">
+            <%= image_tag @round[:left_flag_url], alt: @round[:left_name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5);" %>
+            <div class="name"><%= @round[:left_name] %></div>
+          </button>
+        <% end %>
+        <div style="align-self:center; color:#cbd5e1; font-weight:600;">VS</div>
+        <%= form_with url: guess_path, method: :post, local: true, html: { class: "card-form" } do |f| %>
+          <%= f.hidden_field :left, value: @round[:left] %>
+          <%= f.hidden_field :right, value: @round[:right] %>
+          <%= f.hidden_field :indicator, value: @round[:indicator] %>
+          <%= f.hidden_field :guess, value: @round[:right] %>
+          <button type="submit" style="background:none; border:none; padding:0; cursor:pointer; display:block; width:100%;">
+            <%= image_tag @round[:right_flag_url], alt: @round[:right_name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5);" %>
+            <div class="name"><%= @round[:right_name] %></div>
+          </button>
+        <% end %>
+      </div>
+      <div id="streak-display" style="margin-top:0.75rem; color:#a7f3d0; font-weight:700;">Streak: <%= @streak %></div>
+    <% end %>
   </div>
 </div>
-
-<script>
-  const gameRoot = document.getElementById('game-root');
-  const leftFlag = document.getElementById('left-flag');
-  const rightFlag = document.getElementById('right-flag');
-  const leftValueEl = document.getElementById('left-value');
-  const rightValueEl = document.getElementById('right-value');
-
-  let currentRound = null;
-  let locked = false;
-  let streak = 0;
-  const streakEl = document.getElementById('streak-display');
-  // start immediately
-  document.addEventListener('DOMContentLoaded', () => {
-    loadRound().catch(console.error);
-  });
-
-  async function loadRound() {
-    document.getElementById('result').textContent = '';
-    leftValueEl.textContent = '';
-    rightValueEl.textContent = '';
-    clearHighlights();
-    const res = await fetch('/api/round');
-    const payload = await res.json();
-    currentRound = payload;
-    await renderRound(payload);
-  }
-
-  async function renderRound(payload) {
-    const left = payload.left;
-    const right = payload.right;
-    document.getElementById('question').textContent = `Which country has a higher ${payload.indicator_label}?`;
-
-    // use restcountries to get names and flags
-    const leftInfo = await fetchCountryInfo(left);
-    const rightInfo = await fetchCountryInfo(right);
-
-    document.getElementById('left-flag').src = leftInfo.flag;
-    document.getElementById('left-name').textContent = leftInfo.name;
-    document.getElementById('right-flag').src = rightInfo.flag;
-    document.getElementById('right-name').textContent = rightInfo.name;
-    // make flags clickable
-    leftFlag.style.cursor = 'pointer';
-    rightFlag.style.cursor = 'pointer';
-  }
-
-  async function fetchCountryInfo(iso3) {
-    try {
-      const res = await fetch(`https://restcountries.com/v3.1/alpha/${iso3}`);
-      const data = await res.json();
-      const country = Array.isArray(data) ? data[0] : data;
-      return {
-        name: country.name.common || iso3,
-        flag: country.flags && (country.flags.svg || country.flags.png) || ''
-      };
-    } catch (err) {
-      return { name: iso3, flag: '' };
-    }
-  }
-  async function submitGuess(iso3) {
-    if (locked) return;
-    locked = true;
-    const body = {
-      left: currentRound.left,
-      right: currentRound.right,
-      indicator: currentRound.indicator,
-      guess: iso3
-    };
-    const res = await fetch('/api/guess', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body)
-    });
-    const data = await res.json();
-    // show values for 1s then load next round
-    const leftVal = data.left_value;
-    const rightVal = data.right_value;
-    leftValueEl.textContent = formatNumber(leftVal);
-    rightValueEl.textContent = formatNumber(rightVal);
-
-    const resultEl = document.getElementById('result');
-    if (data.correct) {
-      resultEl.style.color = '#a7f3d0';
-      resultEl.textContent = 'Correct!';
-      streak = (streak || 0) + 1;
-      // hide play again when correct
-      playAgainBtn.style.display = 'none';
-    } else {
-      resultEl.style.color = '#ffb4b4';
-      resultEl.textContent = 'Wrong';
-      streak = 0;
-      // show play again and keep round on screen
-      playAgainBtn.style.display = 'inline-block';
-    }
-    if (streakEl) streakEl.textContent = `Streak: ${streak}`;
-
-    // highlight winner
-    clearHighlights();
-    if (data.winner) {
-      if (data.winner === currentRound.left) {
-        highlightEl('left');
-      } else {
-        highlightEl('right');
-      }
-    }
-
-    // wait a moment to show values
-    await new Promise(r => setTimeout(r, 1000));
-
-    // If answer was correct, auto-advance to next round.
-    if (data.correct) {
-      if (data.next_round) {
-        currentRound = data.next_round;
-        leftValueEl.textContent = '';
-        rightValueEl.textContent = '';
-        resultEl.textContent = '';
-        clearHighlights();
-        await renderRound(currentRound);
-      } else {
-        // fallback: request a fresh round
-        await loadRound();
-      }
-      locked = false;
-    } else {
-      // incorrect: keep results on screen and show "Play again" button.
-      // leave `locked` true until the user clicks Play again.
-      // nothing else to do here.
-    }
-  }
-
-  function formatNumber(v) {
-    if (v === null || v === undefined) return '';
-    if (Number.isInteger(v)) return new Intl.NumberFormat().format(v);
-    return new Intl.NumberFormat(undefined, { maximumFractionDigits: 2 }).format(v);
-  }
-
-  function highlightEl(side) {
-    const el = document.getElementById(side === 'left' ? 'left-flag' : 'right-flag');
-    if (el) el.style.boxShadow = '0 18px 40px rgba(34,197,94,0.45)';
-  }
-
-  function clearHighlights() {
-    document.getElementById('left-flag').style.boxShadow = '0 6px 18px rgba(0,0,0,0.5)';
-    document.getElementById('right-flag').style.boxShadow = '0 6px 18px rgba(0,0,0,0.5)';
-  }
-
-  leftFlag.addEventListener('click', () => submitGuess(currentRound.left));
-  rightFlag.addEventListener('click', () => submitGuess(currentRound.right));
-
-  const playAgainBtn = document.getElementById('play-again');
-  playAgainBtn.addEventListener('click', async () => {
-    playAgainBtn.style.display = 'none';
-    streak = 0;
-    if (streakEl) streakEl.textContent = `Streak: ${streak}`;
-    clearHighlights();
-    document.getElementById('result').textContent = '';
-    leftValueEl.textContent = '';
-    rightValueEl.textContent = '';
-    locked = false;
-    await loadRound();
-  });
-</script>

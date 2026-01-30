@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "home#index"
 
-  # Game API
-  get "/api/round" => "game#round"
-  post "/api/guess" => "game#guess"
+  # Game (server-side: form POST + redirect)
+  post "guess", to: "home#guess", as: :guess
+  get "restart", to: "home#restart", as: :restart
 end

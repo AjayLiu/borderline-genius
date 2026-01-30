@@ -1,17 +1,28 @@
 import fs from "fs/promises";
 
 const OUTPUT_FILE = "data/worldbank_2023.json";
-const YEAR = 2023;
+// Use a year range and keep the most recent non-null value per country/indicator (best coverage)
+const DATE_RANGE = "2015:2023";
 const PER_PAGE = 1000;
 
-// Indicators to use in your game
+// Indicators to use in your game (World Bank codes)
 const INDICATORS = {
   population: "SP.POP.TOTL",
   gdpPerCapita: "NY.GDP.PCAP.CD",
   lifeExpectancy: "SP.DYN.LE00.IN",
   educationExpenditure: "SE.XPD.TOTL.GD.ZS",
   fertilityRate: "SP.DYN.TFRT.IN",
-  literacyRate: "SE.ADT.LITR.ZS"
+  literacyRate: "SE.ADT.LITR.ZS",
+  landArea: "AG.LND.TOTL.K2",
+  renewableElectricity: "EG.FEC.RNEW.ZS",
+  populationGrowth: "SP.POP.GROW",
+  unemploymentRate: "SL.UEM.TOTL.ZS",
+  inflation: "FP.CPI.TOTL.ZG",
+  netMigration: "SM.POP.NETM",
+  deathRate: "SP.DYN.CDRT.IN",
+  diabetesPrevalence: "SH.STA.DIAB.ZS",
+  giniIndex: "SI.POV.GINI",
+  intentionalHomicides: "VC.IHR.PSRC.P5"
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -67,18 +78,18 @@ async function fetchIndicatorBulk(indicator) {
 
 async function main() {
   console.log("🚀 Starting World Bank data fetch");
-  console.log(`📅 Target year: ${YEAR}`);
+  console.log(`📅 Date range: ${DATE_RANGE} (one year per indicator = fair comparison)`);
 
   const countries = await fetchAllCountries();
   const result = {};
   for (const c of countries) result[c] = {};
 
-  console.log(`🚄 Fetching ${Object.keys(INDICATORS).length} indicators in combined requests...`);
-
   // Build inverse map: indicator code -> our key name (e.g., "SP.POP.TOTL" -> "population")
   const codeToKey = Object.fromEntries(
     Object.entries(INDICATORS).map(([k, v]) => [v, k])
   );
+
+  const indicatorYears = {}; // which year we used per indicator (for metadata)
 
   // Fetch each indicator across all countries (one indicator per request)
   const codes = Object.values(INDICATORS);
@@ -86,11 +97,32 @@ async function main() {
     console.log(`🚄 Fetching indicator ${indicatorCode} across all countries...`);
     const entries = await fetchIndicatorsBulk([indicatorCode]);
     if (!Array.isArray(entries)) continue;
-    for (const { countryId, indicatorCode: ic, value } of entries) {
-      if (!(countryId in result)) continue;
-      const key = codeToKey[ic];
-      if (!key) continue;
-      result[countryId][key] = value;
+
+    // 1) Pick ONE year per indicator: the year with the most countries that have non-null data (fair comparison)
+    const countByYear = {};
+    for (const e of entries) {
+      if (e.value == null || !e.date) continue;
+      if (!(e.countryId in result)) continue; // only our country list
+      countByYear[e.date] = (countByYear[e.date] || 0) + 1;
+    }
+    let bestYear = null;
+    let maxCount = 0;
+    for (const [y, count] of Object.entries(countByYear)) {
+      const yr = Number(y);
+      if (isNaN(yr)) continue;
+      if (count > maxCount || (count === maxCount && yr > Number(bestYear))) {
+        maxCount = count;
+        bestYear = y;
+      }
+    }
+    const key = codeToKey[indicatorCode];
+    if (key) indicatorYears[key] = bestYear ? Number(bestYear) : null;
+
+    // 2) Use only values from that year for this indicator (same year for every country)
+    for (const e of entries) {
+      if (e.countryId in result && e.indicatorCode === indicatorCode && e.date === bestYear && e.value != null) {
+        result[e.countryId][key] = e.value;
+      }
     }
   }
 
@@ -109,7 +141,7 @@ async function main() {
       let page = 1;
       let pages = 1;
       do {
-        const url = `https://api.worldbank.org/v2/country/all/indicator/${indicatorPath}?date=${YEAR}&format=json&per_page=${PER_PAGE}&page=${page}`;
+        const url = `https://api.worldbank.org/v2/country/all/indicator/${indicatorPath}?date=${DATE_RANGE}&format=json&per_page=${PER_PAGE}&page=${page}`;
         const data = await safeFetchJSON(url);
         if (!Array.isArray(data) || !Array.isArray(data[1])) {
           console.warn(`⚠️ Indicators ${indicatorPath} page ${page}: malformed response`);
@@ -119,12 +151,12 @@ async function main() {
         if (data[0] && data[0].pages) pages = Number(data[0].pages) || 1;
 
         for (const entry of data[1]) {
-          // prefer ISO3 code when available (countryiso3code), fallback to country.id
           const countryId = entry.countryiso3code || entry.country?.id;
           const indicatorCode = entry.indicator?.id;
           const value = entry.value ?? null;
+          const date = entry.date || "";
           if (!countryId || !indicatorCode) continue;
-          allEntries.push({ countryId, indicatorCode, value });
+          allEntries.push({ countryId, indicatorCode, value, date });
         }
 
         page++;
@@ -143,7 +175,8 @@ async function main() {
     OUTPUT_FILE,
     JSON.stringify(
       {
-        year: YEAR,
+        dateRange: DATE_RANGE,
+        indicatorYears,
         generatedAt: new Date().toISOString(),
         indicators: Object.keys(INDICATORS),
         countries: result
