@@ -16,7 +16,8 @@ class HomeController < ApplicationController
         left_name: left_info[:name], right_name: right_info[:name],
         left_flag_url: left_info[:flag_url], right_flag_url: right_info[:flag_url],
         left_value: cr["left_value"], right_value: cr["right_value"],
-        winner: cr["winner"], indicator_label: indicator_label(cr["indicator"])
+        winner: cr["winner"], indicator_label: indicator_label(cr["indicator"]),
+        indicator_year: cr["indicator_year"]
       }
       @streak = session[:streak].to_i
       return
@@ -26,6 +27,8 @@ class HomeController < ApplicationController
       @game_over = true
       @result = session[:result] || {}
       @round = session[:result_round] # left/right/indicator for displaying the round we just lost
+      data = load_data
+      @indicator_year = data["indicatorYears"]&.[](@round["indicator"]) if @round.is_a?(Hash)
       @streak = session[:streak].to_i
       return
     end
@@ -37,12 +40,14 @@ class HomeController < ApplicationController
       session[:current_round] = { "left" => pair[0], "right" => pair[1], "indicator" => indicator }
     end
 
+    data = load_data
     round = session[:current_round]
     @round = {
       left: round["left"],
       right: round["right"],
       indicator: round["indicator"],
-      indicator_label: indicator_label(round["indicator"])
+      indicator_label: indicator_label(round["indicator"]),
+      indicator_year: data["indicatorYears"]&.[](round["indicator"])
     }
     @round[:left_name] = country_info(@round[:left])[:name]
     @round[:right_name] = country_info(@round[:right])[:name]
@@ -80,10 +85,12 @@ class HomeController < ApplicationController
       next_pair, next_indicator = build_round(data, session[:previous_winner])
       session[:current_round] = { "left" => next_pair[0], "right" => next_pair[1], "indicator" => next_indicator }
       session[:game_over] = false
+      data = load_data
       session[:correct_result] = {
         "left" => left, "right" => right,
         "left_value" => left_val, "right_value" => right_val,
-        "winner" => winner, "indicator" => indicator
+        "winner" => winner, "indicator" => indicator,
+        "indicator_year" => data["indicatorYears"]&.[](indicator)
       }
       redirect_to root_path
     else

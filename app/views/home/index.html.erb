@@ -19,7 +19,7 @@
     <% if @show_correct_result %>
       <% content_for :head do %><meta http-equiv="refresh" content="1.5; url=<%= root_path %>"><% end %>
       <% cr = @show_correct_result %>
-      <div style="color:#cbd5e1; margin-bottom:1.5rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country has a higher <%= cr[:indicator_label] %>?</div>
+      <div style="color:#cbd5e1; margin-bottom:1.5rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country had a higher <%= cr[:indicator_label] %><%= " in #{cr[:indicator_year]}" if cr[:indicator_year] %>?</div>
       <div style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
         <div style="min-width:160px;">
           <%= image_tag cr[:left_flag_url], alt: cr[:left_name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:#{cr[:winner] == cr[:left] ? '0 18px 40px rgba(34,197,94,0.45)' : '0 6px 18px rgba(0,0,0,0.5)'};" %>
@@ -43,7 +43,7 @@
       <% ind = rr.is_a?(Hash) ? rr["indicator"] : rr&.dig(:indicator) %>
       <% left_info = left_iso ? country_info(left_iso) : {} %>
       <% right_info = right_iso ? country_info(right_iso) : {} %>
-      <div style="color:#cbd5e1; margin-bottom:1.5rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country has a higher <%= indicator_label(ind) %>?</div>
+      <div style="color:#cbd5e1; margin-bottom:1.5rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country had a higher <%= indicator_label(ind) %><%= " in #{@indicator_year}" if @indicator_year %>?</div>
       <div style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
         <div style="min-width:160px;">
           <%= image_tag left_info[:flag_url], alt: left_info[:name], style: "width:140px; height:90px; object-fit:cover; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.5);" %>
@@ -63,7 +63,7 @@
         <%= link_to "Play again", restart_path, class: "btn-secondary", style: "display:inline-block; padding:0.55rem 1rem; border-radius:999px; border:1px solid rgba(148,163,184,0.6); background:transparent; color:#cbd5e1; text-decoration:none;" %>
       </div>
     <% else %>
-      <div id="question" style="color:#cbd5e1; margin-bottom:2rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country has a higher <%= @round[:indicator_label] %>?</div>
+      <div id="question" style="color:#cbd5e1; margin-bottom:2rem; font-size:clamp(1.1rem,2.4vw,1.6rem); font-weight:700;">Which country had a higher <%= @round[:indicator_label] %><%= " in #{@round[:indicator_year]}" if @round[:indicator_year] %>?</div>
       <div id="players" style="display:flex; gap:1.5rem; align-items:center; justify-content:center; margin-top:0.5rem;">
         <%= form_with url: guess_path, method: :post, local: true, html: { class: "card-form" } do |f| %>
           <%= f.hidden_field :left, value: @round[:left] %>
