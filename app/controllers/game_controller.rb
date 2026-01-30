@@ -1,7 +1,7 @@
 class GameController < ApplicationController
   protect_from_forgery with: :null_session, only: [:guess]
 
-  DATA_PATH = Rails.root.join("data", "worldbank_2023.json")
+  DATA_PATH = Rails.root.join("data", "worldbank.json")
 
   def round
     data = load_data

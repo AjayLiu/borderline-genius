@@ -5,10 +5,10 @@ require "test_helper"
 class ApplicationHelperTest < ActiveSupport::TestCase
   include ApplicationHelper
 
-  DATA_PATH = Rails.root.join("data", "worldbank_2023.json")
+  DATA_PATH = Rails.root.join("data", "worldbank.json")
 
   test "all worldbank countries have valid name and flag" do
-    skip "data/worldbank_2023.json not present (run fetch script)" unless DATA_PATH.exist?
+    skip "data/worldbank.json not present (run fetch script)" unless DATA_PATH.exist?
 
     data = JSON.parse(File.read(DATA_PATH))
     country_codes = data["countries"].keys

@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   include ApplicationHelper
 
-  DATA_PATH = Rails.root.join("data", "worldbank_2023.json")
+  DATA_PATH = Rails.root.join("data", "worldbank.json")
 
   def index
     session[:streak] ||= 0
