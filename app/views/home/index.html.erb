@@ -1,6 +1,9 @@
-<div class="top-title" style="display:flex; align-items:center; justify-content:center; gap:0.75rem; padding:0.5rem 1rem; margin-top:0;">
-  <%= image_tag "borderline-genius.png", alt: "logo", style: "width:48px; height:48px; object-fit:contain; display:block;" %>
-  <h1 style="margin:0; font-size:clamp(1.4rem,4vw,2rem); font-weight:800;">Borderline Genius</h1>
+<div class="top-title" style="display:flex; flex-direction:column; align-items:center; gap:0.25rem; padding:0.5rem 1rem; margin-top:0;">
+  <div style="display:flex; align-items:center; gap:0.75rem;">
+    <%= image_tag "borderline-genius.png", alt: "logo", style: "width:48px; height:48px; object-fit:contain; display:block;" %>
+    <h1 style="margin:0; font-size:clamp(1.4rem,4vw,2rem); font-weight:800;">Borderline Genius</h1>
+  </div>
+  <div style="color:#94a3b8; font-size:0.9rem; font-weight:600;">🏆 Global High Score: <%= @global_high_score %><%= " (#{time_ago_in_words(@global_high_score_set_at)} ago)" if @global_high_score_set_at.present? %></div>
 </div>
 
 <style>
@@ -12,6 +15,7 @@
   .card-form .name { margin-top: 0.75rem; color: #e5e7eb; font-weight: 600; }
   .card-form .value { margin-top: 0.6rem; color: #cbd5e1; font-weight: 700; }
   .card-form.winner img { box-shadow: 0 18px 40px rgba(34,197,94,0.45); }
+  .data-attribution { text-align: center; color: #94a3b8; font-size: 0.85rem; margin: 1rem auto 0; max-width: 720px; }
 </style>
 
 <div id="game-root" style="display:flex; align-items:center; justify-content:center; padding:1rem; max-width:720px; margin: 0.5rem auto 0; min-height:50vh;">
@@ -91,3 +95,5 @@
     <% end %>
   </div>
 </div>
+
+<p class="data-attribution">All data is sourced from the World Bank Group's Open Data.</p>

@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <p>
+    © <%= Time.current.year %> <%= link_to "Ajay Liu", "https://ajayliu.com", target: "_blank", rel: "noopener" %>.
+    All Rights Reserved • <%= link_to "contact@ajayliu.com", "https://mail.google.com/mail/?view=cm&fs=1&to=contact@ajayliu.com", target: "_blank", rel: "noopener" %>
+  </p>
+  <div id="social-links">
+    <%= link_to "https://ajayliu.com", target: "_blank", rel: "noopener" do %>
+      <%= image_tag "web_icon.svg", alt: "website", class: "footer-icon" %>
+    <% end %>
+    <%= link_to "https://github.com/AjayLiu", target: "_blank", rel: "noopener" do %>
+      <%= image_tag "github.svg", alt: "GitHub", class: "footer-icon" %>
+    <% end %>
+    <%= link_to "https://www.linkedin.com/in/ajayliu/", target: "_blank", rel: "noopener" do %>
+      <%= image_tag "linkedin.svg", alt: "LinkedIn", class: "footer-icon" %>
+    <% end %>
+    <%= link_to "https://www.youtube.com/channel/UCompAYRB224zqCPDyexvmng", target: "_blank", rel: "noopener" do %>
+      <%= image_tag "youtube.svg", alt: "YouTube", class: "footer-icon" %>
+    <% end %>
+  </div>
+  <div class="footer-repo">
+    <%= link_to "https://github.com/AjayLiu/borderline-genius", target: "_blank", rel: "noopener", class: "footer-repo-link" do %>
+      <%= image_tag "repo.svg", alt: "" %>
+      View this project on Github
+    <% end %>
+  </div>
+</footer>

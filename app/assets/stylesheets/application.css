@@ -210,3 +210,70 @@ main.bg-slate {
   font-size: 0.9rem;
   color: #cbd5e1;
 }
+
+.site-footer {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 200px;
+  color: #f8fafc;
+}
+
+.site-footer p {
+  margin: 20px 0;
+  font-size: 0.95rem;
+  color: #f8fafc;
+}
+
+.site-footer p a {
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.site-footer p a:hover {
+  text-decoration: underline;
+}
+
+#social-links {
+  display: flex;
+}
+
+#social-links a {
+  margin: 0 20px;
+  width: 50px;
+  color: #f8fafc;
+}
+
+#social-links .footer-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.footer-repo {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.footer-repo-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: large;
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.footer-repo-link:hover {
+  text-decoration: underline;
+}
+
+.footer-repo-link img {
+  height: 100%;
+  margin-right: 10px;
+  width: auto;
+}

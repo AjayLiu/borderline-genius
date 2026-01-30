@@ -5,6 +5,7 @@ class HomeController < ApplicationController
 
   def index
     session[:streak] ||= 0
+    @global_high_score, @global_high_score_set_at = HighScore.best_in_past_week
 
     # Show "correct" result for 1.5s before next round (flash then redirect)
     if session[:correct_result].present?
@@ -94,6 +95,8 @@ class HomeController < ApplicationController
       }
       redirect_to root_path
     else
+      streak = session[:streak].to_i
+      HighScore.create!(streak: streak) if streak.positive?
       session[:game_over] = true
       session[:result] = {
         correct: false,
