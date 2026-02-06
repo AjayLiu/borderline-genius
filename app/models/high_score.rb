@@ -8,6 +8,6 @@ class HighScore < ApplicationRecord
   # Returns [streak, set_at]; streak defaults to 0, set_at nil when no record in past week.
   def self.best_in_past_week
     record = past_week.order(streak: :desc).first
-    record ? [record.streak, record.created_at] : [0, nil]
+    record ? [ record.streak, record.created_at ] : [ 0, nil ]
   end
 end
