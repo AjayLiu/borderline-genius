@@ -16,9 +16,9 @@
     "deathRate": 2024,
     "diabetesPrevalence": 2024,
     "giniIndex": 2018,
-    "intentionalHomicides": 2019
+    "intentionalHomicides": 2017
   },
-  "generatedAt": "2026-04-26T02:07:42.129Z",
+  "generatedAt": "2026-05-03T02:14:41.240Z",
   "indicators": [
     "population",
     "gdpPerCapita",
@@ -66,7 +66,7 @@
       "netMigration": -74404,
       "deathRate": 5.702,
       "diabetesPrevalence": 11.7,
-      "intentionalHomicides": 7.16396695794585
+      "intentionalHomicides": 6.79202120758186
     },
     "AGO": {
       "population": 37885849,
@@ -99,7 +99,7 @@
       "deathRate": 8.457,
       "diabetesPrevalence": 10.6,
       "giniIndex": 30.1,
-      "intentionalHomicides": 2.25302550996799
+      "intentionalHomicides": 2.00121280396654
     },
     "AND": {
       "population": 81938,
@@ -128,8 +128,7 @@
       "netMigration": 158634,
       "deathRate": 0.972,
       "diabetesPrevalence": 20.7,
-      "giniIndex": 26.4,
-      "intentionalHomicides": 0.68245938100401
+      "giniIndex": 26.4
     },
     "ARG": {
       "population": 45696159,
@@ -145,7 +144,7 @@
       "deathRate": 7.732,
       "diabetesPrevalence": 14,
       "giniIndex": 41.7,
-      "intentionalHomicides": 5.13191495105041
+      "intentionalHomicides": 5.23155985787317
     },
     "ARM": {
       "population": 3033500,
@@ -163,7 +162,7 @@
       "deathRate": 8.4,
       "diabetesPrevalence": 7.7,
       "giniIndex": 34.4,
-      "intentionalHomicides": 2.51379877522903
+      "intentionalHomicides": 2.40140228170953
     },
     "ASM": {
       "population": 46765,
@@ -174,7 +173,8 @@
       "renewableElectricity": 0.4,
       "populationGrowth": -1.60366587175019,
       "netMigration": -1051,
-      "deathRate": 7.293
+      "deathRate": 7.293,
+      "intentionalHomicides": 13.5695731399992
     },
     "ATG": {
       "population": 93772,
@@ -189,7 +189,7 @@
       "netMigration": 12,
       "deathRate": 7.028,
       "diabetesPrevalence": 11.6,
-      "intentionalHomicides": 3.28358699042834
+      "intentionalHomicides": 22.1072644470973
     },
     "AUS": {
       "population": 27196812,
@@ -205,7 +205,7 @@
       "deathRate": 6.884,
       "diabetesPrevalence": 7.4,
       "giniIndex": 34.3,
-      "intentionalHomicides": 0.882951478402183
+      "intentionalHomicides": 0.841048385412525
     },
     "AUT": {
       "population": 9177982,
@@ -222,7 +222,7 @@
       "deathRate": 9.6,
       "diabetesPrevalence": 5.4,
       "giniIndex": 30.8,
-      "intentionalHomicides": 0.86703158562286
+      "intentionalHomicides": 0.795565065715095
     },
     "AZE": {
       "population": 10202830,
@@ -239,7 +239,7 @@
       "netMigration": 8731,
       "deathRate": 5.8,
       "diabetesPrevalence": 10.2,
-      "intentionalHomicides": 1.66164299896889
+      "intentionalHomicides": 1.82574937607272
     },
     "BDI": {
       "population": 14047786,
@@ -287,7 +287,8 @@
       "netMigration": -7847,
       "deathRate": 8.71,
       "diabetesPrevalence": 8.1,
-      "giniIndex": 37.9
+      "giniIndex": 37.9,
+      "intentionalHomicides": 1.1274974068
     },
     "BFA": {
       "population": 23548781,
@@ -304,7 +305,8 @@
       "netMigration": -27130,
       "deathRate": 7.915,
       "diabetesPrevalence": 4.5,
-      "giniIndex": 43
+      "giniIndex": 43,
+      "intentionalHomicides": 1.25044051977478
     },
     "BGD": {
       "population": 173562364,
@@ -320,7 +322,8 @@
       "inflation": 5.51352572692995,
       "netMigration": -402100,
       "deathRate": 5.105,
-      "diabetesPrevalence": 13.2
+      "diabetesPrevalence": 13.2,
+      "intentionalHomicides": 2.18822635384583
     },
     "BGR": {
       "population": 6441421,
@@ -337,7 +340,7 @@
       "deathRate": 15.6,
       "diabetesPrevalence": 7.4,
       "giniIndex": 41.3,
-      "intentionalHomicides": 1.18988414972527
+      "intentionalHomicides": 1.45569963291636
     },
     "BHR": {
       "population": 1588670,
@@ -353,7 +356,7 @@
       "netMigration": 18128,
       "deathRate": 2.21,
       "diabetesPrevalence": 22.1,
-      "intentionalHomicides": 0.269238704006036
+      "intentionalHomicides": 0.40485966551844
     },
     "BHS": {
       "population": 401283,
@@ -369,7 +372,7 @@
       "netMigration": 935,
       "deathRate": 8.77,
       "diabetesPrevalence": 8.9,
-      "intentionalHomicides": 24.0704681959437
+      "intentionalHomicides": 31.2431975620062
     },
     "BIH": {
       "population": 3164253,
@@ -385,7 +388,7 @@
       "netMigration": -6994,
       "deathRate": 13.522,
       "diabetesPrevalence": 10.3,
-      "intentionalHomicides": 1.25540534198886
+      "intentionalHomicides": 1.22496031638975
     },
     "BLR": {
       "population": 9132629,
@@ -403,7 +406,7 @@
       "deathRate": 13.136,
       "diabetesPrevalence": 5.1,
       "giniIndex": 25.2,
-      "intentionalHomicides": 2.38463165310244
+      "intentionalHomicides": 2.5274359757027
     },
     "BLZ": {
       "population": 417072,
@@ -420,7 +423,7 @@
       "deathRate": 4.96,
       "diabetesPrevalence": 14.1,
       "giniIndex": 39.9,
-      "intentionalHomicides": 34.7304566666278
+      "intentionalHomicides": 38.0491503919464
     },
     "BMU": {
       "population": 64636,
@@ -433,7 +436,8 @@
       "populationGrowth": -0.0958758017988935,
       "netMigration": -2,
       "deathRate": 9.004,
-      "diabetesPrevalence": 13.4
+      "diabetesPrevalence": 13.4,
+      "intentionalHomicides": 7.86429374710004
     },
     "BOL": {
       "population": 12413315,
@@ -450,7 +454,7 @@
       "deathRate": 7.172,
       "diabetesPrevalence": 3.4,
       "giniIndex": 42.6,
-      "intentionalHomicides": 4.25827764835632
+      "intentionalHomicides": 6.58463782839173
     },
     "BRA": {
       "population": 211998573,
@@ -468,7 +472,7 @@
       "deathRate": 7.068,
       "diabetesPrevalence": 10.6,
       "giniIndex": 53.9,
-      "intentionalHomicides": 21.2445602088385
+      "intentionalHomicides": 31.1611756216413
     },
     "BRB": {
       "population": 282467,
@@ -484,7 +488,7 @@
       "netMigration": -87,
       "deathRate": 10.23,
       "diabetesPrevalence": 13.2,
-      "intentionalHomicides": 17.0692460193985
+      "intentionalHomicides": 10.7077463406277
     },
     "BRN": {
       "population": 462721,
@@ -514,7 +518,7 @@
       "netMigration": 455,
       "deathRate": 6.065,
       "diabetesPrevalence": 12,
-      "intentionalHomicides": 1.04599228057697
+      "intentionalHomicides": 1.72337338408889
     },
     "BWA": {
       "population": 2521139,
@@ -562,7 +566,7 @@
       "deathRate": 7.9,
       "diabetesPrevalence": 7.7,
       "giniIndex": 32.5,
-      "intentionalHomicides": 1.82357460879594
+      "intentionalHomicides": 1.80664809278477
     },
     "CHE": {
       "population": 9005582,
@@ -578,8 +582,7 @@
       "netMigration": 37253,
       "deathRate": 8,
       "diabetesPrevalence": 5.3,
-      "giniIndex": 33.1,
-      "intentionalHomicides": 0.53628529631628
+      "giniIndex": 33.1
     },
     "CHI": {
       "population": 168126,
@@ -606,7 +609,7 @@
       "netMigration": 51712,
       "deathRate": 6.58,
       "diabetesPrevalence": 12.2,
-      "intentionalHomicides": 4.81306553520039
+      "intentionalHomicides": 4.19745439747334
     },
     "CHN": {
       "population": 1408975000,
@@ -622,7 +625,7 @@
       "deathRate": 7.76,
       "diabetesPrevalence": 11.9,
       "giniIndex": 38.5,
-      "intentionalHomicides": 0.518362801144556
+      "intentionalHomicides": 0.565721900260259
     },
     "CIV": {
       "population": 31934230,
@@ -654,7 +657,8 @@
       "inflation": 0.874190383288856,
       "netMigration": -15379,
       "deathRate": 7.032,
-      "diabetesPrevalence": 6.9
+      "diabetesPrevalence": 6.9,
+      "intentionalHomicides": 4.16103693703584
     },
     "COD": {
       "population": 109276265,
@@ -702,7 +706,7 @@
       "deathRate": 5.466,
       "diabetesPrevalence": 8.4,
       "giniIndex": 51.6,
-      "intentionalHomicides": 23.3990612924966
+      "intentionalHomicides": 25.5510587151196
     },
     "COM": {
       "population": 866628,
@@ -732,7 +736,7 @@
       "netMigration": -1284,
       "deathRate": 5.096,
       "diabetesPrevalence": 6.8,
-      "intentionalHomicides": 6.41893469025722
+      "intentionalHomicides": 7.40895274452956
     },
     "CRI": {
       "population": 5129910,
@@ -749,7 +753,7 @@
       "deathRate": 5.566,
       "diabetesPrevalence": 9.8,
       "giniIndex": 48,
-      "intentionalHomicides": 11.2610056078008
+      "intentionalHomicides": 12.2731177810203
     },
     "CUB": {
       "population": 10979783,
@@ -765,7 +769,7 @@
       "netMigration": -22244,
       "deathRate": 10.375,
       "diabetesPrevalence": 9.4,
-      "intentionalHomicides": 4.46315139638841
+      "intentionalHomicides": 4.58755196224978
     },
     "CUW": {
       "population": 155967,
@@ -793,7 +797,7 @@
       "netMigration": 888,
       "deathRate": 4.863,
       "diabetesPrevalence": 11.1,
-      "intentionalHomicides": 2.97057644035825
+      "intentionalHomicides": 4.64860425657196
     },
     "CYP": {
       "population": 1358282,
@@ -810,7 +814,7 @@
       "deathRate": 7.016,
       "diabetesPrevalence": 10,
       "giniIndex": 32.7,
-      "intentionalHomicides": 1.16579872951254
+      "intentionalHomicides": 0.558091105183829
     },
     "CZE": {
       "population": 10905028,
@@ -827,7 +831,7 @@
       "deathRate": 10.3,
       "diabetesPrevalence": 7.6,
       "giniIndex": 25,
-      "intentionalHomicides": 0.862160849844266
+      "intentionalHomicides": 0.626106269301682
     },
     "DEU": {
       "population": 83516593,
@@ -844,7 +848,7 @@
       "deathRate": 12.1,
       "diabetesPrevalence": 7.8,
       "giniIndex": 31.9,
-      "intentionalHomicides": 0.745579302641966
+      "intentionalHomicides": 0.97829217789703
     },
     "DJI": {
       "population": 1168722,
@@ -874,7 +878,7 @@
       "netMigration": -242,
       "deathRate": 12.623,
       "diabetesPrevalence": 12.9,
-      "intentionalHomicides": 19.151302656875
+      "intentionalHomicides": 27.7386435803289
     },
     "DNK": {
       "population": 5976992,
@@ -891,7 +895,7 @@
       "deathRate": 9.5,
       "diabetesPrevalence": 6.4,
       "giniIndex": 28.2,
-      "intentionalHomicides": 0.859901642730301
+      "intentionalHomicides": 1.23153392928012
     },
     "DOM": {
       "population": 11427557,
@@ -909,7 +913,7 @@
       "deathRate": 6.249,
       "diabetesPrevalence": 17.6,
       "giniIndex": 43.7,
-      "intentionalHomicides": 9.41799066618377
+      "intentionalHomicides": 11.3998115468654
     },
     "DZA": {
       "population": 46814308,
@@ -925,7 +929,7 @@
       "netMigration": -27531,
       "deathRate": 4.618,
       "diabetesPrevalence": 17.5,
-      "intentionalHomicides": 1.19876531330297
+      "intentionalHomicides": 1.25691727270348
     },
     "ECU": {
       "population": 18135478,
@@ -942,7 +946,7 @@
       "deathRate": 5.207,
       "diabetesPrevalence": 4.9,
       "giniIndex": 45.4,
-      "intentionalHomicides": 6.84543557226847
+      "intentionalHomicides": 5.78775543057783
     },
     "EGY": {
       "population": 116538258,
@@ -956,7 +960,8 @@
       "inflation": 13.8136062148289,
       "netMigration": -57305,
       "deathRate": 5.506,
-      "diabetesPrevalence": 22.4
+      "diabetesPrevalence": 22.4,
+      "intentionalHomicides": 1.31152527182627
     },
     "ERI": {
       "population": 3535603,
@@ -984,8 +989,7 @@
       "netMigration": 96630,
       "deathRate": 8.9,
       "diabetesPrevalence": 9.7,
-      "giniIndex": 34.7,
-      "intentionalHomicides": 0.69779523479218
+      "giniIndex": 34.7
     },
     "EST": {
       "population": 1372341,
@@ -1002,7 +1006,7 @@
       "deathRate": 11.5,
       "diabetesPrevalence": 6.9,
       "giniIndex": 30.3,
-      "intentionalHomicides": 1.95957029638124
+      "intentionalHomicides": 2.2012646645026
     },
     "ETH": {
       "population": 132059767,
@@ -1035,7 +1039,7 @@
       "deathRate": 10.4,
       "diabetesPrevalence": 6.9,
       "giniIndex": 27.3,
-      "intentionalHomicides": 1.46692385524251
+      "intentionalHomicides": 1.21632504271661
     },
     "FJI": {
       "population": 928784,
@@ -1067,7 +1071,7 @@
       "deathRate": 9.4,
       "diabetesPrevalence": 6.5,
       "giniIndex": 32.4,
-      "intentionalHomicides": 1.14560504750237
+      "intentionalHomicides": 1.08754298245582
     },
     "FRO": {
       "population": 54681,
@@ -1093,8 +1097,7 @@
       "inflation": -1.03746806405349,
       "netMigration": -1125,
       "deathRate": 7.712,
-      "diabetesPrevalence": 19.2,
-      "intentionalHomicides": 0.906766290056401
+      "diabetesPrevalence": 19.2
     },
     "GAB": {
       "population": 2538952,
@@ -1125,8 +1128,7 @@
       "netMigration": 389911,
       "deathRate": 9.701,
       "diabetesPrevalence": 7.4,
-      "giniIndex": 33.7,
-      "intentionalHomicides": 1.15033375026475
+      "giniIndex": 33.7
     },
     "GEO": {
       "population": 3699557,
@@ -1144,7 +1146,7 @@
       "deathRate": 11.836,
       "diabetesPrevalence": 6.7,
       "giniIndex": 36.4,
-      "intentionalHomicides": 2.02806499553233
+      "intentionalHomicides": 2.39924552955963
     },
     "GHA": {
       "population": 34427414,
@@ -1160,7 +1162,7 @@
       "netMigration": -17079,
       "deathRate": 7.009,
       "diabetesPrevalence": 2.7,
-      "intentionalHomicides": 1.82667713193775
+      "intentionalHomicides": 2.02943487003652
     },
     "GIB": {
       "population": 39329,
@@ -1217,7 +1219,8 @@
       "netMigration": -1373,
       "deathRate": 7.009,
       "diabetesPrevalence": 4.8,
-      "giniIndex": 34.8
+      "giniIndex": 34.8,
+      "intentionalHomicides": 1.11876398954435
     },
     "GNQ": {
       "population": 1892516,
@@ -1248,7 +1251,7 @@
       "deathRate": 12.1,
       "diabetesPrevalence": 8,
       "giniIndex": 32.9,
-      "intentionalHomicides": 0.727708640014711
+      "intentionalHomicides": 0.799737128265793
     },
     "GRD": {
       "population": 117207,
@@ -1264,7 +1267,7 @@
       "deathRate": 8.918,
       "diabetesPrevalence": 11.3,
       "giniIndex": 43.8,
-      "intentionalHomicides": 13.7953035613438
+      "intentionalHomicides": 10.3951904918658
     },
     "GRL": {
       "population": 56836,
@@ -1292,7 +1295,7 @@
       "netMigration": -7959,
       "deathRate": 4.86,
       "diabetesPrevalence": 13.2,
-      "intentionalHomicides": 25.9415998284592
+      "intentionalHomicides": 32.8054740415143
     },
     "GUM": {
       "population": 167777,
@@ -1305,8 +1308,7 @@
       "unemploymentRate": 6,
       "netMigration": -493,
       "deathRate": 6.92,
-      "diabetesPrevalence": 20.3,
-      "intentionalHomicides": 4.32611490161179
+      "diabetesPrevalence": 20.3
     },
     "GUY": {
       "population": 831087,
@@ -1322,7 +1324,7 @@
       "netMigration": -5092,
       "deathRate": 7.477,
       "diabetesPrevalence": 16.4,
-      "intentionalHomicides": 16.8386645453251
+      "intentionalHomicides": 14.9646346644701
     },
     "HKG": {
       "population": 7524100,
@@ -1338,7 +1340,7 @@
       "netMigration": 17863,
       "deathRate": 7,
       "diabetesPrevalence": 8.2,
-      "intentionalHomicides": 0.320606459178181
+      "intentionalHomicides": 0.322368700739292
     },
     "HND": {
       "population": 10825703,
@@ -1356,7 +1358,7 @@
       "deathRate": 4.519,
       "diabetesPrevalence": 5,
       "giniIndex": 48.9,
-      "intentionalHomicides": 41.0111655865032
+      "intentionalHomicides": 40.2998017393682
     },
     "HRV": {
       "population": 3866200,
@@ -1373,7 +1375,7 @@
       "deathRate": 13.2,
       "diabetesPrevalence": 10.5,
       "giniIndex": 29.7,
-      "intentionalHomicides": 0.827828171469303
+      "intentionalHomicides": 1.12767209256717
     },
     "HTI": {
       "population": 11772557,
@@ -1404,7 +1406,7 @@
       "netMigration": -16331,
       "deathRate": 13.4,
       "diabetesPrevalence": 8.3,
-      "intentionalHomicides": 0.66527835015882
+      "intentionalHomicides": 1.63505483999481
     },
     "IDN": {
       "population": 283487931,
@@ -1449,7 +1451,7 @@
       "netMigration": -495753,
       "deathRate": 6.587,
       "diabetesPrevalence": 10.5,
-      "intentionalHomicides": 2.94997162020176
+      "intentionalHomicides": 3.07665739913599
     },
     "IRL": {
       "population": 5395790,
@@ -1466,7 +1468,7 @@
       "deathRate": 6.5,
       "diabetesPrevalence": 3.6,
       "giniIndex": 30.6,
-      "intentionalHomicides": 0.648627918850972
+      "intentionalHomicides": 0.789978006388635
     },
     "IRN": {
       "population": 91567738,
@@ -1514,7 +1516,7 @@
       "deathRate": 6.8,
       "diabetesPrevalence": 6.9,
       "giniIndex": 26.6,
-      "intentionalHomicides": 0.277239086829896
+      "intentionalHomicides": 0.873282362752761
     },
     "ISR": {
       "population": 9974400,
@@ -1531,7 +1533,7 @@
       "deathRate": 5.3,
       "diabetesPrevalence": 10.1,
       "giniIndex": 38.6,
-      "intentionalHomicides": 1.6402012873501
+      "intentionalHomicides": 1.62644474784814
     },
     "ITA": {
       "population": 58952704,
@@ -1549,7 +1551,7 @@
       "deathRate": 11,
       "diabetesPrevalence": 7.7,
       "giniIndex": 35.2,
-      "intentionalHomicides": 0.527189893600108
+      "intentionalHomicides": 0.622616360456986
     },
     "JAM": {
       "population": 2839175,
@@ -1566,7 +1568,7 @@
       "deathRate": 8.206,
       "diabetesPrevalence": 12.5,
       "giniIndex": 35.3,
-      "intentionalHomicides": 47.462677157099
+      "intentionalHomicides": 58.4921283339315
     },
     "JOR": {
       "population": 11552876,
@@ -1582,7 +1584,7 @@
       "netMigration": -303267,
       "deathRate": 3.121,
       "diabetesPrevalence": 20.5,
-      "intentionalHomicides": 1.14319003336944
+      "intentionalHomicides": 1.29956090475235
     },
     "JPN": {
       "population": 123975371,
@@ -1599,7 +1601,7 @@
       "deathRate": 13.3,
       "diabetesPrevalence": 8.1,
       "giniIndex": 32.9,
-      "intentionalHomicides": 0.251776994076062
+      "intentionalHomicides": 0.240822214259524
     },
     "KAZ": {
       "population": 20592571,
@@ -1615,7 +1617,8 @@
       "netMigration": -8834,
       "deathRate": 6.697,
       "diabetesPrevalence": 6.8,
-      "giniIndex": 27.8
+      "giniIndex": 27.8,
+      "intentionalHomicides": 4.90565829350323
     },
     "KEN": {
       "population": 56432944,
@@ -1631,7 +1634,7 @@
       "netMigration": -27330,
       "deathRate": 7.18,
       "diabetesPrevalence": 3.1,
-      "intentionalHomicides": 3.07795502113628
+      "intentionalHomicides": 5.01242276948533
     },
     "KGZ": {
       "population": 7221868,
@@ -1648,7 +1651,7 @@
       "deathRate": 4.4,
       "diabetesPrevalence": 7.6,
       "giniIndex": 27.7,
-      "intentionalHomicides": 2.19768195988342
+      "intentionalHomicides": 3.26347187848511
     },
     "KHM": {
       "population": 17638801,
@@ -1691,8 +1694,7 @@
       "inflation": -0.687037123294039,
       "netMigration": 18,
       "deathRate": 9.977,
-      "diabetesPrevalence": 13.8,
-      "intentionalHomicides": 25.55828887256
+      "diabetesPrevalence": 13.8
     },
     "KOR": {
       "population": 51751065,
@@ -1709,7 +1711,7 @@
       "deathRate": 7,
       "diabetesPrevalence": 9.6,
       "giniIndex": 33.7,
-      "intentionalHomicides": 0.573715197653771
+      "intentionalHomicides": 0.584621875068617
     },
     "KWT": {
       "population": 4897263,
@@ -1725,7 +1727,7 @@
       "netMigration": 42775,
       "deathRate": 1.52,
       "diabetesPrevalence": 25.6,
-      "intentionalHomicides": 0.360182418888326
+      "intentionalHomicides": 1.10718395103166
     },
     "LAO": {
       "population": 7769819,
@@ -1758,7 +1760,7 @@
       "netMigration": -10230,
       "deathRate": 6.035,
       "diabetesPrevalence": 12.3,
-      "intentionalHomicides": 3.14085853124481
+      "intentionalHomicides": 3.99342351327765
     },
     "LBR": {
       "population": 5612817,
@@ -1802,8 +1804,7 @@
       "inflation": -3.07821765676927,
       "netMigration": -23,
       "deathRate": 8.712,
-      "diabetesPrevalence": 11.4,
-      "intentionalHomicides": 25.8919349436991
+      "diabetesPrevalence": 11.4
     },
     "LIE": {
       "population": 40450,
@@ -1816,7 +1817,7 @@
       "netMigration": 194,
       "deathRate": 7.5,
       "diabetesPrevalence": 7.2,
-      "intentionalHomicides": 2.60145681581686
+      "intentionalHomicides": 2.64197302545541
     },
     "LKA": {
       "population": 21916000,
@@ -1832,8 +1833,7 @@
       "inflation": 3.9588884659307,
       "netMigration": -30724,
       "deathRate": 7.8,
-      "diabetesPrevalence": 10.2,
-      "intentionalHomicides": 3.31094038448808
+      "diabetesPrevalence": 10.2
     },
     "LSO": {
       "population": 2337423,
@@ -1866,7 +1866,7 @@
       "deathRate": 13,
       "diabetesPrevalence": 7.5,
       "giniIndex": 35.7,
-      "intentionalHomicides": 3.36307869103253
+      "intentionalHomicides": 3.53442753319048
     },
     "LUX": {
       "population": 677012,
@@ -1883,7 +1883,7 @@
       "deathRate": 6.6,
       "diabetesPrevalence": 5.8,
       "giniIndex": 35.4,
-      "intentionalHomicides": 0.644991719918795
+      "intentionalHomicides": 0.335291716366678
     },
     "LVA": {
       "population": 1866124,
@@ -1900,7 +1900,7 @@
       "deathRate": 14.3,
       "diabetesPrevalence": 7.1,
       "giniIndex": 35.1,
-      "intentionalHomicides": 3.39556267869149
+      "intentionalHomicides": 4.16968239374774
     },
     "MAC": {
       "population": 687000,
@@ -1916,7 +1916,7 @@
       "netMigration": -328,
       "deathRate": 3.6,
       "diabetesPrevalence": 8.1,
-      "intentionalHomicides": 0.29807414296232
+      "intentionalHomicides": 0.309332005267924
     },
     "MAF": {
       "population": 26129,
@@ -1940,8 +1940,7 @@
       "inflation": 1.63531114327064,
       "netMigration": -56254,
       "deathRate": 5.726,
-      "diabetesPrevalence": 11.9,
-      "intentionalHomicides": 2.77264595868349
+      "diabetesPrevalence": 11.9
     },
     "MCO": {
       "population": 38631,
@@ -1970,7 +1969,7 @@
       "deathRate": 13.823,
       "diabetesPrevalence": 6.3,
       "giniIndex": 25.7,
-      "intentionalHomicides": 3.88747276359475
+      "intentionalHomicides": 4.41522186881311
     },
     "MDG": {
       "population": 31964956,
@@ -2001,8 +2000,7 @@
       "inflation": 0.502509413611612,
       "netMigration": -2283,
       "deathRate": 2.364,
-      "diabetesPrevalence": 9.5,
-      "intentionalHomicides": 0.615093155858455
+      "diabetesPrevalence": 9.5
     },
     "MEX": {
       "population": 130861007,
@@ -2020,7 +2018,7 @@
       "deathRate": 6.219,
       "diabetesPrevalence": 16.4,
       "giniIndex": 46,
-      "intentionalHomicides": 29.150867187807
+      "intentionalHomicides": 25.9959360229634
     },
     "MHL": {
       "population": 37548,
@@ -2048,8 +2046,7 @@
       "netMigration": -5645,
       "deathRate": 11.1,
       "diabetesPrevalence": 7.4,
-      "giniIndex": 33,
-      "intentionalHomicides": 1.21203114814657
+      "giniIndex": 33
     },
     "MLI": {
       "population": 24478595,
@@ -2082,7 +2079,7 @@
       "deathRate": 7.3,
       "diabetesPrevalence": 10,
       "giniIndex": 28.7,
-      "intentionalHomicides": 0.992032983112623
+      "intentionalHomicides": 1.92347764758684
     },
     "MMR": {
       "population": 54500091,
@@ -2098,8 +2095,7 @@
       "inflation": 6.92882525816076,
       "netMigration": -39661,
       "deathRate": 9.176,
-      "diabetesPrevalence": 6.7,
-      "intentionalHomicides": 2.8855992129134
+      "diabetesPrevalence": 6.7
     },
     "MNE": {
       "population": 623525,
@@ -2115,7 +2111,7 @@
       "deathRate": 10.2,
       "diabetesPrevalence": 10.7,
       "giniIndex": 36.8,
-      "intentionalHomicides": 3.76021900823406
+      "intentionalHomicides": 2.41891202175086
     },
     "MNG": {
       "population": 3524788,
@@ -2133,7 +2129,7 @@
       "deathRate": 5.5,
       "diabetesPrevalence": 10.3,
       "giniIndex": 32.7,
-      "intentionalHomicides": 6.34259904548525
+      "intentionalHomicides": 6.15262900871161
     },
     "MNP": {
       "population": 44278,
@@ -2173,8 +2169,7 @@
       "inflation": 1.47171045650004,
       "netMigration": -5044,
       "deathRate": 5.414,
-      "diabetesPrevalence": 5.2,
-      "intentionalHomicides": 1.07437639165317
+      "diabetesPrevalence": 5.2
     },
     "MUS": {
       "population": 1245779,
@@ -2190,7 +2185,7 @@
       "netMigration": -2784,
       "deathRate": 10,
       "diabetesPrevalence": 20.1,
-      "intentionalHomicides": 2.09909272547754
+      "intentionalHomicides": 2.55684129376169
     },
     "MWI": {
       "population": 21655286,
@@ -2223,7 +2218,7 @@
       "deathRate": 5.273,
       "diabetesPrevalence": 21.1,
       "giniIndex": 41.2,
-      "intentionalHomicides": 0.9270169844912
+      "intentionalHomicides": 1.1713566700858
     },
     "NAM": {
       "population": 3030131,
@@ -2238,8 +2233,7 @@
       "inflation": 6.72858234593338,
       "netMigration": 1866,
       "deathRate": 6.176,
-      "diabetesPrevalence": 5.3,
-      "intentionalHomicides": 12.0354899812092
+      "diabetesPrevalence": 5.3
     },
     "NCL": {
       "population": 292639,
@@ -2285,8 +2279,7 @@
       "netMigration": -15258,
       "deathRate": 11.641,
       "diabetesPrevalence": 3,
-      "giniIndex": 35.1,
-      "intentionalHomicides": 21.099298161443
+      "giniIndex": 35.1
     },
     "NIC": {
       "population": 6916140,
@@ -2301,8 +2294,7 @@
       "inflation": 3.52317317628473,
       "netMigration": -8371,
       "deathRate": 4.636,
-      "diabetesPrevalence": 10.4,
-      "intentionalHomicides": 7.94304819024202
+      "diabetesPrevalence": 10.4
     },
     "NLD": {
       "population": 17993485,
@@ -2318,8 +2310,7 @@
       "netMigration": 104681,
       "deathRate": 9.6,
       "diabetesPrevalence": 5,
-      "giniIndex": 28.1,
-      "intentionalHomicides": 0.712758090417298
+      "giniIndex": 28.1
     },
     "NOR": {
       "population": 5572279,
@@ -2335,8 +2326,7 @@
       "netMigration": 29798,
       "deathRate": 7.9,
       "diabetesPrevalence": 4.8,
-      "giniIndex": 27.6,
-      "intentionalHomicides": 0.523586594350632
+      "giniIndex": 27.6
     },
     "NPL": {
       "population": 29651054,
@@ -2352,8 +2342,7 @@
       "inflation": 8.7903433200464,
       "netMigration": -364699,
       "deathRate": 6.972,
-      "diabetesPrevalence": 7.7,
-      "intentionalHomicides": 1.95325811107588
+      "diabetesPrevalence": 7.7
     },
     "NRU": {
       "population": 11947,
@@ -2381,8 +2370,7 @@
       "inflation": 0.646240284454524,
       "netMigration": 17403,
       "deathRate": 7.13,
-      "diabetesPrevalence": 6.7,
-      "intentionalHomicides": 2.28484272415384
+      "diabetesPrevalence": 6.7
     },
     "OMN": {
       "population": 5281538,
@@ -2397,8 +2385,7 @@
       "inflation": 1.10920805807027,
       "netMigration": 113734,
       "deathRate": 1.904,
-      "diabetesPrevalence": 17,
-      "intentionalHomicides": 0.500953881532248
+      "diabetesPrevalence": 17
     },
     "PAK": {
       "population": 251269164,
@@ -2415,8 +2402,7 @@
       "netMigration": -1235336,
       "deathRate": 6.445,
       "diabetesPrevalence": 31.4,
-      "giniIndex": 29.6,
-      "intentionalHomicides": 3.47225684652177
+      "giniIndex": 29.6
     },
     "PAN": {
       "population": 4515577,
@@ -2433,8 +2419,7 @@
       "netMigration": 6151,
       "deathRate": 4.914,
       "diabetesPrevalence": 11.1,
-      "giniIndex": 49.2,
-      "intentionalHomicides": 11.3349220328569
+      "giniIndex": 49.2
     },
     "PER": {
       "population": 34217848,
@@ -2450,8 +2435,7 @@
       "netMigration": 11931,
       "deathRate": 5.595,
       "diabetesPrevalence": 6.4,
-      "giniIndex": 42.4,
-      "intentionalHomicides": 7.3499267457301
+      "giniIndex": 42.4
     },
     "PHL": {
       "population": 115843670,
@@ -2468,8 +2452,7 @@
       "netMigration": -149315,
       "deathRate": 6.35,
       "diabetesPrevalence": 7.5,
-      "giniIndex": 42.3,
-      "intentionalHomicides": 4.2994572517325
+      "giniIndex": 42.3
     },
     "PLW": {
       "population": 17695,
@@ -2513,8 +2496,7 @@
       "netMigration": -330820,
       "deathRate": 11.2,
       "diabetesPrevalence": 8.1,
-      "giniIndex": 30.2,
-      "intentionalHomicides": 0.661855188726895
+      "giniIndex": 30.2
     },
     "PRI": {
       "population": 3203295,
@@ -2528,8 +2510,7 @@
       "unemploymentRate": 7.9,
       "netMigration": 5495,
       "deathRate": 10.3,
-      "diabetesPrevalence": 10.9,
-      "intentionalHomicides": 19.2516608739342
+      "diabetesPrevalence": 10.9
     },
     "PRK": {
       "population": 26498823,
@@ -2557,8 +2538,7 @@
       "netMigration": 16472,
       "deathRate": 11.1,
       "diabetesPrevalence": 10.5,
-      "giniIndex": 33.5,
-      "intentionalHomicides": 0.705776821960449
+      "giniIndex": 33.5
     },
     "PRY": {
       "population": 6929153,
@@ -2575,8 +2555,7 @@
       "netMigration": -12423,
       "deathRate": 5.697,
       "diabetesPrevalence": 9.4,
-      "giniIndex": 46,
-      "intentionalHomicides": 8.50337786708883
+      "giniIndex": 46
     },
     "PSE": {
       "population": 5289152,
@@ -2592,8 +2571,7 @@
       "inflation": -0.219106604907316,
       "netMigration": -23156,
       "deathRate": 5.87,
-      "diabetesPrevalence": 15.5,
-      "intentionalHomicides": 0.322725871803602
+      "diabetesPrevalence": 15.5
     },
     "PYF": {
       "population": 281807,
@@ -2621,8 +2599,7 @@
       "inflation": 2.6765917009819,
       "netMigration": 36288,
       "deathRate": 1.051,
-      "diabetesPrevalence": 24.6,
-      "intentionalHomicides": 0.393149056031246
+      "diabetesPrevalence": 24.6
     },
     "ROU": {
       "population": 19051804,
@@ -2638,8 +2615,7 @@
       "netMigration": -29041,
       "deathRate": 12.8,
       "diabetesPrevalence": 7.5,
-      "giniIndex": 35.8,
-      "intentionalHomicides": 1.25118311157138
+      "giniIndex": 35.8
     },
     "RUS": {
       "population": 143533851,
@@ -2655,8 +2631,7 @@
       "netMigration": -251822,
       "deathRate": 12.4,
       "diabetesPrevalence": 5.9,
-      "giniIndex": 35.3,
-      "intentionalHomicides": 7.64469087376708
+      "giniIndex": 35.3
     },
     "RWA": {
       "population": 14256567,
@@ -2671,8 +2646,7 @@
       "inflation": 7.17434301982009,
       "netMigration": 6282,
       "deathRate": 5.895,
-      "diabetesPrevalence": 2.1,
-      "intentionalHomicides": 3.16215359253131
+      "diabetesPrevalence": 2.1
     },
     "SAU": {
       "population": 35300280,
@@ -2686,8 +2660,7 @@
       "inflation": 2.05347076823965,
       "netMigration": 119738,
       "deathRate": 2.337,
-      "diabetesPrevalence": 23.1,
-      "intentionalHomicides": 0.935259944754359
+      "diabetesPrevalence": 23.1
     },
     "SDN": {
       "population": 50448963,
@@ -2734,8 +2707,7 @@
       "inflation": -0.529809760375464,
       "netMigration": 16892,
       "deathRate": 6,
-      "diabetesPrevalence": 11.4,
-      "intentionalHomicides": 0.211656543163604
+      "diabetesPrevalence": 11.4
     },
     "SLB": {
       "population": 819198,
@@ -2784,7 +2756,7 @@
       "deathRate": 7.47,
       "diabetesPrevalence": 12.7,
       "giniIndex": 38.6,
-      "intentionalHomicides": 38.5386955905095
+      "intentionalHomicides": 63.764040219627
     },
     "SMR": {
       "population": 33977,
@@ -2828,8 +2800,7 @@
       "netMigration": -13086,
       "deathRate": 14.9,
       "diabetesPrevalence": 10.5,
-      "giniIndex": 35,
-      "intentionalHomicides": 1.26325112750546
+      "giniIndex": 35
     },
     "SSD": {
       "population": 11943408,
@@ -2874,8 +2845,7 @@
       "inflation": 55.4123879763196,
       "netMigration": -967,
       "deathRate": 6.841,
-      "diabetesPrevalence": 13.8,
-      "intentionalHomicides": 4.95239101438174
+      "diabetesPrevalence": 13.8
     },
     "SVK": {
       "population": 5422069,
@@ -2891,8 +2861,7 @@
       "netMigration": -31377,
       "deathRate": 9.9,
       "diabetesPrevalence": 7.1,
-      "giniIndex": 25,
-      "intentionalHomicides": 1.39433538407656
+      "giniIndex": 25
     },
     "SVN": {
       "population": 2127400,
@@ -2908,8 +2877,7 @@
       "netMigration": 2711,
       "deathRate": 10.1,
       "diabetesPrevalence": 7,
-      "giniIndex": 24.6,
-      "intentionalHomicides": 0.671965756625042
+      "giniIndex": 24.6
     },
     "SWE": {
       "population": 10569709,
@@ -2925,8 +2893,7 @@
       "netMigration": 47079,
       "deathRate": 8.6,
       "diabetesPrevalence": 5.8,
-      "giniIndex": 30,
-      "intentionalHomicides": 1.07985845098683
+      "giniIndex": 30
     },
     "SWZ": {
       "population": 1242822,
@@ -2941,7 +2908,8 @@
       "inflation": 7.8472745908568,
       "netMigration": -5775,
       "deathRate": 7.731,
-      "diabetesPrevalence": 7.9
+      "diabetesPrevalence": 7.9,
+      "intentionalHomicides": 11.224366891744
     },
     "SXM": {
       "population": 43350,
@@ -2968,8 +2936,7 @@
       "netMigration": 1590,
       "deathRate": 7,
       "diabetesPrevalence": 9.3,
-      "giniIndex": 32.1,
-      "intentionalHomicides": 8.49975138227207
+      "giniIndex": 32.1
     },
     "SYR": {
       "population": 24672760,
@@ -2995,8 +2962,7 @@
       "renewableElectricity": 0.8,
       "populationGrowth": 0.726821053031156,
       "netMigration": 177,
-      "deathRate": 7.39,
-      "intentionalHomicides": 30.1166440791836
+      "deathRate": 7.39
     },
     "TCD": {
       "population": 20299123,
@@ -3106,8 +3072,7 @@
       "inflation": 2.57815515245081,
       "netMigration": -2150,
       "deathRate": 6.442,
-      "diabetesPrevalence": 19.6,
-      "intentionalHomicides": 0.946346864516251
+      "diabetesPrevalence": 19.6
     },
     "TTO": {
       "population": 1368333,
@@ -3122,8 +3087,7 @@
       "inflation": 3.07066742464024,
       "netMigration": 691,
       "deathRate": 8.739,
-      "diabetesPrevalence": 12.4,
-      "intentionalHomicides": 36.2988873279844
+      "diabetesPrevalence": 12.4
     },
     "TUN": {
       "population": 12277109,
@@ -3138,8 +3102,7 @@
       "inflation": 3.62939937384381,
       "netMigration": -14523,
       "deathRate": 6.128,
-      "diabetesPrevalence": 16,
-      "intentionalHomicides": 4.80838825436222
+      "diabetesPrevalence": 16
     },
     "TUR": {
       "population": 85518661,
@@ -3156,8 +3119,7 @@
       "netMigration": -258205,
       "deathRate": 5.7,
       "diabetesPrevalence": 16.5,
-      "giniIndex": 42.4,
-      "intentionalHomicides": 2.39580104761995
+      "giniIndex": 42.4
     },
     "TUV": {
       "population": 9646,
@@ -3185,8 +3147,7 @@
       "netMigration": -12730,
       "deathRate": 5.721,
       "diabetesPrevalence": 9.8,
-      "giniIndex": 40.5,
-      "intentionalHomicides": 4.59485426006108
+      "giniIndex": 40.5
     },
     "UGA": {
       "population": 50015092,
@@ -3201,8 +3162,7 @@
       "inflation": 5.70637504616212,
       "netMigration": -119059,
       "deathRate": 4.767,
-      "diabetesPrevalence": 2.2,
-      "intentionalHomicides": 10.9721855213314
+      "diabetesPrevalence": 2.2
     },
     "UKR": {
       "population": 37860221,
@@ -3218,8 +3178,7 @@
       "netMigration": 1702358,
       "deathRate": 13.603,
       "diabetesPrevalence": 6,
-      "giniIndex": 26.1,
-      "intentionalHomicides": 4.04827159044446
+      "giniIndex": 26.1
     },
     "URY": {
       "population": 3386588,
@@ -3236,8 +3195,7 @@
       "netMigration": -1338,
       "deathRate": 9.933,
       "diabetesPrevalence": 7.8,
-      "giniIndex": 39.7,
-      "intentionalHomicides": 11.5977676357818
+      "giniIndex": 39.7
     },
     "USA": {
       "population": 340110988,
@@ -3253,8 +3211,7 @@
       "netMigration": 1230663,
       "deathRate": 9,
       "diabetesPrevalence": 13.7,
-      "giniIndex": 41.8,
-      "intentionalHomicides": 4.93472178525416
+      "giniIndex": 41.8
     },
     "UZB": {
       "population": 36361859,
@@ -3270,8 +3227,7 @@
       "inflation": 8.130886695236,
       "netMigration": -6987,
       "deathRate": 6.034,
-      "diabetesPrevalence": 7.5,
-      "intentionalHomicides": 1.20128497449438
+      "diabetesPrevalence": 7.5
     },
     "VCT": {
       "population": 100616,
@@ -3286,8 +3242,7 @@
       "inflation": -0.149641647633284,
       "netMigration": -714,
       "deathRate": 11.536,
-      "diabetesPrevalence": 8.6,
-      "intentionalHomicides": 18.2399416321868
+      "diabetesPrevalence": 8.6
     },
     "VEN": {
       "population": 28405543,
@@ -3301,8 +3256,7 @@
       "inflation": 254.948534781816,
       "netMigration": -100467,
       "deathRate": 7.678,
-      "diabetesPrevalence": 8.6,
-      "intentionalHomicides": 41.0324133949647
+      "diabetesPrevalence": 8.6
     },
     "VGB": {
       "population": 39471,
@@ -3359,8 +3313,7 @@
       "inflation": 0.842069084035061,
       "netMigration": -52,
       "deathRate": 5.018,
-      "diabetesPrevalence": 19.7,
-      "intentionalHomicides": 0.684967866444965
+      "diabetesPrevalence": 19.7
     },
     "WSM": {
       "population": 218019,
@@ -3389,7 +3342,7 @@
       "deathRate": 5.973,
       "diabetesPrevalence": 10.4,
       "giniIndex": 44.6,
-      "intentionalHomicides": 1.36748864129747
+      "intentionalHomicides": 2.71474940317931
     },
     "YEM": {
       "population": 40583164,
@@ -3418,8 +3371,7 @@
       "inflation": 6.60290842394872,
       "netMigration": 146370,
       "deathRate": 9.237,
-      "diabetesPrevalence": 7.2,
-      "intentionalHomicides": 35.7874756270719
+      "diabetesPrevalence": 7.2
     },
     "ZMB": {
       "population": 21314956,
@@ -3449,8 +3401,7 @@
       "inflation": -1.54366960054161,
       "netMigration": -54555,
       "deathRate": 7.498,
-      "diabetesPrevalence": 1.5,
-      "intentionalHomicides": 5.1730796210621
+      "diabetesPrevalence": 1.5
     }
   }
 }
