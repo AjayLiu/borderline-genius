@@ -12,13 +12,13 @@
     "populationGrowth": 2024,
     "unemploymentRate": 2021,
     "inflation": 2016,
-    "netMigration": 2025,
+    "netMigration": null,
     "deathRate": 2024,
     "diabetesPrevalence": 2024,
     "giniIndex": 2018,
     "intentionalHomicides": 2019
   },
-  "generatedAt": "2026-05-31T02:54:59.683Z",
+  "generatedAt": "2026-06-07T03:10:35.873Z",
   "indicators": [
     "population",
     "gdpPerCapita",
@@ -48,7 +48,6 @@
       "renewableElectricity": 8.8,
       "populationGrowth": 0.590657103226071,
       "inflation": -0.93119598707956,
-      "netMigration": 111,
       "deathRate": 7.778,
       "diabetesPrevalence": 4.6
     },
@@ -63,7 +62,6 @@
       "populationGrowth": 2.83657317243522,
       "unemploymentRate": 12.006,
       "inflation": 4.38389195513914,
-      "netMigration": -74404,
       "deathRate": 5.702,
       "diabetesPrevalence": 11.7,
       "intentionalHomicides": 7.16396695794585
@@ -79,7 +77,6 @@
       "populationGrowth": 3.04419972245653,
       "unemploymentRate": 15.799,
       "inflation": 30.6944150806719,
-      "netMigration": -3524,
       "deathRate": 6.84,
       "diabetesPrevalence": 4.9,
       "giniIndex": 51.3
@@ -95,7 +92,6 @@
       "populationGrowth": -1.54314393524594,
       "unemploymentRate": 11.474,
       "inflation": 1.27543168367423,
-      "netMigration": -24230,
       "deathRate": 8.457,
       "diabetesPrevalence": 10.6,
       "giniIndex": 30.1,
@@ -110,7 +106,6 @@
       "landArea": 470,
       "renewableElectricity": 18.4,
       "populationGrowth": 1.32930689449906,
-      "netMigration": 843,
       "deathRate": 6.139,
       "diabetesPrevalence": 10.1
     },
@@ -125,7 +120,6 @@
       "populationGrowth": 4.68316095317394,
       "unemploymentRate": 3.105,
       "inflation": 1.61748808904197,
-      "netMigration": 158634,
       "deathRate": 0.972,
       "diabetesPrevalence": 20.7,
       "giniIndex": 26.4,
@@ -141,7 +135,6 @@
       "renewableElectricity": 9.2,
       "populationGrowth": 0.345829819817895,
       "unemploymentRate": 8.736,
-      "netMigration": 2859,
       "deathRate": 7.732,
       "diabetesPrevalence": 14,
       "giniIndex": 41.7,
@@ -159,7 +152,6 @@
       "populationGrowth": 2.30761515133256,
       "unemploymentRate": 15.469,
       "inflation": -1.40360755900899,
-      "netMigration": -29013,
       "deathRate": 8.4,
       "diabetesPrevalence": 7.7,
       "giniIndex": 34.4,
@@ -173,7 +165,6 @@
       "landArea": 200,
       "renewableElectricity": 0.4,
       "populationGrowth": -1.60366587175019,
-      "netMigration": -1051,
       "deathRate": 7.293
     },
     "ATG": {
@@ -186,7 +177,6 @@
       "renewableElectricity": 0.9,
       "populationGrowth": 0.487472101887911,
       "inflation": -0.489437796230498,
-      "netMigration": 12,
       "deathRate": 7.028,
       "diabetesPrevalence": 11.6,
       "intentionalHomicides": 3.28358699042834
@@ -201,7 +191,6 @@
       "populationGrowth": 1.99383715356028,
       "unemploymentRate": 5.022,
       "inflation": 1.27699365720306,
-      "netMigration": 137109,
       "deathRate": 6.884,
       "diabetesPrevalence": 7.4,
       "giniIndex": 34.3,
@@ -218,7 +207,6 @@
       "populationGrowth": 0.504879813795986,
       "unemploymentRate": 6.459,
       "inflation": 0.891591752655362,
-      "netMigration": 11254,
       "deathRate": 9.6,
       "diabetesPrevalence": 5.4,
       "giniIndex": 30.8,
@@ -236,7 +224,6 @@
       "populationGrowth": 0.480155257252915,
       "unemploymentRate": 6.04,
       "inflation": 12.4433748584372,
-      "netMigration": 8731,
       "deathRate": 5.8,
       "diabetesPrevalence": 10.2,
       "intentionalHomicides": 1.66164299896889
@@ -252,7 +239,6 @@
       "populationGrowth": 2.5839340108674,
       "unemploymentRate": 1.118,
       "inflation": 5.55768961400965,
-      "netMigration": -34727,
       "deathRate": 6.67,
       "diabetesPrevalence": 4.3
     },
@@ -267,7 +253,6 @@
       "populationGrowth": 0.66555918543206,
       "unemploymentRate": 6.248,
       "inflation": 1.97385264653162,
-      "netMigration": 31989,
       "deathRate": 9.5,
       "diabetesPrevalence": 5.9,
       "giniIndex": 27.2
@@ -284,7 +269,6 @@
       "populationGrowth": 2.46175361912328,
       "unemploymentRate": 1.833,
       "inflation": -0.793310145785624,
-      "netMigration": -7847,
       "deathRate": 8.71,
       "diabetesPrevalence": 8.1,
       "giniIndex": 37.9
@@ -301,7 +285,6 @@
       "populationGrowth": 2.24597728439097,
       "unemploymentRate": 4.511,
       "inflation": 0.441041448058809,
-      "netMigration": -27130,
       "deathRate": 7.915,
       "diabetesPrevalence": 4.5,
       "giniIndex": 43
@@ -318,7 +301,6 @@
       "populationGrowth": 1.21462115417186,
       "unemploymentRate": 5.457,
       "inflation": 5.51352572692995,
-      "netMigration": -402100,
       "deathRate": 5.105,
       "diabetesPrevalence": 13.2
     },
@@ -333,7 +315,6 @@
       "populationGrowth": -0.0803071609561488,
       "unemploymentRate": 5.166,
       "inflation": -0.798649886453617,
-      "netMigration": -2961,
       "deathRate": 15.6,
       "diabetesPrevalence": 7.4,
       "giniIndex": 41.3,
@@ -350,7 +331,6 @@
       "populationGrowth": 0.733546811160036,
       "unemploymentRate": 1.548,
       "inflation": 2.78679347602044,
-      "netMigration": 18128,
       "deathRate": 2.21,
       "diabetesPrevalence": 22.1,
       "intentionalHomicides": 0.269238704006036
@@ -366,7 +346,6 @@
       "populationGrowth": 0.460334786075668,
       "unemploymentRate": 11.078,
       "inflation": -0.346376929989396,
-      "netMigration": 935,
       "deathRate": 8.77,
       "diabetesPrevalence": 8.9,
       "intentionalHomicides": 24.0704681959437
@@ -382,7 +361,6 @@
       "populationGrowth": -0.655819991673837,
       "unemploymentRate": 14.897,
       "inflation": -1.58410000000001,
-      "netMigration": -6994,
       "deathRate": 13.522,
       "diabetesPrevalence": 10.3,
       "intentionalHomicides": 1.25540534198886
@@ -399,7 +377,6 @@
       "populationGrowth": -0.49881794290787,
       "unemploymentRate": 3.9,
       "inflation": 11.8365807653496,
-      "netMigration": -3020,
       "deathRate": 13.136,
       "diabetesPrevalence": 5.1,
       "giniIndex": 25.2,
@@ -416,7 +393,6 @@
       "populationGrowth": 1.44077799785791,
       "unemploymentRate": 10.302,
       "inflation": 0.663427167917601,
-      "netMigration": 360,
       "deathRate": 4.96,
       "diabetesPrevalence": 14.1,
       "giniIndex": 39.9,
@@ -431,7 +407,6 @@
       "landArea": 54,
       "renewableElectricity": 0.9,
       "populationGrowth": -0.0958758017988935,
-      "netMigration": -2,
       "deathRate": 9.004,
       "diabetesPrevalence": 13.4
     },
@@ -446,7 +421,6 @@
       "populationGrowth": 1.37206798819615,
       "unemploymentRate": 5.089,
       "inflation": 3.62321431764138,
-      "netMigration": -3179,
       "deathRate": 7.172,
       "diabetesPrevalence": 3.4,
       "giniIndex": 42.6,
@@ -464,7 +438,6 @@
       "populationGrowth": 0.405467027627251,
       "unemploymentRate": 13.158,
       "inflation": 8.73914352329393,
-      "netMigration": -217283,
       "deathRate": 7.068,
       "diabetesPrevalence": 10.6,
       "giniIndex": 53.9,
@@ -481,7 +454,6 @@
       "populationGrowth": 0.0463878564204179,
       "unemploymentRate": 11.015,
       "inflation": 1.28192813061895,
-      "netMigration": -87,
       "deathRate": 10.23,
       "diabetesPrevalence": 13.2,
       "intentionalHomicides": 17.0692460193985
@@ -496,7 +468,6 @@
       "populationGrowth": 0.81851878860359,
       "unemploymentRate": 4.905,
       "inflation": -0.278693265753083,
-      "netMigration": 0,
       "deathRate": 5.335,
       "diabetesPrevalence": 13.7
     },
@@ -511,7 +482,6 @@
       "populationGrowth": 0.651370664586926,
       "unemploymentRate": 4.803,
       "inflation": 3.21988689395717,
-      "netMigration": 455,
       "deathRate": 6.065,
       "diabetesPrevalence": 12,
       "intentionalHomicides": 1.04599228057697
@@ -527,7 +497,6 @@
       "populationGrowth": 1.63538411022867,
       "unemploymentRate": 23.106,
       "inflation": 2.81495791361943,
-      "netMigration": -5665,
       "deathRate": 5.738,
       "diabetesPrevalence": 4.6
     },
@@ -543,7 +512,6 @@
       "populationGrowth": 3.40139844069992,
       "unemploymentRate": 6.701,
       "inflation": 4.94543276106518,
-      "netMigration": -14693,
       "deathRate": 9.379,
       "diabetesPrevalence": 7.6
     },
@@ -558,7 +526,6 @@
       "populationGrowth": 2.96220294420494,
       "unemploymentRate": 7.527,
       "inflation": 1.42875954701085,
-      "netMigration": 326204,
       "deathRate": 7.9,
       "diabetesPrevalence": 7.7,
       "giniIndex": 32.5,
@@ -575,7 +542,6 @@
       "populationGrowth": 1.30500749907811,
       "unemploymentRate": 5.013,
       "inflation": -0.434618664285814,
-      "netMigration": 37253,
       "deathRate": 8,
       "diabetesPrevalence": 5.3,
       "giniIndex": 33.1,
@@ -589,7 +555,6 @@
       "landArea": 198,
       "populationGrowth": 0.25906981677504,
       "unemploymentRate": 6.643,
-      "netMigration": 675,
       "deathRate": 10.4
     },
     "CHL": {
@@ -603,7 +568,6 @@
       "populationGrowth": 0.537425495656651,
       "unemploymentRate": 9.281,
       "inflation": 3.78619355893118,
-      "netMigration": 51712,
       "deathRate": 6.58,
       "diabetesPrevalence": 12.2,
       "intentionalHomicides": 4.81306553520039
@@ -618,7 +582,6 @@
       "populationGrowth": -0.123063407363995,
       "unemploymentRate": 4.55,
       "inflation": 2.00000182191943,
-      "netMigration": -268126,
       "deathRate": 7.76,
       "diabetesPrevalence": 11.9,
       "giniIndex": 38.5,
@@ -636,7 +599,6 @@
       "populationGrowth": 2.43618201263834,
       "unemploymentRate": 2.623,
       "inflation": 0.723178457513308,
-      "netMigration": 11305,
       "deathRate": 7.607,
       "diabetesPrevalence": 5,
       "giniIndex": 37.2
@@ -652,7 +614,6 @@
       "populationGrowth": 2.61268294319567,
       "unemploymentRate": 3.976,
       "inflation": 0.874190383288856,
-      "netMigration": -15379,
       "deathRate": 7.032,
       "diabetesPrevalence": 6.9
     },
@@ -667,7 +628,6 @@
       "populationGrowth": 3.24257627586721,
       "unemploymentRate": 5.289,
       "inflation": 2.88585107289988,
-      "netMigration": -27309,
       "deathRate": 8.424,
       "diabetesPrevalence": 7.7
     },
@@ -682,7 +642,6 @@
       "populationGrowth": 2.39829082784283,
       "unemploymentRate": 21.998,
       "inflation": 3.19056179723773,
-      "netMigration": -2999,
       "deathRate": 6.241,
       "diabetesPrevalence": 8.1
     },
@@ -698,7 +657,6 @@
       "populationGrowth": 1.07447920962035,
       "unemploymentRate": 13.898,
       "inflation": 7.51346024627674,
-      "netMigration": 129139,
       "deathRate": 5.466,
       "diabetesPrevalence": 8.4,
       "giniIndex": 51.6,
@@ -714,7 +672,6 @@
       "populationGrowth": 1.89182789744612,
       "unemploymentRate": 4.394,
       "inflation": 0.797517430888487,
-      "netMigration": -2127,
       "deathRate": 7.123,
       "diabetesPrevalence": 10.8
     },
@@ -729,7 +686,6 @@
       "populationGrowth": 0.486246288487151,
       "unemploymentRate": 13.932,
       "inflation": -1.40781637091705,
-      "netMigration": -1284,
       "deathRate": 5.096,
       "diabetesPrevalence": 6.8,
       "intentionalHomicides": 6.41893469025722
@@ -745,7 +701,6 @@
       "populationGrowth": 0.476482848761595,
       "unemploymentRate": 15.139,
       "inflation": -0.0174788505908217,
-      "netMigration": 1000,
       "deathRate": 5.566,
       "diabetesPrevalence": 9.8,
       "giniIndex": 48,
@@ -762,7 +717,6 @@
       "renewableElectricity": 20.9,
       "populationGrowth": -0.364986968189241,
       "unemploymentRate": 2.11,
-      "netMigration": -22244,
       "deathRate": 10.375,
       "diabetesPrevalence": 9.4,
       "intentionalHomicides": 4.46315139638841
@@ -777,7 +731,6 @@
       "renewableElectricity": 2.8,
       "populationGrowth": 0.845408275786684,
       "inflation": -0.0472079848940292,
-      "netMigration": 470,
       "deathRate": 10.1,
       "diabetesPrevalence": 13.4
     },
@@ -790,7 +743,6 @@
       "renewableElectricity": 0,
       "populationGrowth": 1.92419238887509,
       "inflation": -0.62525835861814,
-      "netMigration": 888,
       "deathRate": 4.863,
       "diabetesPrevalence": 11.1,
       "intentionalHomicides": 2.97057644035825
@@ -806,7 +758,6 @@
       "populationGrowth": 0.984449687113221,
       "unemploymentRate": 7.513,
       "inflation": -1.42916666666665,
-      "netMigration": 7749,
       "deathRate": 7.016,
       "diabetesPrevalence": 10,
       "giniIndex": 32.7,
@@ -823,7 +774,6 @@
       "populationGrowth": 0.376553049157494,
       "unemploymentRate": 2.803,
       "inflation": 0.683504209385702,
-      "netMigration": -112188,
       "deathRate": 10.3,
       "diabetesPrevalence": 7.6,
       "giniIndex": 25,
@@ -840,7 +790,6 @@
       "populationGrowth": 0.274957829184881,
       "unemploymentRate": 3.594,
       "inflation": 0.491747008445174,
-      "netMigration": -334072,
       "deathRate": 12.1,
       "diabetesPrevalence": 7.8,
       "giniIndex": 31.9,
@@ -857,7 +806,6 @@
       "populationGrowth": 1.3592172957681,
       "unemploymentRate": 27.628,
       "inflation": 2.40252905434889,
-      "netMigration": -581,
       "deathRate": 7.487,
       "diabetesPrevalence": 6.5
     },
@@ -871,7 +819,6 @@
       "renewableElectricity": 8.8,
       "populationGrowth": -0.459632350460969,
       "inflation": 0.141816225732312,
-      "netMigration": -242,
       "deathRate": 12.623,
       "diabetesPrevalence": 12.9,
       "intentionalHomicides": 19.151302656875
@@ -887,7 +834,6 @@
       "populationGrowth": 0.503861198167737,
       "unemploymentRate": 5.065,
       "inflation": 0.250000000000031,
-      "netMigration": 22103,
       "deathRate": 9.5,
       "diabetesPrevalence": 6.4,
       "giniIndex": 28.2,
@@ -905,7 +851,6 @@
       "populationGrowth": 0.846199988604412,
       "unemploymentRate": 7.702,
       "inflation": 1.61416607245222,
-      "netMigration": -35306,
       "deathRate": 6.249,
       "diabetesPrevalence": 17.6,
       "giniIndex": 43.7,
@@ -922,7 +867,6 @@
       "populationGrowth": 1.39838651912702,
       "unemploymentRate": 13.656,
       "inflation": 6.39769480268756,
-      "netMigration": -27531,
       "deathRate": 4.618,
       "diabetesPrevalence": 17.5,
       "intentionalHomicides": 1.19876531330297
@@ -938,7 +882,6 @@
       "populationGrowth": 0.860548498593581,
       "unemploymentRate": 4.504,
       "inflation": 1.72826463324532,
-      "netMigration": -17219,
       "deathRate": 5.207,
       "diabetesPrevalence": 4.9,
       "giniIndex": 45.4,
@@ -954,7 +897,6 @@
       "populationGrowth": 1.73324205302065,
       "unemploymentRate": 7.441,
       "inflation": 13.8136062148289,
-      "netMigration": -57305,
       "deathRate": 5.506,
       "diabetesPrevalence": 22.4
     },
@@ -966,7 +908,6 @@
       "renewableElectricity": 80.7,
       "populationGrowth": 1.86168851424672,
       "unemploymentRate": 6.489,
-      "netMigration": -6698,
       "deathRate": 5.995,
       "diabetesPrevalence": 4.4
     },
@@ -981,7 +922,6 @@
       "populationGrowth": 1.02121260938381,
       "unemploymentRate": 14.914,
       "inflation": -0.202598000426452,
-      "netMigration": 96630,
       "deathRate": 8.9,
       "diabetesPrevalence": 9.7,
       "giniIndex": 34.7,
@@ -998,7 +938,6 @@
       "populationGrowth": 0.149856351926424,
       "unemploymentRate": 6.178,
       "inflation": 0.148684907627372,
-      "netMigration": -13350,
       "deathRate": 11.5,
       "diabetesPrevalence": 6.9,
       "giniIndex": 30.3,
@@ -1016,7 +955,6 @@
       "populationGrowth": 2.58350411214521,
       "unemploymentRate": 3.935,
       "inflation": 6.62813337230924,
-      "netMigration": 24054,
       "deathRate": 5.879,
       "diabetesPrevalence": 4.4
     },
@@ -1031,7 +969,6 @@
       "populationGrowth": 0.642640054363343,
       "unemploymentRate": 7.617,
       "inflation": 0.356684500891695,
-      "netMigration": 18246,
       "deathRate": 10.4,
       "diabetesPrevalence": 6.9,
       "giniIndex": 27.3,
@@ -1048,7 +985,6 @@
       "populationGrowth": 0.500721796949901,
       "unemploymentRate": 5.225,
       "inflation": 3.86322538221277,
-      "netMigration": -3288,
       "deathRate": 9.511,
       "diabetesPrevalence": 16.6
     },
@@ -1063,7 +999,6 @@
       "populationGrowth": 0.261995241898747,
       "unemploymentRate": 7.871,
       "inflation": 0.183334861123764,
-      "netMigration": 91737,
       "deathRate": 9.4,
       "diabetesPrevalence": 6.5,
       "giniIndex": 32.4,
@@ -1077,7 +1012,6 @@
       "landArea": 1370,
       "renewableElectricity": 5.1,
       "populationGrowth": 0.489482621742025,
-      "netMigration": 386,
       "deathRate": 8.203,
       "diabetesPrevalence": 5.3
     },
@@ -1091,7 +1025,6 @@
       "renewableElectricity": 2.1,
       "populationGrowth": 0.469463637376133,
       "inflation": -1.03746806405349,
-      "netMigration": -1125,
       "deathRate": 7.712,
       "diabetesPrevalence": 19.2,
       "intentionalHomicides": 0.906766290056401
@@ -1107,7 +1040,6 @@
       "populationGrowth": 2.15636509762581,
       "unemploymentRate": 21.223,
       "inflation": 2.10670712784054,
-      "netMigration": 1116,
       "deathRate": 6.226,
       "diabetesPrevalence": 8.5
     },
@@ -1122,7 +1054,6 @@
       "populationGrowth": 1.0659564474212,
       "unemploymentRate": 4.864,
       "inflation": 1.0084173681141,
-      "netMigration": 389911,
       "deathRate": 9.701,
       "diabetesPrevalence": 7.4,
       "giniIndex": 33.7,
@@ -1140,7 +1071,6 @@
       "populationGrowth": -0.429560042538271,
       "unemploymentRate": 11.785,
       "inflation": 2.13492713939121,
-      "netMigration": 1283,
       "deathRate": 11.836,
       "diabetesPrevalence": 6.7,
       "giniIndex": 36.4,
@@ -1157,7 +1087,6 @@
       "populationGrowth": 1.87500010333119,
       "unemploymentRate": 3.2,
       "inflation": 17.4546347070868,
-      "netMigration": -17079,
       "deathRate": 7.009,
       "diabetesPrevalence": 2.7,
       "intentionalHomicides": 1.82667713193775
@@ -1169,7 +1098,6 @@
       "landArea": 10,
       "renewableElectricity": 0,
       "populationGrowth": 2.20574495293092,
-      "netMigration": 549,
       "deathRate": 6.589
     },
     "GIN": {
@@ -1183,7 +1111,6 @@
       "populationGrowth": 2.39595802290484,
       "unemploymentRate": 5.815,
       "inflation": 8.17268112275132,
-      "netMigration": -16282,
       "deathRate": 9.028,
       "diabetesPrevalence": 4.6,
       "giniIndex": 29.6
@@ -1199,7 +1126,6 @@
       "populationGrowth": 2.27730257212036,
       "unemploymentRate": 6.213,
       "inflation": 7.22879272057922,
-      "netMigration": -2984,
       "deathRate": 6.249,
       "diabetesPrevalence": 5.5
     },
@@ -1214,7 +1140,6 @@
       "populationGrowth": 2.20520563612008,
       "unemploymentRate": 3.016,
       "inflation": 1.50312055861088,
-      "netMigration": -1373,
       "deathRate": 7.009,
       "diabetesPrevalence": 4.8,
       "giniIndex": 34.8
@@ -1229,7 +1154,6 @@
       "populationGrowth": 2.40472649031131,
       "unemploymentRate": 8.821,
       "inflation": 1.41193915479015,
-      "netMigration": 3812,
       "deathRate": 7.851,
       "diabetesPrevalence": 8.2
     },
@@ -1244,7 +1168,6 @@
       "populationGrowth": -0.0213045199396999,
       "unemploymentRate": 14.656,
       "inflation": -0.825653978391033,
-      "netMigration": 16636,
       "deathRate": 12.1,
       "diabetesPrevalence": 8,
       "giniIndex": 32.9,
@@ -1260,7 +1183,6 @@
       "renewableElectricity": 10.2,
       "populationGrowth": 0.107559936614412,
       "inflation": 1.65038994431573,
-      "netMigration": -185,
       "deathRate": 8.918,
       "diabetesPrevalence": 11.3,
       "giniIndex": 43.8,
@@ -1274,7 +1196,6 @@
       "landArea": 410450,
       "renewableElectricity": 11.6,
       "populationGrowth": -0.0510109860579076,
-      "netMigration": -265,
       "deathRate": 9.3,
       "diabetesPrevalence": 4.3
     },
@@ -1289,7 +1210,6 @@
       "populationGrowth": 1.54129399660934,
       "unemploymentRate": 2.174,
       "inflation": 4.44844199942827,
-      "netMigration": -7959,
       "deathRate": 4.86,
       "diabetesPrevalence": 13.2,
       "intentionalHomicides": 25.9415998284592
@@ -1303,7 +1223,6 @@
       "renewableElectricity": 4.5,
       "populationGrowth": 0.760437189316384,
       "unemploymentRate": 6,
-      "netMigration": -493,
       "deathRate": 6.92,
       "diabetesPrevalence": 20.3,
       "intentionalHomicides": 4.32611490161179
@@ -1319,7 +1238,6 @@
       "populationGrowth": 0.571243951310838,
       "unemploymentRate": 14.576,
       "inflation": 0.836008061506207,
-      "netMigration": -5092,
       "deathRate": 7.477,
       "diabetesPrevalence": 16.4,
       "intentionalHomicides": 16.8386645453251
@@ -1335,7 +1253,6 @@
       "populationGrowth": -0.159360467186035,
       "unemploymentRate": 5.174,
       "inflation": 2.40930743862224,
-      "netMigration": 17863,
       "deathRate": 7,
       "diabetesPrevalence": 8.2,
       "intentionalHomicides": 0.320606459178181
@@ -1352,7 +1269,6 @@
       "populationGrowth": 1.68469129774697,
       "unemploymentRate": 8.506,
       "inflation": 2.72461223295289,
-      "netMigration": -4778,
       "deathRate": 4.519,
       "diabetesPrevalence": 5,
       "giniIndex": 48.9,
@@ -1369,7 +1285,6 @@
       "populationGrowth": 0.168627948783285,
       "unemploymentRate": 7.483,
       "inflation": -1.12500000000002,
-      "netMigration": -3481,
       "deathRate": 13.2,
       "diabetesPrevalence": 10.5,
       "giniIndex": 29.7,
@@ -1386,7 +1301,6 @@
       "populationGrowth": 1.15472671204546,
       "unemploymentRate": 15.296,
       "inflation": 11.5029073942666,
-      "netMigration": -32052,
       "deathRate": 7.804,
       "diabetesPrevalence": 8.5
     },
@@ -1401,7 +1315,6 @@
       "populationGrowth": -0.314510077464087,
       "unemploymentRate": 4.021,
       "inflation": 0.394769306686392,
-      "netMigration": -16331,
       "deathRate": 13.4,
       "diabetesPrevalence": 8.3,
       "intentionalHomicides": 0.66527835015882
@@ -1417,7 +1330,6 @@
       "populationGrowth": 0.813871513351669,
       "unemploymentRate": 3.827,
       "inflation": 3.52580452815451,
-      "netMigration": -39509,
       "deathRate": 7.624,
       "diabetesPrevalence": 11.3,
       "giniIndex": 36.3
@@ -1430,7 +1342,6 @@
       "landArea": 570,
       "renewableElectricity": 3.2,
       "populationGrowth": -0.00594088816452728,
-      "netMigration": 166,
       "deathRate": 10.649,
       "diabetesPrevalence": 7.5
     },
@@ -1446,7 +1357,6 @@
       "populationGrowth": 0.890706546985984,
       "unemploymentRate": 6.38,
       "inflation": 4.94821634062141,
-      "netMigration": -495753,
       "deathRate": 6.587,
       "diabetesPrevalence": 10.5,
       "intentionalHomicides": 2.94997162020176
@@ -1462,7 +1372,6 @@
       "populationGrowth": 1.57375843711631,
       "unemploymentRate": 6.357,
       "inflation": 0.0201247735963237,
-      "netMigration": 35417,
       "deathRate": 6.5,
       "diabetesPrevalence": 3.6,
       "giniIndex": 30.6,
@@ -1480,7 +1389,6 @@
       "populationGrowth": 1.05286922170537,
       "unemploymentRate": 9.282,
       "inflation": 7.24542548952979,
-      "netMigration": 116786,
       "deathRate": 4.754,
       "diabetesPrevalence": 9,
       "giniIndex": 37.4
@@ -1495,7 +1403,6 @@
       "populationGrowth": 2.12476784890538,
       "unemploymentRate": 16.173,
       "inflation": 0.556521397155511,
-      "netMigration": -1064,
       "deathRate": 4.166,
       "diabetesPrevalence": 13.4
     },
@@ -1510,7 +1417,6 @@
       "populationGrowth": 0.218346070592545,
       "unemploymentRate": 6.029,
       "inflation": 1.69692761997751,
-      "netMigration": 2709,
       "deathRate": 6.8,
       "diabetesPrevalence": 6.9,
       "giniIndex": 26.6,
@@ -1527,7 +1433,6 @@
       "populationGrowth": 1.26518834033156,
       "unemploymentRate": 4.812,
       "inflation": -0.535168195718695,
-      "netMigration": 11466,
       "deathRate": 5.3,
       "diabetesPrevalence": 10.1,
       "giniIndex": 38.6,
@@ -1545,7 +1450,6 @@
       "populationGrowth": -0.0534387378437725,
       "unemploymentRate": 9.497,
       "inflation": -0.09401665691575,
-      "netMigration": 75448,
       "deathRate": 11,
       "diabetesPrevalence": 7.7,
       "giniIndex": 35.2,
@@ -1562,7 +1466,6 @@
       "populationGrowth": -0.0215180207209529,
       "unemploymentRate": 5.188,
       "inflation": 2.35102197485846,
-      "netMigration": -11053,
       "deathRate": 8.206,
       "diabetesPrevalence": 12.5,
       "giniIndex": 35.3,
@@ -1579,7 +1482,6 @@
       "populationGrowth": 0.988722042141178,
       "unemploymentRate": 19.837,
       "inflation": -0.778430463054142,
-      "netMigration": -303267,
       "deathRate": 3.121,
       "diabetesPrevalence": 20.5,
       "intentionalHomicides": 1.14319003336944
@@ -1595,7 +1497,6 @@
       "populationGrowth": -0.435651699326323,
       "unemploymentRate": 2.808,
       "inflation": -0.127258844489754,
-      "netMigration": 140579,
       "deathRate": 13.3,
       "diabetesPrevalence": 8.1,
       "giniIndex": 32.9,
@@ -1612,7 +1513,6 @@
       "populationGrowth": 1.28276364646616,
       "unemploymentRate": 5.568,
       "inflation": 14.3610942386248,
-      "netMigration": -8834,
       "deathRate": 6.697,
       "diabetesPrevalence": 6.8,
       "giniIndex": 27.8
@@ -1628,7 +1528,6 @@
       "populationGrowth": 1.95751431565234,
       "unemploymentRate": 5.693,
       "inflation": 6.29724953814625,
-      "netMigration": -27330,
       "deathRate": 7.18,
       "diabetesPrevalence": 3.1,
       "intentionalHomicides": 3.07795502113628
@@ -1644,7 +1543,6 @@
       "populationGrowth": 1.70540730430368,
       "unemploymentRate": 5.149,
       "inflation": 0.388838296895799,
-      "netMigration": 1815,
       "deathRate": 4.4,
       "diabetesPrevalence": 7.6,
       "giniIndex": 27.7,
@@ -1661,7 +1559,6 @@
       "populationGrowth": 1.22593986324555,
       "unemploymentRate": 0.396,
       "inflation": 3.01913975139128,
-      "netMigration": -31469,
       "deathRate": 6.454,
       "diabetesPrevalence": 7.5
     },
@@ -1675,7 +1572,6 @@
       "renewableElectricity": 42.2,
       "populationGrowth": 1.48889841912877,
       "inflation": 1.91731090233378,
-      "netMigration": -462,
       "deathRate": 7.059,
       "diabetesPrevalence": 24.6
     },
@@ -1689,7 +1585,6 @@
       "renewableElectricity": 1.6,
       "populationGrowth": 0.181622041143753,
       "inflation": -0.687037123294039,
-      "netMigration": 18,
       "deathRate": 9.977,
       "diabetesPrevalence": 13.8,
       "intentionalHomicides": 25.55828887256
@@ -1705,7 +1600,6 @@
       "populationGrowth": 0.0743178674548815,
       "unemploymentRate": 3.639,
       "inflation": 0.971685739912168,
-      "netMigration": 65731,
       "deathRate": 7,
       "diabetesPrevalence": 9.6,
       "giniIndex": 33.7,
@@ -1722,7 +1616,6 @@
       "populationGrowth": 0.899286654502241,
       "unemploymentRate": 2.97,
       "inflation": 3.19839776658374,
-      "netMigration": 42775,
       "deathRate": 1.52,
       "diabetesPrevalence": 25.6,
       "intentionalHomicides": 0.360182418888326
@@ -1738,7 +1631,6 @@
       "populationGrowth": 1.35832703035837,
       "unemploymentRate": 2.08,
       "inflation": 1.59691227583204,
-      "netMigration": -10645,
       "deathRate": 6.187,
       "diabetesPrevalence": 6.7,
       "giniIndex": 38.8
@@ -1755,7 +1647,6 @@
       "populationGrowth": 0.560805065461567,
       "unemploymentRate": 12.715,
       "inflation": -0.783359624361508,
-      "netMigration": -10230,
       "deathRate": 6.035,
       "diabetesPrevalence": 12.3,
       "intentionalHomicides": 3.14085853124481
@@ -1771,7 +1662,6 @@
       "populationGrowth": 2.15725346515291,
       "unemploymentRate": 3.844,
       "inflation": 8.83424868336488,
-      "netMigration": -9870,
       "deathRate": 8.016,
       "diabetesPrevalence": 9.2
     },
@@ -1785,7 +1675,6 @@
       "populationGrowth": 1.02629935747641,
       "unemploymentRate": 19.779,
       "inflation": 25.8538742124461,
-      "netMigration": -172,
       "deathRate": 6.534,
       "diabetesPrevalence": 15.8
     },
@@ -1800,7 +1689,6 @@
       "populationGrowth": 0.255689791113258,
       "unemploymentRate": 20.514,
       "inflation": -3.07821765676927,
-      "netMigration": -23,
       "deathRate": 8.712,
       "diabetesPrevalence": 11.4,
       "intentionalHomicides": 25.8919349436991
@@ -1813,7 +1701,6 @@
       "landArea": 160,
       "renewableElectricity": 53.6,
       "populationGrowth": 1.50446197178693,
-      "netMigration": 194,
       "deathRate": 7.5,
       "diabetesPrevalence": 7.2,
       "intentionalHomicides": 2.60145681581686
@@ -1830,7 +1717,6 @@
       "populationGrowth": -0.550589519145017,
       "unemploymentRate": 4.981,
       "inflation": 3.9588884659307,
-      "netMigration": -30724,
       "deathRate": 7.8,
       "diabetesPrevalence": 10.2,
       "intentionalHomicides": 3.31094038448808
@@ -1847,7 +1733,6 @@
       "populationGrowth": 1.11644894351979,
       "unemploymentRate": 18.214,
       "inflation": 6.59650490696543,
-      "netMigration": -5192,
       "deathRate": 10.478,
       "diabetesPrevalence": 6.2
     },
@@ -1862,7 +1747,6 @@
       "populationGrowth": 0.579633464785161,
       "unemploymentRate": 7.112,
       "inflation": 0.905525075460342,
-      "netMigration": -24618,
       "deathRate": 13,
       "diabetesPrevalence": 7.5,
       "giniIndex": 35.7,
@@ -1879,7 +1763,6 @@
       "populationGrowth": 1.57538901671221,
       "unemploymentRate": 5.571,
       "inflation": 0.290833333333317,
-      "netMigration": 5237,
       "deathRate": 6.6,
       "diabetesPrevalence": 5.8,
       "giniIndex": 35.4,
@@ -1896,7 +1779,6 @@
       "populationGrowth": -0.93796839712162,
       "unemploymentRate": 7.513,
       "inflation": 0.140633334505327,
-      "netMigration": -7330,
       "deathRate": 14.3,
       "diabetesPrevalence": 7.1,
       "giniIndex": 35.1,
@@ -1913,7 +1795,6 @@
       "populationGrowth": 1.20077588622782,
       "unemploymentRate": 2.221,
       "inflation": 2.36895749705898,
-      "netMigration": -328,
       "deathRate": 3.6,
       "diabetesPrevalence": 8.1,
       "intentionalHomicides": 0.29807414296232
@@ -1924,7 +1805,6 @@
       "fertilityRate": 2.673,
       "landArea": 50,
       "populationGrowth": -5.16855018990472,
-      "netMigration": -1170,
       "deathRate": 9.657
     },
     "MAR": {
@@ -1938,7 +1818,6 @@
       "populationGrowth": 0.972827595296714,
       "unemploymentRate": 10.551,
       "inflation": 1.63531114327064,
-      "netMigration": -56254,
       "deathRate": 5.726,
       "diabetesPrevalence": 11.9,
       "intentionalHomicides": 2.77264595868349
@@ -1951,7 +1830,6 @@
       "fertilityRate": 2.102,
       "landArea": 2.084,
       "populationGrowth": -0.837774113919638,
-      "netMigration": 100,
       "deathRate": 20.141,
       "diabetesPrevalence": 6.9
     },
@@ -1966,7 +1844,6 @@
       "populationGrowth": -2.28306147072637,
       "unemploymentRate": 0.794,
       "inflation": 6.35930898037931,
-      "netMigration": -29766,
       "deathRate": 13.823,
       "diabetesPrevalence": 6.3,
       "giniIndex": 25.7,
@@ -1983,7 +1860,6 @@
       "populationGrowth": 2.43524760129506,
       "unemploymentRate": 3.498,
       "inflation": 6.03575858154679,
-      "netMigration": -2227,
       "deathRate": 7.471,
       "diabetesPrevalence": 4.6
     },
@@ -1999,7 +1875,6 @@
       "populationGrowth": 0.342572358181693,
       "unemploymentRate": 5.016,
       "inflation": 0.502509413611612,
-      "netMigration": -2283,
       "deathRate": 2.364,
       "diabetesPrevalence": 9.5,
       "intentionalHomicides": 0.615093155858455
@@ -2016,7 +1891,6 @@
       "populationGrowth": 0.860515443690537,
       "unemploymentRate": 4.019,
       "inflation": 2.8217078474766,
-      "netMigration": -108037,
       "deathRate": 6.219,
       "diabetesPrevalence": 16.4,
       "giniIndex": 46,
@@ -2031,7 +1905,6 @@
       "landArea": 180,
       "renewableElectricity": 12.1,
       "populationGrowth": -3.34957664335036,
-      "netMigration": -1698,
       "deathRate": 7.131,
       "diabetesPrevalence": 25.7
     },
@@ -2045,7 +1918,6 @@
       "populationGrowth": -0.189311904958652,
       "unemploymentRate": 15.801,
       "inflation": -0.239290787684501,
-      "netMigration": -5645,
       "deathRate": 11.1,
       "diabetesPrevalence": 7.4,
       "giniIndex": 33,
@@ -2062,7 +1934,6 @@
       "populationGrowth": 2.94115084753028,
       "unemploymentRate": 4.006,
       "inflation": -1.79964707083386,
-      "netMigration": -48019,
       "deathRate": 8.51,
       "diabetesPrevalence": 4.8,
       "giniIndex": 36
@@ -2078,7 +1949,6 @@
       "populationGrowth": 2.87111128593908,
       "unemploymentRate": 3.754,
       "inflation": 0.642702771527304,
-      "netMigration": 5161,
       "deathRate": 7.3,
       "diabetesPrevalence": 10,
       "giniIndex": 28.7,
@@ -2096,7 +1966,6 @@
       "populationGrowth": 0.674364862610485,
       "unemploymentRate": 4.34,
       "inflation": 6.92882525816076,
-      "netMigration": -39661,
       "deathRate": 9.176,
       "diabetesPrevalence": 6.7,
       "intentionalHomicides": 2.8855992129134
@@ -2111,7 +1980,6 @@
       "populationGrowth": -0.000641511915285095,
       "unemploymentRate": 16.543,
       "inflation": -0.271385023385176,
-      "netMigration": -9279,
       "deathRate": 10.2,
       "diabetesPrevalence": 10.7,
       "giniIndex": 36.8,
@@ -2129,7 +1997,6 @@
       "populationGrowth": 1.24590299529718,
       "unemploymentRate": 7.871,
       "inflation": 0.733272227314397,
-      "netMigration": 79,
       "deathRate": 5.5,
       "diabetesPrevalence": 10.3,
       "giniIndex": 32.7,
@@ -2143,7 +2010,6 @@
       "landArea": 460,
       "renewableElectricity": 0.5,
       "populationGrowth": -1.93472893815204,
-      "netMigration": -963,
       "deathRate": 4.977
     },
     "MOZ": {
@@ -2157,7 +2023,6 @@
       "populationGrowth": 2.91994049442347,
       "unemploymentRate": 5.413,
       "inflation": 17.4180418197597,
-      "netMigration": -65573,
       "deathRate": 6.908,
       "diabetesPrevalence": 3
     },
@@ -2171,7 +2036,6 @@
       "populationGrowth": 2.88395898961435,
       "unemploymentRate": 11.131,
       "inflation": 1.47171045650004,
-      "netMigration": -5044,
       "deathRate": 5.414,
       "diabetesPrevalence": 5.2,
       "intentionalHomicides": 1.07437639165317
@@ -2187,7 +2051,6 @@
       "populationGrowth": -0.2299528038748,
       "unemploymentRate": 7.719,
       "inflation": 0.977675134718965,
-      "netMigration": -2784,
       "deathRate": 10,
       "diabetesPrevalence": 20.1,
       "intentionalHomicides": 2.09909272547754
@@ -2203,7 +2066,6 @@
       "populationGrowth": 2.57641467045761,
       "unemploymentRate": 5.652,
       "inflation": 21.7111132136499,
-      "netMigration": -5628,
       "deathRate": 5.292,
       "diabetesPrevalence": 5.7
     },
@@ -2219,7 +2081,6 @@
       "populationGrowth": 1.22058891015438,
       "unemploymentRate": 4.64,
       "inflation": 2.09056659525742,
-      "netMigration": 166615,
       "deathRate": 5.273,
       "diabetesPrevalence": 21.1,
       "giniIndex": 41.2,
@@ -2236,7 +2097,6 @@
       "populationGrowth": 2.23715227334598,
       "unemploymentRate": 20.931,
       "inflation": 6.72858234593338,
-      "netMigration": 1866,
       "deathRate": 6.176,
       "diabetesPrevalence": 5.3,
       "intentionalHomicides": 12.0354899812092
@@ -2251,7 +2111,6 @@
       "populationGrowth": 0.95072208560765,
       "unemploymentRate": 11.574,
       "inflation": 0.578317435520754,
-      "netMigration": 440,
       "deathRate": 6.251,
       "diabetesPrevalence": 22
     },
@@ -2266,7 +2125,6 @@
       "populationGrowth": 3.28101480132484,
       "unemploymentRate": 0.806,
       "inflation": 1.65388922387806,
-      "netMigration": -7704,
       "deathRate": 8.719,
       "diabetesPrevalence": 4.1,
       "giniIndex": 37.3
@@ -2282,7 +2140,6 @@
       "populationGrowth": 2.08297776184189,
       "unemploymentRate": 5.404,
       "inflation": 15.6968126387972,
-      "netMigration": -15258,
       "deathRate": 11.641,
       "diabetesPrevalence": 3,
       "giniIndex": 35.1,
@@ -2299,7 +2156,6 @@
       "populationGrowth": 1.34687135560209,
       "unemploymentRate": 6.076,
       "inflation": 3.52317317628473,
-      "netMigration": -8371,
       "deathRate": 4.636,
       "diabetesPrevalence": 10.4,
       "intentionalHomicides": 7.94304819024202
@@ -2315,7 +2171,6 @@
       "populationGrowth": 0.648823280021657,
       "unemploymentRate": 4.209,
       "inflation": 0.316666666666652,
-      "netMigration": 104681,
       "deathRate": 9.6,
       "diabetesPrevalence": 5,
       "giniIndex": 28.1,
@@ -2332,7 +2187,6 @@
       "populationGrowth": 0.949855138372357,
       "unemploymentRate": 4.359,
       "inflation": 3.55000000000007,
-      "netMigration": 29798,
       "deathRate": 7.9,
       "diabetesPrevalence": 4.8,
       "giniIndex": 27.6,
@@ -2350,7 +2204,6 @@
       "populationGrowth": -0.146800968936231,
       "unemploymentRate": 12.241,
       "inflation": 8.7903433200464,
-      "netMigration": -364699,
       "deathRate": 6.972,
       "diabetesPrevalence": 7.7,
       "intentionalHomicides": 1.95325811107588
@@ -2364,7 +2217,6 @@
       "landArea": 20,
       "renewableElectricity": 1.6,
       "populationGrowth": 0.604485091438176,
-      "netMigration": -122,
       "deathRate": 7.574,
       "diabetesPrevalence": 21.8
     },
@@ -2379,7 +2231,6 @@
       "populationGrowth": 1.66869187850147,
       "unemploymentRate": 3.776,
       "inflation": 0.646240284454524,
-      "netMigration": 17403,
       "deathRate": 7.13,
       "diabetesPrevalence": 6.7,
       "intentionalHomicides": 2.28484272415384
@@ -2395,7 +2246,6 @@
       "populationGrowth": 4.49738628465102,
       "unemploymentRate": 1.9,
       "inflation": 1.10920805807027,
-      "netMigration": 113734,
       "deathRate": 1.904,
       "diabetesPrevalence": 17,
       "intentionalHomicides": 0.500953881532248
@@ -2412,7 +2262,6 @@
       "populationGrowth": 1.50959876314033,
       "unemploymentRate": 6.338,
       "inflation": 3.7651191635658,
-      "netMigration": -1235336,
       "deathRate": 6.445,
       "diabetesPrevalence": 31.4,
       "giniIndex": 29.6,
@@ -2430,7 +2279,6 @@
       "populationGrowth": 1.26624987466078,
       "unemploymentRate": 10.177,
       "inflation": 0.739734025300033,
-      "netMigration": 6151,
       "deathRate": 4.914,
       "diabetesPrevalence": 11.1,
       "giniIndex": 49.2,
@@ -2447,7 +2295,6 @@
       "populationGrowth": 1.0937871324756,
       "unemploymentRate": 5.097,
       "inflation": 3.55717663556279,
-      "netMigration": 11931,
       "deathRate": 5.595,
       "diabetesPrevalence": 6.4,
       "giniIndex": 42.4,
@@ -2465,7 +2312,6 @@
       "populationGrowth": 0.825602488528657,
       "unemploymentRate": 3.398,
       "inflation": 1.25369880080982,
-      "netMigration": -149315,
       "deathRate": 6.35,
       "diabetesPrevalence": 7.5,
       "giniIndex": 42.3,
@@ -2480,7 +2326,6 @@
       "renewableElectricity": 0.9,
       "populationGrowth": -0.180678723422048,
       "inflation": -1.04230533415074,
-      "netMigration": -16,
       "deathRate": 11.729,
       "diabetesPrevalence": 19.3
     },
@@ -2495,7 +2340,6 @@
       "populationGrowth": 1.78260733820852,
       "unemploymentRate": 3.03,
       "inflation": 6.6737288135593,
-      "netMigration": -284,
       "deathRate": 6.554,
       "diabetesPrevalence": 14.1
     },
@@ -2510,7 +2354,6 @@
       "populationGrowth": -0.349832361234927,
       "unemploymentRate": 3.268,
       "inflation": -0.664767331433962,
-      "netMigration": -330820,
       "deathRate": 11.2,
       "diabetesPrevalence": 8.1,
       "giniIndex": 30.2,
@@ -2526,7 +2369,6 @@
       "renewableElectricity": 2.6,
       "populationGrowth": -0.0155140706220036,
       "unemploymentRate": 7.9,
-      "netMigration": 5495,
       "deathRate": 10.3,
       "diabetesPrevalence": 10.9,
       "intentionalHomicides": 19.2516608739342
@@ -2539,7 +2381,6 @@
       "renewableElectricity": 14.7,
       "populationGrowth": 0.304699893187806,
       "unemploymentRate": 3.692,
-      "netMigration": -2787,
       "deathRate": 9.858,
       "diabetesPrevalence": 9.9
     },
@@ -2554,7 +2395,6 @@
       "populationGrowth": 1.09536933248007,
       "unemploymentRate": 6.712,
       "inflation": 0.607397074641719,
-      "netMigration": 16472,
       "deathRate": 11.1,
       "diabetesPrevalence": 10.5,
       "giniIndex": 33.5,
@@ -2572,7 +2412,6 @@
       "populationGrowth": 1.23438951533718,
       "unemploymentRate": 7.311,
       "inflation": 4.08682280577241,
-      "netMigration": -12423,
       "deathRate": 5.697,
       "diabetesPrevalence": 9.4,
       "giniIndex": 46,
@@ -2590,7 +2429,6 @@
       "populationGrowth": 2.36027908447521,
       "unemploymentRate": 26.39,
       "inflation": -0.219106604907316,
-      "netMigration": -23156,
       "deathRate": 5.87,
       "diabetesPrevalence": 15.5,
       "intentionalHomicides": 0.322725871803602
@@ -2604,7 +2442,6 @@
       "renewableElectricity": 7.4,
       "populationGrowth": 0.244792945440769,
       "unemploymentRate": 12.558,
-      "netMigration": -1199,
       "deathRate": 3.808,
       "diabetesPrevalence": 22.8
     },
@@ -2619,7 +2456,6 @@
       "populationGrowth": 7.32265165181291,
       "unemploymentRate": 0.14,
       "inflation": 2.6765917009819,
-      "netMigration": 36288,
       "deathRate": 1.051,
       "diabetesPrevalence": 24.6,
       "intentionalHomicides": 0.393149056031246
@@ -2635,7 +2471,6 @@
       "populationGrowth": -0.0485820204761977,
       "unemploymentRate": 5.59,
       "inflation": -1.54479666813897,
-      "netMigration": -29041,
       "deathRate": 12.8,
       "diabetesPrevalence": 7.5,
       "giniIndex": 35.8,
@@ -2652,7 +2487,6 @@
       "populationGrowth": -0.203423663777625,
       "unemploymentRate": 4.749,
       "inflation": 7.04243725413707,
-      "netMigration": -251822,
       "deathRate": 12.4,
       "diabetesPrevalence": 5.9,
       "giniIndex": 35.3,
@@ -2669,7 +2503,6 @@
       "populationGrowth": 2.14176839550509,
       "unemploymentRate": 15.775,
       "inflation": 7.17434301982009,
-      "netMigration": 6282,
       "deathRate": 5.895,
       "diabetesPrevalence": 2.1,
       "intentionalHomicides": 3.16215359253131
@@ -2684,7 +2517,6 @@
       "populationGrowth": 4.63120232685885,
       "unemploymentRate": 6.621,
       "inflation": 2.05347076823965,
-      "netMigration": 119738,
       "deathRate": 2.337,
       "diabetesPrevalence": 23.1,
       "intentionalHomicides": 0.935259944754359
@@ -2699,7 +2531,6 @@
       "populationGrowth": 0.808373216038761,
       "unemploymentRate": 11.087,
       "inflation": 17.750253831196,
-      "netMigration": 291469,
       "deathRate": 6.335,
       "diabetesPrevalence": 19
     },
@@ -2715,7 +2546,6 @@
       "populationGrowth": 2.32058603495657,
       "unemploymentRate": 3.436,
       "inflation": 0.837284942557434,
-      "netMigration": -12636,
       "deathRate": 5.505,
       "diabetesPrevalence": 3.8,
       "giniIndex": 38.3
@@ -2732,7 +2562,6 @@
       "populationGrowth": 1.99449365639324,
       "unemploymentRate": 4.64,
       "inflation": -0.529809760375464,
-      "netMigration": 16892,
       "deathRate": 6,
       "diabetesPrevalence": 11.4,
       "intentionalHomicides": 0.211656543163604
@@ -2747,7 +2576,6 @@
       "populationGrowth": 2.37078352276169,
       "unemploymentRate": 0.879,
       "inflation": 0.512485626268792,
-      "netMigration": 1631,
       "deathRate": 5.083,
       "diabetesPrevalence": 12
     },
@@ -2763,7 +2591,6 @@
       "populationGrowth": 2.1226891332086,
       "unemploymentRate": 3.551,
       "inflation": 10.8860609413903,
-      "netMigration": -11309,
       "deathRate": 8.211,
       "diabetesPrevalence": 4.8,
       "giniIndex": 35.7
@@ -2780,7 +2607,6 @@
       "populationGrowth": 0.451762522948611,
       "unemploymentRate": 4.327,
       "inflation": 0.60404908699661,
-      "netMigration": -23934,
       "deathRate": 7.47,
       "diabetesPrevalence": 12.7,
       "giniIndex": 38.6,
@@ -2795,7 +2621,6 @@
       "landArea": 60,
       "populationGrowth": 0.344944841346899,
       "inflation": 0.644075340346552,
-      "netMigration": 122,
       "deathRate": 7.5,
       "diabetesPrevalence": 8.6
     },
@@ -2809,7 +2634,6 @@
       "renewableElectricity": 95.4,
       "populationGrowth": 3.48215481810475,
       "unemploymentRate": 19.662,
-      "netMigration": 12077,
       "deathRate": 9.741,
       "diabetesPrevalence": 5.8
     },
@@ -2825,7 +2649,6 @@
       "populationGrowth": -0.555761423984425,
       "unemploymentRate": 9.843,
       "inflation": 1.12231397417769,
-      "netMigration": -13086,
       "deathRate": 14.9,
       "diabetesPrevalence": 10.5,
       "giniIndex": 35,
@@ -2841,7 +2664,6 @@
       "populationGrowth": 3.92792442239756,
       "unemploymentRate": 13.95,
       "inflation": 379.999585624026,
-      "netMigration": 6145,
       "deathRate": 9.821,
       "diabetesPrevalence": 4.6
     },
@@ -2857,7 +2679,6 @@
       "populationGrowth": 2.0004655038868,
       "unemploymentRate": 9.563,
       "inflation": 5.43051966119156,
-      "netMigration": -650,
       "deathRate": 5.53,
       "diabetesPrevalence": 12.1
     },
@@ -2872,7 +2693,6 @@
       "populationGrowth": 0.877853398525397,
       "unemploymentRate": 8.706,
       "inflation": 55.4123879763196,
-      "netMigration": -967,
       "deathRate": 6.841,
       "diabetesPrevalence": 13.8,
       "intentionalHomicides": 4.95239101438174
@@ -2888,7 +2708,6 @@
       "populationGrowth": -0.0861108401600769,
       "unemploymentRate": 6.894,
       "inflation": -0.520010196278266,
-      "netMigration": -31377,
       "deathRate": 9.9,
       "diabetesPrevalence": 7.1,
       "giniIndex": 25,
@@ -2905,7 +2724,6 @@
       "populationGrowth": 0.326705896075754,
       "unemploymentRate": 4.744,
       "inflation": -0.054999541670474,
-      "netMigration": 2711,
       "deathRate": 10.1,
       "diabetesPrevalence": 7,
       "giniIndex": 24.6,
@@ -2922,7 +2740,6 @@
       "populationGrowth": 0.313432129983607,
       "unemploymentRate": 8.803,
       "inflation": 0.984269244577992,
-      "netMigration": 47079,
       "deathRate": 8.6,
       "diabetesPrevalence": 5.8,
       "giniIndex": 30,
@@ -2939,7 +2756,6 @@
       "populationGrowth": 0.995913343966098,
       "unemploymentRate": 34.153,
       "inflation": 7.8472745908568,
-      "netMigration": -5775,
       "deathRate": 7.731,
       "diabetesPrevalence": 7.9
     },
@@ -2952,7 +2768,6 @@
       "renewableElectricity": 0,
       "populationGrowth": 1.39608999302398,
       "inflation": 0.111682655737579,
-      "netMigration": 530,
       "deathRate": 8.303
     },
     "SYC": {
@@ -2965,7 +2780,6 @@
       "renewableElectricity": 1.7,
       "populationGrowth": 1.31136094801067,
       "inflation": -1.01548191697626,
-      "netMigration": 1590,
       "deathRate": 7,
       "diabetesPrevalence": 9.3,
       "giniIndex": 32.1,
@@ -2981,7 +2795,6 @@
       "populationGrowth": 4.46809539676654,
       "unemploymentRate": 14.887,
       "inflation": 47.7051615298923,
-      "netMigration": 421693,
       "deathRate": 4.932,
       "diabetesPrevalence": 19
     },
@@ -2994,7 +2807,6 @@
       "landArea": 950,
       "renewableElectricity": 0.8,
       "populationGrowth": 0.726821053031156,
-      "netMigration": 177,
       "deathRate": 7.39,
       "intentionalHomicides": 30.1166440791836
     },
@@ -3010,7 +2822,6 @@
       "populationGrowth": 4.94853027382671,
       "unemploymentRate": 1.53,
       "inflation": -0.792440525236102,
-      "netMigration": -123104,
       "deathRate": 11.08,
       "diabetesPrevalence": 7.3,
       "giniIndex": 37.5
@@ -3027,7 +2838,6 @@
       "populationGrowth": 2.2413667842624,
       "unemploymentRate": 2.344,
       "inflation": 1.28544847051417,
-      "netMigration": -15010,
       "deathRate": 8.486,
       "diabetesPrevalence": 4.8,
       "giniIndex": 42.5
@@ -3044,7 +2854,6 @@
       "populationGrowth": -0.0480210554154485,
       "unemploymentRate": 1.215,
       "inflation": 0.188149704448143,
-      "netMigration": 27509,
       "deathRate": 9.033,
       "diabetesPrevalence": 10.2,
       "giniIndex": 36.4
@@ -3060,7 +2869,6 @@
       "populationGrowth": 1.91732317936133,
       "unemploymentRate": 7.687,
       "inflation": 6.00458082322139,
-      "netMigration": -21606,
       "deathRate": 4.591,
       "diabetesPrevalence": 8
     },
@@ -3073,7 +2881,6 @@
       "renewableElectricity": 0.1,
       "populationGrowth": 1.75064111797897,
       "unemploymentRate": 4.458,
-      "netMigration": 13268,
       "deathRate": 5.836,
       "diabetesPrevalence": 7.1
     },
@@ -3088,7 +2895,6 @@
       "populationGrowth": 1.17433638550192,
       "unemploymentRate": 2.344,
       "inflation": -1.33853876185163,
-      "netMigration": -2550,
       "deathRate": 7.219,
       "diabetesPrevalence": 3.2
     },
@@ -3104,7 +2910,6 @@
       "populationGrowth": -0.404269322267007,
       "unemploymentRate": 2.111,
       "inflation": 2.57815515245081,
-      "netMigration": -2150,
       "deathRate": 6.442,
       "diabetesPrevalence": 19.6,
       "intentionalHomicides": 0.946346864516251
@@ -3120,7 +2925,6 @@
       "populationGrowth": 0.0601642729371072,
       "unemploymentRate": 4.446,
       "inflation": 3.07066742464024,
-      "netMigration": 691,
       "deathRate": 8.739,
       "diabetesPrevalence": 12.4,
       "intentionalHomicides": 36.2988873279844
@@ -3136,7 +2940,6 @@
       "populationGrowth": 0.626519256572759,
       "unemploymentRate": 16.632,
       "inflation": 3.62939937384381,
-      "netMigration": -14523,
       "deathRate": 6.128,
       "diabetesPrevalence": 16,
       "intentionalHomicides": 4.80838825436222
@@ -3153,7 +2956,6 @@
       "populationGrowth": 0.225580501096507,
       "unemploymentRate": 11.969,
       "inflation": 7.7751341532833,
-      "netMigration": -258205,
       "deathRate": 5.7,
       "diabetesPrevalence": 16.5,
       "giniIndex": 42.4,
@@ -3167,7 +2969,6 @@
       "landArea": 30,
       "renewableElectricity": 5,
       "populationGrowth": -1.74703857618302,
-      "netMigration": -255,
       "deathRate": 9.268,
       "diabetesPrevalence": 19
     },
@@ -3182,7 +2983,6 @@
       "populationGrowth": 2.87426672866542,
       "unemploymentRate": 1.876,
       "inflation": 5.17476629301493,
-      "netMigration": -12730,
       "deathRate": 5.721,
       "diabetesPrevalence": 9.8,
       "giniIndex": 40.5,
@@ -3199,7 +2999,6 @@
       "populationGrowth": 2.75373170025335,
       "unemploymentRate": 3.416,
       "inflation": 5.70637504616212,
-      "netMigration": -119059,
       "deathRate": 4.767,
       "diabetesPrevalence": 2.2,
       "intentionalHomicides": 10.9721855213314
@@ -3215,7 +3014,6 @@
       "populationGrowth": 0.33702862573394,
       "unemploymentRate": 9.834,
       "inflation": 13.9127101997797,
-      "netMigration": 1702358,
       "deathRate": 13.603,
       "diabetesPrevalence": 6,
       "giniIndex": 26.1,
@@ -3233,7 +3031,6 @@
       "populationGrowth": -0.0440759548302792,
       "unemploymentRate": 9.328,
       "inflation": 9.6394134763508,
-      "netMigration": -1338,
       "deathRate": 9.933,
       "diabetesPrevalence": 7.8,
       "giniIndex": 39.7,
@@ -3250,7 +3047,6 @@
       "populationGrowth": 0.976421684505429,
       "unemploymentRate": 5.349,
       "inflation": 1.26158320570536,
-      "netMigration": 1230663,
       "deathRate": 9,
       "diabetesPrevalence": 13.7,
       "giniIndex": 41.8,
@@ -3268,7 +3064,6 @@
       "populationGrowth": 1.97065383660565,
       "unemploymentRate": 5.364,
       "inflation": 8.130886695236,
-      "netMigration": -6987,
       "deathRate": 6.034,
       "diabetesPrevalence": 7.5,
       "intentionalHomicides": 1.20128497449438
@@ -3284,7 +3079,6 @@
       "populationGrowth": -0.700214310937747,
       "unemploymentRate": 20.356,
       "inflation": -0.149641647633284,
-      "netMigration": -714,
       "deathRate": 11.536,
       "diabetesPrevalence": 8.6,
       "intentionalHomicides": 18.2399416321868
@@ -3299,7 +3093,6 @@
       "populationGrowth": 0.369232130679939,
       "unemploymentRate": 7.027,
       "inflation": 254.948534781816,
-      "netMigration": -100467,
       "deathRate": 7.678,
       "diabetesPrevalence": 8.6,
       "intentionalHomicides": 41.0324133949647
@@ -3312,7 +3105,6 @@
       "landArea": 150,
       "renewableElectricity": 1.3,
       "populationGrowth": 1.23892682902476,
-      "netMigration": 153,
       "deathRate": 6.049
     },
     "VIR": {
@@ -3324,7 +3116,6 @@
       "renewableElectricity": 5.9,
       "populationGrowth": -0.516021671191835,
       "unemploymentRate": 13.508,
-      "netMigration": -357,
       "deathRate": 9.2,
       "diabetesPrevalence": 9.1
     },
@@ -3340,7 +3131,6 @@
       "populationGrowth": 0.631267006487247,
       "unemploymentRate": 2.383,
       "inflation": 2.66824816969082,
-      "netMigration": -48171,
       "deathRate": 6.646,
       "diabetesPrevalence": 3.4,
       "giniIndex": 35.7
@@ -3357,7 +3147,6 @@
       "populationGrowth": 2.27351944261437,
       "unemploymentRate": 4.776,
       "inflation": 0.842069084035061,
-      "netMigration": -52,
       "deathRate": 5.018,
       "diabetesPrevalence": 19.7,
       "intentionalHomicides": 0.684967866444965
@@ -3374,7 +3163,6 @@
       "populationGrowth": 0.62390639530784,
       "unemploymentRate": 6.664,
       "inflation": 1.30471869303179,
-      "netMigration": -2815,
       "deathRate": 6.16,
       "diabetesPrevalence": 25.4
     },
@@ -3385,7 +3173,6 @@
       "fertilityRate": 1.538,
       "populationGrowth": -5.39126176551648,
       "inflation": 0.273169431045468,
-      "netMigration": -18380,
       "deathRate": 5.973,
       "diabetesPrevalence": 10.4,
       "giniIndex": 44.6,
@@ -3400,7 +3187,6 @@
       "renewableElectricity": 3.7,
       "populationGrowth": 2.98210396880689,
       "unemploymentRate": 18.312,
-      "netMigration": -16291,
       "deathRate": 4.734,
       "diabetesPrevalence": 5.5
     },
@@ -3416,7 +3202,6 @@
       "populationGrowth": 1.24951426055192,
       "unemploymentRate": 34.007,
       "inflation": 6.60290842394872,
-      "netMigration": 146370,
       "deathRate": 9.237,
       "diabetesPrevalence": 7.2,
       "intentionalHomicides": 35.7874756270719
@@ -3432,7 +3217,6 @@
       "populationGrowth": 2.81182258530958,
       "unemploymentRate": 5.197,
       "inflation": 17.8697300795268,
-      "netMigration": 6562,
       "deathRate": 5.165,
       "diabetesPrevalence": 10.3
     },
@@ -3447,7 +3231,6 @@
       "populationGrowth": 1.7804822981922,
       "unemploymentRate": 9.54,
       "inflation": -1.54366960054161,
-      "netMigration": -54555,
       "deathRate": 7.498,
       "diabetesPrevalence": 1.5,
       "intentionalHomicides": 5.1730796210621
