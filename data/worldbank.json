@@ -18,7 +18,7 @@
     "giniIndex": 2018,
     "intentionalHomicides": 2019
   },
-  "generatedAt": "2026-07-19T02:07:44.688Z",
+  "generatedAt": "2026-07-26T02:15:51.997Z",
   "indicators": [
     "population",
     "gdpPerCapita",
@@ -117,8 +117,8 @@
     "ARE": {
       "population": 11513149,
       "gdpPerCapita": 44910.3458860776,
+      "lifeExpectancy": 83.069,
       "fertilityRate": 1.213,
-      "literacyRate": 97.7799987792969,
       "landArea": 71020,
       "renewableElectricity": 1,
       "populationGrowth": 4.68316292656212,
@@ -566,6 +566,7 @@
     "CHE": {
       "population": 9092436,
       "gdpPerCapita": 85265.06205193,
+      "lifeExpectancy": 84.4073170731707,
       "educationExpenditure": 5.01765012741089,
       "fertilityRate": 1.29,
       "landArea": 39509.63,
@@ -625,6 +626,7 @@
     "CIV": {
       "population": 32711547,
       "gdpPerCapita": 1814.71855088017,
+      "lifeExpectancy": 62.11,
       "educationExpenditure": 3.73654007911682,
       "fertilityRate": 4.23,
       "literacyRate": 56.9592400560829,
@@ -656,6 +658,7 @@
     "COD": {
       "population": 112832473,
       "gdpPerCapita": 495.826633014883,
+      "lifeExpectancy": 62.074,
       "educationExpenditure": 1.45494997501373,
       "fertilityRate": 5.981,
       "landArea": 2267050,
@@ -670,6 +673,7 @@
     "COG": {
       "population": 6484437,
       "gdpPerCapita": 2439.35189403696,
+      "lifeExpectancy": 66.001,
       "educationExpenditure": 4.17235994338989,
       "fertilityRate": 4.109,
       "landArea": 341500,
@@ -702,6 +706,7 @@
     "COM": {
       "population": 882847,
       "gdpPerCapita": 1329.37048235986,
+      "lifeExpectancy": 67.023,
       "fertilityRate": 3.822,
       "landArea": 1861,
       "renewableElectricity": 41.2,
@@ -731,6 +736,7 @@
     "CRI": {
       "population": 5152950,
       "gdpPerCapita": 11714.7106121672,
+      "lifeExpectancy": 80.996,
       "educationExpenditure": 7.06981992721558,
       "fertilityRate": 1.318,
       "landArea": 51060,
@@ -747,6 +753,7 @@
     "CUB": {
       "population": 10937203,
       "gdpPerCapita": 7727.91997207998,
+      "lifeExpectancy": 78.264,
       "educationExpenditure": 8.44413540438793,
       "fertilityRate": 1.445,
       "literacyRate": 97.6500015258789,
@@ -762,6 +769,7 @@
     "CUW": {
       "population": 156263,
       "gdpPerCapita": 19361.8130008678,
+      "lifeExpectancy": 76.989,
       "educationExpenditure": 5.91444785594951,
       "fertilityRate": 1.4,
       "landArea": 444,
@@ -789,6 +797,7 @@
     "CYP": {
       "population": 1370754,
       "gdpPerCapita": 23088.4296875,
+      "lifeExpectancy": 81.821,
       "educationExpenditure": 5.69961977005005,
       "fertilityRate": 1.38,
       "landArea": 9240,
@@ -805,6 +814,7 @@
     "CZE": {
       "population": 10886878,
       "gdpPerCapita": 17931.5987670768,
+      "lifeExpectancy": 79.9780487804878,
       "educationExpenditure": 3.75574994087219,
       "fertilityRate": 1.36,
       "landArea": 77186.83,
@@ -821,6 +831,7 @@
     "DEU": {
       "population": 83491249,
       "gdpPerCapita": 41929.7549110722,
+      "lifeExpectancy": 80.7926829268293,
       "educationExpenditure": 4.77830982208252,
       "fertilityRate": 1.36,
       "landArea": 349390,
@@ -837,6 +848,7 @@
     "DJI": {
       "population": 1184076,
       "gdpPerCapita": 2376.12554719873,
+      "lifeExpectancy": 66.202,
       "educationExpenditure": 3.73344993591309,
       "fertilityRate": 2.618,
       "landArea": 23180,
@@ -851,6 +863,7 @@
     "DMA": {
       "population": 65871,
       "gdpPerCapita": 8282.59874702141,
+      "lifeExpectancy": 71.294,
       "educationExpenditure": 4.71605005720456,
       "fertilityRate": 1.48,
       "landArea": 750,
@@ -865,6 +878,7 @@
     "DNK": {
       "population": 6009169,
       "gdpPerCapita": 53094.0133607574,
+      "lifeExpectancy": 82.2536585365854,
       "educationExpenditure": 7.3700098991394,
       "fertilityRate": 1.47,
       "landArea": 40000,
@@ -881,6 +895,7 @@
     "DOM": {
       "population": 11520487,
       "gdpPerCapita": 6800.95309395474,
+      "lifeExpectancy": 73.868,
       "educationExpenditure": 3.92026752279272,
       "fertilityRate": 2.222,
       "literacyRate": 93.6726916249429,
@@ -914,6 +929,7 @@
     "ECU": {
       "population": 18289896,
       "gdpPerCapita": 5976.1596805651,
+      "lifeExpectancy": 77.579,
       "educationExpenditure": 4.60667733499397,
       "fertilityRate": 1.806,
       "landArea": 248360,
@@ -930,6 +946,7 @@
     "EGY": {
       "population": 118365995,
       "gdpPerCapita": 3306.98159414141,
+      "lifeExpectancy": 71.806,
       "fertilityRate": 2.735,
       "landArea": 995450,
       "renewableElectricity": 6.1,
@@ -942,6 +959,7 @@
     },
     "ERI": {
       "population": 3607003,
+      "lifeExpectancy": 68.893,
       "fertilityRate": 3.68,
       "landArea": 121178.2,
       "renewableElectricity": 80.7,
@@ -954,6 +972,7 @@
     "ESP": {
       "population": 49355143,
       "gdpPerCapita": 25982.4416197775,
+      "lifeExpectancy": 83.8878048780488,
       "educationExpenditure": 4.17846012115479,
       "fertilityRate": 1.1,
       "landArea": 499733.244,
@@ -970,6 +989,7 @@
     "EST": {
       "population": 1366475,
       "gdpPerCapita": 17722.1557669523,
+      "lifeExpectancy": 79.2951219512195,
       "educationExpenditure": 4.86288022994995,
       "fertilityRate": 1.18,
       "landArea": 42750,
@@ -986,6 +1006,7 @@
     "ETH": {
       "population": 135472051,
       "gdpPerCapita": 597.912113218663,
+      "lifeExpectancy": 67.603,
       "educationExpenditure": 5.49905076025271,
       "fertilityRate": 3.909,
       "literacyRate": 55.0499992370605,
@@ -1001,6 +1022,7 @@
     "FIN": {
       "population": 5646436,
       "gdpPerCapita": 42560.3456767103,
+      "lifeExpectancy": 82.3365853658537,
       "educationExpenditure": 6.40826988220215,
       "fertilityRate": 1.25,
       "landArea": 303947.7,
@@ -1017,6 +1039,7 @@
     "FJI": {
       "population": 933154,
       "gdpPerCapita": 5097.53106864695,
+      "lifeExpectancy": 67.463,
       "educationExpenditure": 4.65119160575452,
       "fertilityRate": 2.27,
       "landArea": 18270,
@@ -1031,6 +1054,7 @@
     "FRA": {
       "population": 68720337,
       "gdpPerCapita": 36702.4323733379,
+      "lifeExpectancy": 82.9804878048781,
       "educationExpenditure": 5.46482992172241,
       "fertilityRate": 1.61,
       "landArea": 538950,
@@ -1047,6 +1071,7 @@
     "FRO": {
       "population": 54900,
       "gdpPerCapita": 52638.2668218454,
+      "lifeExpectancy": 83.0832463414634,
       "fertilityRate": 1.9129,
       "landArea": 1370,
       "renewableElectricity": 5.1,
@@ -1058,6 +1083,7 @@
     "FSM": {
       "population": 113683,
       "gdpPerCapita": 2869.86276169101,
+      "lifeExpectancy": 67.357,
       "educationExpenditure": 12.6815821727019,
       "fertilityRate": 2.743,
       "landArea": 700,
@@ -1072,6 +1098,7 @@
     "GAB": {
       "population": 2593130,
       "gdpPerCapita": 7047.12654634355,
+      "lifeExpectancy": 68.511,
       "educationExpenditure": 3.55570801059931,
       "fertilityRate": 3.592,
       "landArea": 257670,
@@ -1086,6 +1113,7 @@
     "GBR": {
       "population": 69487000,
       "gdpPerCapita": 45256.040227057,
+      "lifeExpectancy": 81.3868536585366,
       "educationExpenditure": 5.45254993438721,
       "fertilityRate": 1.551,
       "landArea": 241930,
@@ -1102,6 +1130,7 @@
     "GEO": {
       "population": 3935766,
       "gdpPerCapita": 4086.6223465965,
+      "lifeExpectancy": 74.657,
       "educationExpenditure": 3.52442002296448,
       "fertilityRate": 1.802,
       "literacyRate": 99.8757151699707,
@@ -1119,6 +1148,7 @@
     "GHA": {
       "population": 35064272,
       "gdpPerCapita": 1722.77282833606,
+      "lifeExpectancy": 65.695,
       "educationExpenditure": 3.53362989425659,
       "fertilityRate": 3.344,
       "landArea": 227533,
@@ -1133,6 +1163,7 @@
     },
     "GIB": {
       "population": 40126,
+      "lifeExpectancy": 83.63,
       "fertilityRate": 1.885,
       "landArea": 10,
       "renewableElectricity": 0,
@@ -1143,6 +1174,7 @@
     "GIN": {
       "population": 15099727,
       "gdpPerCapita": 747.356966759448,
+      "lifeExpectancy": 60.904,
       "educationExpenditure": 2.3203399181366,
       "fertilityRate": 4.131,
       "landArea": 245720,
@@ -1158,6 +1190,7 @@
     "GMB": {
       "population": 2822093,
       "gdpPerCapita": 619.536364296461,
+      "lifeExpectancy": 66.057,
       "educationExpenditure": 2.45919445096525,
       "fertilityRate": 3.907,
       "landArea": 10120,
@@ -1172,6 +1205,7 @@
     "GNB": {
       "population": 2249515,
       "gdpPerCapita": 645.066837207039,
+      "lifeExpectancy": 64.254,
       "fertilityRate": 3.757,
       "literacyRate": 54.8800010681152,
       "landArea": 28120,
@@ -1187,6 +1221,7 @@
     "GNQ": {
       "population": 1938431,
       "gdpPerCapita": 9068.91003238645,
+      "lifeExpectancy": 63.906,
       "fertilityRate": 4.116,
       "landArea": 28050,
       "renewableElectricity": 5.2,
@@ -1200,6 +1235,7 @@
     "GRC": {
       "population": 10413962,
       "gdpPerCapita": 17980.7298238137,
+      "lifeExpectancy": 81.8390243902439,
       "educationExpenditure": 3.46778011322021,
       "fertilityRate": 1.24,
       "landArea": 128900,
@@ -1216,6 +1252,7 @@
     "GRD": {
       "population": 117303,
       "gdpPerCapita": 8694.12438005692,
+      "lifeExpectancy": 75.367,
       "educationExpenditure": 3.17379999160767,
       "fertilityRate": 1.472,
       "landArea": 340,
@@ -1231,6 +1268,7 @@
     "GRL": {
       "population": 56831,
       "gdpPerCapita": 44536.3549705377,
+      "lifeExpectancy": 70.2734146341463,
       "fertilityRate": 1.706,
       "landArea": 410450,
       "renewableElectricity": 11.6,
@@ -1242,6 +1280,7 @@
     "GTM": {
       "population": 18687881,
       "gdpPerCapita": 3893.50533299068,
+      "lifeExpectancy": 72.746,
       "educationExpenditure": 2.95009994506836,
       "fertilityRate": 2.287,
       "landArea": 107160,
@@ -1257,6 +1296,7 @@
     "GUM": {
       "population": 168999,
       "gdpPerCapita": 35165.7014644795,
+      "lifeExpectancy": 77.422,
       "fertilityRate": 2.748,
       "landArea": 540,
       "renewableElectricity": 4.5,
@@ -1270,6 +1310,7 @@
     "GUY": {
       "population": 835986,
       "gdpPerCapita": 5640.41560569466,
+      "lifeExpectancy": 70.319,
       "educationExpenditure": 4.6647801399231,
       "fertilityRate": 2.395,
       "landArea": 211140,
@@ -1285,6 +1326,7 @@
     "HKG": {
       "population": 7498900,
       "gdpPerCapita": 42432.1619740441,
+      "lifeExpectancy": 85.3926829268293,
       "educationExpenditure": 3.30989003181458,
       "fertilityRate": 0.841,
       "landArea": 1050,
@@ -1300,6 +1342,7 @@
     "HND": {
       "population": 11005850,
       "gdpPerCapita": 2271.20265980349,
+      "lifeExpectancy": 73.044,
       "educationExpenditure": 5.74434396129576,
       "fertilityRate": 2.476,
       "literacyRate": 88.5100021362305,
@@ -1317,6 +1360,7 @@
     "HRV": {
       "population": 3876200,
       "gdpPerCapita": 12283.8750299177,
+      "lifeExpectancy": 78.9292682926829,
       "educationExpenditure": 3.87207007408142,
       "fertilityRate": 1.46,
       "landArea": 55960,
@@ -1333,6 +1377,7 @@
     "HTI": {
       "population": 11906095,
       "gdpPerCapita": 1411.12684746796,
+      "lifeExpectancy": 65.119,
       "educationExpenditure": 1.49846994876862,
       "fertilityRate": 2.625,
       "landArea": 27560,
@@ -1347,6 +1392,7 @@
     "HUN": {
       "population": 9514251,
       "gdpPerCapita": 12782.9412577973,
+      "lifeExpectancy": 76.7243902439025,
       "educationExpenditure": 4.64034986495972,
       "fertilityRate": 1.41,
       "landArea": 91260,
@@ -1362,6 +1408,7 @@
     "IDN": {
       "population": 285721236,
       "gdpPerCapita": 3288.22269725538,
+      "lifeExpectancy": 71.288,
       "educationExpenditure": 1.05324382490056,
       "fertilityRate": 2.115,
       "landArea": 1892555.47,
@@ -1377,6 +1424,7 @@
     "IMN": {
       "population": 84118,
       "gdpPerCapita": 84753.5187422732,
+      "lifeExpectancy": 81.091,
       "fertilityRate": 1.544,
       "landArea": 570,
       "renewableElectricity": 3.2,
@@ -1388,6 +1436,7 @@
     "IND": {
       "population": 1463865525,
       "gdpPerCapita": 1583.99815907985,
+      "lifeExpectancy": 72.235,
       "educationExpenditure": 4.30543994903565,
       "fertilityRate": 1.962,
       "literacyRate": 74.8938629973395,
@@ -1404,6 +1453,7 @@
     "IRL": {
       "population": 5484367,
       "gdpPerCapita": 64250.1385181257,
+      "lifeExpectancy": 83.009756097561,
       "educationExpenditure": 3.37737011909485,
       "fertilityRate": 1.47,
       "landArea": 68890,
@@ -1420,6 +1470,7 @@
     "IRN": {
       "population": 92417681,
       "gdpPerCapita": 4952.73355532178,
+      "lifeExpectancy": 77.854,
       "educationExpenditure": 3.45956993103027,
       "fertilityRate": 1.684,
       "literacyRate": 87.3788306734933,
@@ -1436,6 +1487,7 @@
     "IRQ": {
       "population": 47020774,
       "gdpPerCapita": 4440.14189252367,
+      "lifeExpectancy": 72.424,
       "fertilityRate": 3.221,
       "landArea": 434130,
       "renewableElectricity": 1.1,
@@ -1449,6 +1501,7 @@
     "ISL": {
       "population": 392404,
       "gdpPerCapita": 53505.6964079339,
+      "lifeExpectancy": 82.809756097561,
       "educationExpenditure": 7.58384990692139,
       "fertilityRate": 1.56,
       "landArea": 100830,
@@ -1465,6 +1518,7 @@
     "ISR": {
       "population": 10122800,
       "gdpPerCapita": 36138.13561386,
+      "lifeExpectancy": 83.1975609756098,
       "educationExpenditure": 6.00425004959106,
       "fertilityRate": 2.87,
       "landArea": 21640,
@@ -1481,6 +1535,7 @@
     "ITA": {
       "population": 58915656,
       "gdpPerCapita": 30639.8829751432,
+      "lifeExpectancy": 83.9512195121951,
       "educationExpenditure": 4.02662992477417,
       "fertilityRate": 1.18,
       "literacyRate": 99.3499984741211,
@@ -1498,6 +1553,7 @@
     "JAM": {
       "population": 2837077,
       "gdpPerCapita": 5339.30718256806,
+      "lifeExpectancy": 71.606,
       "educationExpenditure": 5.26015996932983,
       "fertilityRate": 1.351,
       "landArea": 10830,
@@ -1514,6 +1570,7 @@
     "JOR": {
       "population": 11520684,
       "gdpPerCapita": 4441.61896013754,
+      "lifeExpectancy": 77.981,
       "educationExpenditure": 3.21305990219116,
       "fertilityRate": 2.604,
       "landArea": 88794,
@@ -1529,6 +1586,7 @@
     "JPN": {
       "population": 123366734,
       "gdpPerCapita": 35664.6446110613,
+      "lifeExpectancy": 84.0363414634146,
       "educationExpenditure": 3.13057994842529,
       "fertilityRate": 1.15,
       "landArea": 364500,
@@ -1545,6 +1603,7 @@
     "KAZ": {
       "population": 20843754,
       "gdpPerCapita": 10196.1226255982,
+      "lifeExpectancy": 74.531,
       "educationExpenditure": 2.75081992149353,
       "fertilityRate": 2.984,
       "landArea": 2699700,
@@ -1560,6 +1619,7 @@
     "KEN": {
       "population": 57532493,
       "gdpPerCapita": 1489.11959777284,
+      "lifeExpectancy": 63.834,
       "educationExpenditure": 4.96308994293213,
       "fertilityRate": 3.167,
       "landArea": 580876.3,
@@ -1575,6 +1635,7 @@
     "KGZ": {
       "population": 7343064,
       "gdpPerCapita": 1105.65193844261,
+      "lifeExpectancy": 72.4,
       "educationExpenditure": 6.02618980407715,
       "fertilityRate": 2.6,
       "landArea": 191800,
@@ -1606,6 +1667,7 @@
     "KIR": {
       "population": 136488,
       "gdpPerCapita": 1639.85274740652,
+      "lifeExpectancy": 66.6,
       "educationExpenditure": 11.4761649484536,
       "fertilityRate": 3.124,
       "landArea": 810,
@@ -1619,6 +1681,7 @@
     "KNA": {
       "population": 46922,
       "gdpPerCapita": 20328.8003530109,
+      "lifeExpectancy": 72.281,
       "educationExpenditure": 2.77100327979144,
       "fertilityRate": 1.526,
       "landArea": 260,
@@ -1633,6 +1696,7 @@
     "KOR": {
       "population": 51684564,
       "gdpPerCapita": 30171.7906545222,
+      "lifeExpectancy": 83.6292682926829,
       "educationExpenditure": 4.10775995254517,
       "fertilityRate": 0.748,
       "landArea": 97600,
@@ -1649,6 +1713,7 @@
     "KWT": {
       "population": 4865298,
       "gdpPerCapita": 29882.2126495698,
+      "lifeExpectancy": 84.580487804878,
       "educationExpenditure": 6.35444222156987,
       "fertilityRate": 1.56,
       "landArea": 17820,
@@ -1664,6 +1729,7 @@
     "LAO": {
       "population": 7873046,
       "gdpPerCapita": 2121.01339097363,
+      "lifeExpectancy": 69.225,
       "educationExpenditure": 2.49797261414021,
       "fertilityRate": 2.397,
       "landArea": 230800,
@@ -1679,6 +1745,7 @@
     "LBN": {
       "population": 5849421,
       "gdpPerCapita": 7714.1099998804,
+      "lifeExpectancy": 77.945,
       "educationExpenditure": 2.21606844423238,
       "fertilityRate": 2.227,
       "literacyRate": 92.0099744752418,
@@ -1695,6 +1762,7 @@
     "LBR": {
       "population": 5731206,
       "gdpPerCapita": 692.590082351257,
+      "lifeExpectancy": 62.324,
       "educationExpenditure": 2.66330003738403,
       "fertilityRate": 3.864,
       "landArea": 96320,
@@ -1709,6 +1777,7 @@
     "LBY": {
       "population": 7458555,
       "gdpPerCapita": 7458.48917756374,
+      "lifeExpectancy": 71.121,
       "fertilityRate": 2.298,
       "landArea": 1759540,
       "renewableElectricity": 3.1,
@@ -1722,6 +1791,7 @@
     "LCA": {
       "population": 180149,
       "gdpPerCapita": 10334.9860823918,
+      "lifeExpectancy": 72.846,
       "educationExpenditure": 3.6273152206015,
       "fertilityRate": 1.385,
       "landArea": 610,
@@ -1737,6 +1807,7 @@
     "LIE": {
       "population": 41024,
       "gdpPerCapita": 167187.15730982,
+      "lifeExpectancy": 84.2,
       "fertilityRate": 1.37,
       "landArea": 160,
       "renewableElectricity": 53.6,
@@ -1749,9 +1820,9 @@
     "LKA": {
       "population": 21756000,
       "gdpPerCapita": 4057.71582716521,
+      "lifeExpectancy": 77.672,
       "educationExpenditure": 2.59316992759705,
       "fertilityRate": 1.952,
-      "literacyRate": 92.25,
       "landArea": 61860,
       "renewableElectricity": 48.8,
       "populationGrowth": -0.732738211545502,
@@ -1765,6 +1836,7 @@
     "LSO": {
       "population": 2363325,
       "gdpPerCapita": 1121.19851342518,
+      "lifeExpectancy": 57.798,
       "educationExpenditure": 8.1553201675415,
       "fertilityRate": 2.664,
       "literacyRate": 92.3961659464955,
@@ -1780,6 +1852,7 @@
     "LTU": {
       "population": 2888774,
       "gdpPerCapita": 14269.8039878287,
+      "lifeExpectancy": 77.1951219512195,
       "educationExpenditure": 3.81236004829407,
       "fertilityRate": 1.11,
       "landArea": 62610,
@@ -1796,6 +1869,7 @@
     "LUX": {
       "population": 686970,
       "gdpPerCapita": 105462.012584423,
+      "lifeExpectancy": 83.1951219512195,
       "educationExpenditure": 3.48645997047424,
       "fertilityRate": 1.25,
       "landArea": 2574.46,
@@ -1812,6 +1886,7 @@
     "LVA": {
       "population": 1847785,
       "gdpPerCapita": 13321.9753140616,
+      "lifeExpectancy": 76.4292682926829,
       "educationExpenditure": 4.52905988693237,
       "fertilityRate": 1.24,
       "landArea": 62230,
@@ -1828,6 +1903,7 @@
     "MAC": {
       "population": 685900,
       "gdpPerCapita": 69902.9605741233,
+      "lifeExpectancy": 83.3317073170732,
       "educationExpenditure": 2.70949006080627,
       "fertilityRate": 0.582,
       "landArea": 33,
@@ -1842,6 +1918,7 @@
     },
     "MAF": {
       "population": 24941,
+      "lifeExpectancy": 80.438,
       "fertilityRate": 2.673,
       "landArea": 50,
       "populationGrowth": -4.65327729336626,
@@ -1851,6 +1928,7 @@
     "MAR": {
       "population": 38430770,
       "gdpPerCapita": 3146.24780273438,
+      "lifeExpectancy": 75.493,
       "educationExpenditure": 4.73564982004448,
       "fertilityRate": 2.208,
       "landArea": 446300,
@@ -1866,6 +1944,7 @@
     "MCO": {
       "population": 38341,
       "gdpPerCapita": 170437.021128628,
+      "lifeExpectancy": 86.497,
       "educationExpenditure": 1.45816004276276,
       "fertilityRate": 2.102,
       "landArea": 2.084,
@@ -1877,6 +1956,7 @@
     "MDA": {
       "population": 2360527,
       "gdpPerCapita": 2749.55137054338,
+      "lifeExpectancy": 71.332,
       "educationExpenditure": 5.71017980575562,
       "fertilityRate": 1.726,
       "landArea": 32890,
@@ -1893,6 +1973,7 @@
     "MDG": {
       "population": 32740678,
       "gdpPerCapita": 445.320069480568,
+      "lifeExpectancy": 63.835,
       "educationExpenditure": 2.70137416707567,
       "fertilityRate": 3.912,
       "landArea": 581800,
@@ -1907,6 +1988,7 @@
     "MDV": {
       "population": 529676,
       "gdpPerCapita": 9644.90655028145,
+      "lifeExpectancy": 81.285,
       "educationExpenditure": 3.82268559882407,
       "fertilityRate": 1.56,
       "literacyRate": 98.2099990844727,
@@ -1923,6 +2005,7 @@
     "MEX": {
       "population": 131946900,
       "gdpPerCapita": 10021.2386113616,
+      "lifeExpectancy": 75.264,
       "educationExpenditure": 4.39752006530762,
       "fertilityRate": 1.892,
       "literacyRate": 95.3889403219417,
@@ -1940,6 +2023,7 @@
     "MHL": {
       "population": 36282,
       "gdpPerCapita": 3764.34426229508,
+      "lifeExpectancy": 67.075,
       "fertilityRate": 2.864,
       "literacyRate": 98.1800003051758,
       "landArea": 180,
@@ -1952,6 +2036,7 @@
     "MKD": {
       "population": 1820909,
       "gdpPerCapita": 5262.68671928674,
+      "lifeExpectancy": 76.6165853658537,
       "fertilityRate": 1.4,
       "landArea": 25220,
       "renewableElectricity": 19.5,
@@ -1967,6 +2052,7 @@
     "MLI": {
       "population": 25198821,
       "gdpPerCapita": 838.11986940103,
+      "lifeExpectancy": 60.675,
       "educationExpenditure": 3.18063998222351,
       "fertilityRate": 5.51,
       "landArea": 1220190,
@@ -1982,6 +2068,7 @@
     "MLT": {
       "population": 579704,
       "gdpPerCapita": 25529.6693210673,
+      "lifeExpectancy": 82.9560975609756,
       "educationExpenditure": 4.34281015396118,
       "fertilityRate": 1.01,
       "landArea": 320,
@@ -1998,9 +2085,9 @@
     "MMR": {
       "population": 54850648,
       "gdpPerCapita": 1166.73305546337,
+      "lifeExpectancy": 67.095,
       "educationExpenditure": 2.16652989387512,
       "fertilityRate": 2.098,
-      "literacyRate": 89.0699996948242,
       "landArea": 652670,
       "renewableElectricity": 62.9,
       "populationGrowth": 0.641162929716532,
@@ -2014,6 +2101,7 @@
     "MNE": {
       "population": 623129,
       "gdpPerCapita": 6421.00005731419,
+      "lifeExpectancy": 77.890243902439,
       "fertilityRate": 1.8,
       "landArea": 13450,
       "renewableElectricity": 39.6,
@@ -2029,6 +2117,7 @@
     "MNG": {
       "population": 3568978,
       "gdpPerCapita": 3838.92126989984,
+      "lifeExpectancy": 72.3980487804878,
       "educationExpenditure": 4.06898021697998,
       "fertilityRate": 2.5,
       "literacyRate": 98.4599990844727,
@@ -2046,6 +2135,7 @@
     "MNP": {
       "population": 43541,
       "gdpPerCapita": 17665.1007493109,
+      "lifeExpectancy": 78.947,
       "fertilityRate": 2.324,
       "landArea": 460,
       "renewableElectricity": 0.5,
@@ -2056,6 +2146,7 @@
     "MOZ": {
       "population": 35631653,
       "gdpPerCapita": 610.563774706589,
+      "lifeExpectancy": 63.797,
       "educationExpenditure": 5.48664999008179,
       "fertilityRate": 4.69,
       "landArea": 786380,
@@ -2070,6 +2161,7 @@
     "MRT": {
       "population": 5315065,
       "gdpPerCapita": 1558.84205473416,
+      "lifeExpectancy": 68.713,
       "fertilityRate": 4.625,
       "landArea": 1030700,
       "renewableElectricity": 22.1,
@@ -2084,6 +2176,7 @@
     "MUS": {
       "population": 1243741,
       "gdpPerCapita": 9630.5437837507,
+      "lifeExpectancy": 73.7890243902439,
       "educationExpenditure": 4.87887001037598,
       "fertilityRate": 1.44,
       "landArea": 1997,
@@ -2099,6 +2192,7 @@
     "MWI": {
       "population": 22216120,
       "gdpPerCapita": 539.605363240686,
+      "lifeExpectancy": 67.561,
       "educationExpenditure": 2.76899003982544,
       "fertilityRate": 3.59,
       "landArea": 94280,
@@ -2113,6 +2207,7 @@
     "MYS": {
       "population": 35977838,
       "gdpPerCapita": 9648.6797937523,
+      "lifeExpectancy": 76.821,
       "educationExpenditure": 4.6753101348877,
       "fertilityRate": 1.543,
       "literacyRate": 94.9700012207031,
@@ -2130,6 +2225,7 @@
     "NAM": {
       "population": 3092816,
       "gdpPerCapita": 4774.10650865775,
+      "lifeExpectancy": 67.516,
       "educationExpenditure": 1.39524534605831,
       "fertilityRate": 3.211,
       "landArea": 823290,
@@ -2145,6 +2241,7 @@
     "NCL": {
       "population": 295333,
       "gdpPerCapita": 30858.7237060533,
+      "lifeExpectancy": 78.921,
       "fertilityRate": 1.964,
       "landArea": 18280,
       "renewableElectricity": 8.3,
@@ -2158,6 +2255,7 @@
     "NER": {
       "population": 27917831,
       "gdpPerCapita": 485.662574175279,
+      "lifeExpectancy": 61.433,
       "educationExpenditure": 2.57818007469177,
       "fertilityRate": 5.935,
       "landArea": 1266700,
@@ -2173,6 +2271,7 @@
     "NGA": {
       "population": 237527782,
       "gdpPerCapita": 2585.73360671797,
+      "lifeExpectancy": 54.635,
       "educationExpenditure": 0.396354013591345,
       "fertilityRate": 4.382,
       "landArea": 910770,
@@ -2189,6 +2288,7 @@
     "NIC": {
       "population": 7007502,
       "gdpPerCapita": 2074.45620634731,
+      "lifeExpectancy": 75.1,
       "educationExpenditure": 4.35768985748291,
       "fertilityRate": 2.206,
       "landArea": 120340,
@@ -2204,6 +2304,7 @@
     "NLD": {
       "population": 18087633,
       "gdpPerCapita": 45793.8135434697,
+      "lifeExpectancy": 81.9658536585366,
       "educationExpenditure": 5.08747005462646,
       "fertilityRate": 1.43,
       "landArea": 33670,
@@ -2220,6 +2321,7 @@
     "NOR": {
       "population": 5610870,
       "gdpPerCapita": 77220.9524311414,
+      "lifeExpectancy": 83.1609756097561,
       "educationExpenditure": 7.84599018096924,
       "fertilityRate": 1.45,
       "landArea": 364270,
@@ -2236,9 +2338,9 @@
     "NPL": {
       "population": 29618118,
       "gdpPerCapita": 875.543635474862,
+      "lifeExpectancy": 70.636,
       "educationExpenditure": 4.76723003387451,
       "fertilityRate": 1.961,
-      "literacyRate": 68.7099990844727,
       "landArea": 143350,
       "renewableElectricity": 73.7,
       "populationGrowth": -0.111140420150509,
@@ -2252,6 +2354,7 @@
     "NRU": {
       "population": 12025,
       "gdpPerCapita": 7747.25584993607,
+      "lifeExpectancy": 62.279,
       "educationExpenditure": 6.27397517241379,
       "fertilityRate": 3.29,
       "landArea": 20,
@@ -2264,6 +2367,7 @@
     "NZL": {
       "population": 5324700,
       "gdpPerCapita": 38648.7302562109,
+      "lifeExpectancy": 82.009756097561,
       "educationExpenditure": 5.27543020248413,
       "fertilityRate": 1.57,
       "landArea": 263310,
@@ -2279,6 +2383,7 @@
     "OMN": {
       "population": 5494691,
       "gdpPerCapita": 18808.3077921839,
+      "lifeExpectancy": 80.246,
       "educationExpenditure": 5.99594020843506,
       "fertilityRate": 2.508,
       "landArea": 309500,
@@ -2294,9 +2399,9 @@
     "PAK": {
       "population": 255219554,
       "gdpPerCapita": 1380.47020838317,
+      "lifeExpectancy": 67.799,
       "educationExpenditure": 2.57617998123169,
       "fertilityRate": 3.547,
-      "literacyRate": 58,
       "landArea": 770880,
       "renewableElectricity": 41.6,
       "populationGrowth": 1.55994397009632,
@@ -2311,9 +2416,9 @@
     "PAN": {
       "population": 4571189,
       "gdpPerCapita": 14082.6548502728,
+      "lifeExpectancy": 79.775,
       "educationExpenditure": 3.37834000587463,
       "fertilityRate": 2.106,
-      "literacyRate": 95.7399978637695,
       "landArea": 74180,
       "renewableElectricity": 28,
       "populationGrowth": 1.22403711826792,
@@ -2328,6 +2433,7 @@
     "PER": {
       "population": 34576665,
       "gdpPerCapita": 6231.71150338894,
+      "lifeExpectancy": 77.941,
       "educationExpenditure": 3.93130993843079,
       "fertilityRate": 1.965,
       "landArea": 1280000,
@@ -2344,9 +2450,9 @@
     "PHL": {
       "population": 116786962,
       "gdpPerCapita": 2909.85818010301,
+      "lifeExpectancy": 69.946,
       "educationExpenditure": 3.96384087403915,
       "fertilityRate": 1.894,
-      "literacyRate": 96.2799987792969,
       "landArea": 298170,
       "renewableElectricity": 28,
       "populationGrowth": 0.810982768568445,
@@ -2361,6 +2467,7 @@
     "PLW": {
       "population": 17663,
       "gdpPerCapita": 15938.3652222848,
+      "lifeExpectancy": 69.383,
       "fertilityRate": 1.883,
       "landArea": 460,
       "renewableElectricity": 0.9,
@@ -2373,6 +2480,7 @@
     "PNG": {
       "population": 10762817,
       "gdpPerCapita": 2484.5963398603,
+      "lifeExpectancy": 66.256,
       "educationExpenditure": 1.96493005752563,
       "fertilityRate": 3.072,
       "landArea": 452860,
@@ -2387,6 +2495,7 @@
     "POL": {
       "population": 36435861,
       "gdpPerCapita": 12637.5220324406,
+      "lifeExpectancy": 78.409756097561,
       "educationExpenditure": 4.54246997833252,
       "fertilityRate": 1.14,
       "landArea": 306100,
@@ -2403,6 +2512,7 @@
     "PRI": {
       "population": 3184835,
       "gdpPerCapita": 29242.041465085,
+      "lifeExpectancy": 81.902,
       "educationExpenditure": 2.72538873126429,
       "fertilityRate": 0.92,
       "landArea": 8870,
@@ -2416,6 +2526,7 @@
     },
     "PRK": {
       "population": 26571036,
+      "lifeExpectancy": 73.743,
       "fertilityRate": 1.784,
       "landArea": 120410,
       "renewableElectricity": 14.7,
@@ -2428,6 +2539,7 @@
     "PRT": {
       "population": 10804871,
       "gdpPerCapita": 19215.7813014347,
+      "lifeExpectancy": 82.3829268292683,
       "educationExpenditure": 5.02685022354126,
       "fertilityRate": 1.41,
       "landArea": 91605.6,
@@ -2444,9 +2556,9 @@
     "PRY": {
       "population": 7013078,
       "gdpPerCapita": 5879.33792308671,
+      "lifeExpectancy": 73.982,
       "educationExpenditure": 3.09062070242279,
       "fertilityRate": 2.416,
-      "literacyRate": 93.2099990844727,
       "landArea": 397300,
       "renewableElectricity": 58.8,
       "populationGrowth": 1.20391081847026,
@@ -2461,9 +2573,9 @@
     "PSE": {
       "population": 5413596,
       "gdpPerCapita": 3272.15432360708,
+      "lifeExpectancy": 69.213,
       "educationExpenditure": 4.72153997421265,
       "fertilityRate": 3.25,
-      "literacyRate": 97.379997253418,
       "landArea": 6025,
       "renewableElectricity": 15.4,
       "populationGrowth": 2.32556364928187,
@@ -2477,6 +2589,7 @@
     "PYF": {
       "population": 282465,
       "gdpPerCapita": 19166.9594761931,
+      "lifeExpectancy": 84.192,
       "fertilityRate": 1.491,
       "landArea": 3471,
       "renewableElectricity": 7.4,
@@ -2489,6 +2602,7 @@
     "QAT": {
       "population": 2972215,
       "gdpPerCapita": 68985.2946961507,
+      "lifeExpectancy": 82.522,
       "educationExpenditure": 2.96745991706848,
       "fertilityRate": 1.717,
       "landArea": 11490,
@@ -2504,6 +2618,7 @@
     "ROU": {
       "population": 19020271,
       "gdpPerCapita": 8977.01748158196,
+      "lifeExpectancy": 76.4585365853659,
       "educationExpenditure": 3.11819005012512,
       "fertilityRate": 1.39,
       "landArea": 230080,
@@ -2520,6 +2635,7 @@
     "RUS": {
       "population": 143513328,
       "gdpPerCapita": 9277.7138671875,
+      "lifeExpectancy": 73.4404878048781,
       "educationExpenditure": 4.68990993499756,
       "fertilityRate": 1.418,
       "landArea": 16376870,
@@ -2536,6 +2652,7 @@
     "RWA": {
       "population": 14569341,
       "gdpPerCapita": 725.691418696952,
+      "lifeExpectancy": 68.017,
       "educationExpenditure": 3.1247398853302,
       "fertilityRate": 3.645,
       "landArea": 24670,
@@ -2551,6 +2668,7 @@
     "SAU": {
       "population": 36973555,
       "gdpPerCapita": 23256.1549553531,
+      "lifeExpectancy": 78.982,
       "fertilityRate": 2.308,
       "landArea": 2149690,
       "renewableElectricity": 0.1,
@@ -2565,6 +2683,7 @@
     "SDN": {
       "population": 51662147,
       "gdpPerCapita": 1292.37963867188,
+      "lifeExpectancy": 66.521,
       "fertilityRate": 4.264,
       "landArea": 1868000,
       "renewableElectricity": 61,
@@ -2578,9 +2697,9 @@
     "SEN": {
       "population": 18931966,
       "gdpPerCapita": 1218.00613555438,
+      "lifeExpectancy": 68.924,
       "educationExpenditure": 4.74007987976074,
       "fertilityRate": 3.765,
-      "literacyRate": 46.8300018310547,
       "landArea": 192530,
       "renewableElectricity": 35.4,
       "populationGrowth": 2.29738465638923,
@@ -2594,9 +2713,9 @@
     "SGP": {
       "population": 6111175,
       "gdpPerCapita": 55645.6068614606,
+      "lifeExpectancy": 83.3463414634146,
       "educationExpenditure": 2.87916382421742,
       "fertilityRate": 0.97,
-      "literacyRate": 97.4800033569336,
       "landArea": 718,
       "renewableElectricity": 1.1,
       "populationGrowth": 1.22350531679895,
@@ -2610,6 +2729,7 @@
     "SLB": {
       "population": 838645,
       "gdpPerCapita": 2045.47721526649,
+      "lifeExpectancy": 70.694,
       "fertilityRate": 3.513,
       "landArea": 27990,
       "renewableElectricity": 49.1,
@@ -2623,9 +2743,9 @@
     "SLE": {
       "population": 8819794,
       "gdpPerCapita": 964.575980888989,
+      "lifeExpectancy": 61.964,
       "educationExpenditure": 3.0150101184845,
       "fertilityRate": 3.703,
-      "literacyRate": 43.5800018310547,
       "landArea": 72180,
       "renewableElectricity": 71.1,
       "populationGrowth": 2.03619305233604,
@@ -2639,6 +2759,7 @@
     "SLV": {
       "population": 6365503,
       "gdpPerCapita": 3790.34089108162,
+      "lifeExpectancy": 72.302,
       "educationExpenditure": 3.7252299785614,
       "fertilityRate": 1.768,
       "literacyRate": 89.1399993896484,
@@ -2656,6 +2777,7 @@
     "SMR": {
       "population": 34109,
       "gdpPerCapita": 43146.8035302005,
+      "lifeExpectancy": 85.817,
       "educationExpenditure": 3.36997008323669,
       "fertilityRate": 1.158,
       "landArea": 60,
@@ -2668,8 +2790,8 @@
     "SOM": {
       "population": 19654739,
       "gdpPerCapita": 445.583080073396,
+      "lifeExpectancy": 58.967,
       "fertilityRate": 6.013,
-      "literacyRate": 63.6579378279423,
       "landArea": 627340,
       "renewableElectricity": 95.4,
       "populationGrowth": 3.3397984923678,
@@ -2681,9 +2803,9 @@
     "SRB": {
       "population": 6549143,
       "gdpPerCapita": 5820.3215576888,
+      "lifeExpectancy": 75.9682926829268,
       "educationExpenditure": 3.56539011001587,
       "fertilityRate": 1.64,
-      "literacyRate": 99.4800033569336,
       "landArea": 84090,
       "renewableElectricity": 27.2,
       "populationGrowth": -0.56842544719633,
@@ -2698,6 +2820,7 @@
     "SSD": {
       "population": 12188788,
       "gdpPerCapita": 1080.14718624765,
+      "lifeExpectancy": 57.738,
       "fertilityRate": 3.785,
       "landArea": 631930,
       "renewableElectricity": 32.4,
@@ -2711,9 +2834,9 @@
     "STP": {
       "population": 240254,
       "gdpPerCapita": 1298.10946596396,
+      "lifeExpectancy": 69.905,
       "educationExpenditure": 5.87489986419678,
       "fertilityRate": 3.596,
-      "literacyRate": 87.4400024414062,
       "landArea": 960,
       "renewableElectricity": 40.8,
       "populationGrowth": 1.98329290197673,
@@ -2726,6 +2849,7 @@
     "SUR": {
       "population": 639850,
       "gdpPerCapita": 8813.61705392067,
+      "lifeExpectancy": 73.757,
       "educationExpenditure": 5.45861311514349,
       "fertilityRate": 2.231,
       "landArea": 160507.61,
@@ -2741,6 +2865,7 @@
     "SVK": {
       "population": 5413813,
       "gdpPerCapita": 16442.0760860018,
+      "lifeExpectancy": 78.3707317073171,
       "educationExpenditure": 3.91876006126404,
       "fertilityRate": 1.46,
       "landArea": 48080,
@@ -2757,6 +2882,7 @@
     "SVN": {
       "population": 2130986,
       "gdpPerCapita": 20697.2748530619,
+      "lifeExpectancy": 82.2853658536585,
       "educationExpenditure": 4.82381010055542,
       "fertilityRate": 1.52,
       "landArea": 20136.4,
@@ -2773,6 +2899,7 @@
     "SWE": {
       "population": 10596620,
       "gdpPerCapita": 51188.1652120493,
+      "lifeExpectancy": 84.0634146341463,
       "educationExpenditure": 7.63849020004272,
       "fertilityRate": 1.43,
       "landArea": 407280,
@@ -2789,6 +2916,7 @@
     "SWZ": {
       "population": 1256174,
       "gdpPerCapita": 3419.82276559528,
+      "lifeExpectancy": 64.264,
       "educationExpenditure": 6.177914116856,
       "fertilityRate": 2.718,
       "landArea": 17200,
@@ -2803,6 +2931,7 @@
     "SXM": {
       "population": 43923,
       "gdpPerCapita": 37839.6283815163,
+      "lifeExpectancy": 76.528,
       "fertilityRate": 1.44,
       "landArea": 34,
       "renewableElectricity": 0,
@@ -2814,6 +2943,7 @@
     "SYC": {
       "population": 122730,
       "gdpPerCapita": 15333.1051727105,
+      "lifeExpectancy": 76.2951219512195,
       "educationExpenditure": 3.34617325657655,
       "fertilityRate": 1.85,
       "landArea": 460,
@@ -2829,6 +2959,7 @@
     "SYR": {
       "population": 25620427,
       "gdpPerCapita": 847.731545352582,
+      "lifeExpectancy": 72.56,
       "fertilityRate": 2.7,
       "landArea": 183630,
       "renewableElectricity": 1.1,
@@ -2842,6 +2973,7 @@
     "TCA": {
       "population": 46855,
       "gdpPerCapita": 29457.0140691162,
+      "lifeExpectancy": 78.181,
       "educationExpenditure": 2.47278207606746,
       "fertilityRate": 1.452,
       "landArea": 950,
@@ -2871,9 +3003,9 @@
     "TGO": {
       "population": 8591626,
       "gdpPerCapita": 813.894676975085,
+      "lifeExpectancy": 62.935,
       "educationExpenditure": 3.76526999473572,
       "fertilityRate": 4.121673,
-      "literacyRate": 66.5400009155273,
       "landArea": 54390,
       "renewableElectricity": 75.1,
       "populationGrowth": 2.17758924189303,
@@ -2887,9 +3019,9 @@
     "THA": {
       "population": 71619863,
       "gdpPerCapita": 5688.85335397884,
+      "lifeExpectancy": 76.564,
       "educationExpenditure": 3.46532147640365,
       "fertilityRate": 1.204,
-      "literacyRate": 91.2699966430664,
       "landArea": 510890,
       "renewableElectricity": 19,
       "populationGrowth": -0.0672045728198196,
@@ -2903,6 +3035,7 @@
     "TJK": {
       "population": 10786734,
       "gdpPerCapita": 956.916310930656,
+      "lifeExpectancy": 71.927,
       "educationExpenditure": 5.54471764262202,
       "fertilityRate": 3.036,
       "landArea": 138790,
@@ -2917,6 +3050,7 @@
     "TKM": {
       "population": 7618847,
       "gdpPerCapita": 5759.497903834,
+      "lifeExpectancy": 70.201,
       "fertilityRate": 2.661,
       "landArea": 469930,
       "renewableElectricity": 0.1,
@@ -2929,6 +3063,7 @@
     "TLS": {
       "population": 1418517,
       "gdpPerCapita": 1319.59297370991,
+      "lifeExpectancy": 67.904,
       "educationExpenditure": 7.17093992233276,
       "fertilityRate": 2.627,
       "landArea": 14870,
@@ -2943,9 +3078,9 @@
     "TON": {
       "population": 103742,
       "gdpPerCapita": 4123.90347238813,
+      "lifeExpectancy": 73.07,
       "educationExpenditure": 4.63626808288478,
       "fertilityRate": 3.1,
-      "literacyRate": 91.0500030517578,
       "landArea": 720,
       "renewableElectricity": 1.8,
       "populationGrowth": -0.416512960445247,
@@ -2959,6 +3094,7 @@
     "TTO": {
       "population": 1367764,
       "gdpPerCapita": 19887.2327716498,
+      "lifeExpectancy": 73.617,
       "educationExpenditure": 3.3293687903123,
       "fertilityRate": 1.536,
       "landArea": 5130,
@@ -2974,8 +3110,8 @@
     "TUN": {
       "population": 12348573,
       "gdpPerCapita": 4014.94773686432,
+      "lifeExpectancy": 76.711,
       "fertilityRate": 1.818,
-      "literacyRate": 80.5500030517578,
       "landArea": 155360,
       "renewableElectricity": 11.6,
       "populationGrowth": 0.580403828948731,
@@ -2989,9 +3125,9 @@
     "TUR": {
       "population": 85878556,
       "gdpPerCapita": 11064.6494504662,
+      "lifeExpectancy": 77.421,
       "educationExpenditure": 4.32369995117188,
       "fertilityRate": 1.48,
-      "literacyRate": 96.7399978637695,
       "landArea": 769630,
       "renewableElectricity": 12,
       "populationGrowth": 0.419954927193433,
@@ -3006,6 +3142,7 @@
     "TUV": {
       "population": 9492,
       "gdpPerCapita": 3352.66722400181,
+      "lifeExpectancy": 67.259,
       "fertilityRate": 3.174,
       "landArea": 30,
       "renewableElectricity": 5,
@@ -3017,6 +3154,7 @@
     "TZA": {
       "population": 70545865,
       "gdpPerCapita": 939.127319335938,
+      "lifeExpectancy": 67.212,
       "educationExpenditure": 4.43052005767822,
       "fertilityRate": 4.541,
       "landArea": 885800,
@@ -3033,6 +3171,7 @@
     "UGA": {
       "population": 51384894,
       "gdpPerCapita": 862.934610355811,
+      "lifeExpectancy": 68.487,
       "educationExpenditure": 2.25362992286682,
       "fertilityRate": 4.165,
       "landArea": 200520,
@@ -3048,6 +3187,7 @@
     "UKR": {
       "population": 38980376,
       "gdpPerCapita": 2094.47387695313,
+      "lifeExpectancy": 74.692,
       "educationExpenditure": 5.41706991195679,
       "fertilityRate": 0.988,
       "landArea": 579400,
@@ -3064,9 +3204,9 @@
     "URY": {
       "population": 3384688,
       "gdpPerCapita": 17125.9016800298,
+      "lifeExpectancy": 78.287,
       "educationExpenditure": 4.41787004470825,
       "fertilityRate": 1.397,
-      "literacyRate": 98.7699966430664,
       "landArea": 175020,
       "renewableElectricity": 57.8,
       "populationGrowth": -0.0561194093953689,
@@ -3081,6 +3221,7 @@
     "USA": {
       "population": 341784857,
       "gdpPerCapita": 56849.4697923159,
+      "lifeExpectancy": 78.890243902439,
       "educationExpenditure": 5.09296989440918,
       "fertilityRate": 1.6265,
       "landArea": 9147420,
@@ -3097,9 +3238,9 @@
     "UZB": {
       "population": 37053428,
       "gdpPerCapita": 3172.89899391083,
+      "lifeExpectancy": 72.528,
       "educationExpenditure": 4.48249006271362,
       "fertilityRate": 3.486,
-      "literacyRate": 100,
       "landArea": 440653,
       "renewableElectricity": 1,
       "populationGrowth": 1.88404754637167,
@@ -3113,6 +3254,7 @@
     "VCT": {
       "population": 99924,
       "gdpPerCapita": 7353.73556054184,
+      "lifeExpectancy": 71.382,
       "educationExpenditure": 5.37974977493286,
       "fertilityRate": 1.761,
       "landArea": 390,
@@ -3128,6 +3270,7 @@
     "VEN": {
       "population": 28516896,
       "gdpPerCapita": 4096.61989137473,
+      "lifeExpectancy": 72.673,
       "fertilityRate": 2.077,
       "landArea": 882050,
       "renewableElectricity": 33.7,
@@ -3153,6 +3296,7 @@
     "VIR": {
       "population": 103792,
       "gdpPerCapita": 34007.3529411765,
+      "lifeExpectancy": 80.7707317073171,
       "fertilityRate": 1.97,
       "landArea": 350,
       "renewableElectricity": 5.9,
@@ -3165,9 +3309,9 @@
     "VNM": {
       "population": 101598527,
       "gdpPerCapita": 2577.56885340113,
+      "lifeExpectancy": 74.736,
       "educationExpenditure": 3.41865686539527,
       "fertilityRate": 1.895,
-      "literacyRate": 95.75,
       "landArea": 313429,
       "renewableElectricity": 24.2,
       "populationGrowth": 0.603044839155161,
@@ -3181,9 +3325,9 @@
     "VUT": {
       "population": 335169,
       "gdpPerCapita": 3214.41948587141,
+      "lifeExpectancy": 71.654,
       "educationExpenditure": 4.53353023529053,
       "fertilityRate": 3.569,
-      "literacyRate": 92.4744486976738,
       "landArea": 12190,
       "renewableElectricity": 24.6,
       "populationGrowth": 2.23013831174813,
@@ -3197,9 +3341,9 @@
     "WSM": {
       "population": 219306,
       "gdpPerCapita": 4084.36083819933,
+      "lifeExpectancy": 71.826,
       "educationExpenditure": 4.18871569584785,
       "fertilityRate": 3.801,
-      "literacyRate": 97.9899978637695,
       "landArea": 2780,
       "renewableElectricity": 36,
       "populationGrowth": 0.58857998761608,
@@ -3212,6 +3356,7 @@
     "XKX": {
       "population": 1576876,
       "gdpPerCapita": 3520.62685324451,
+      "lifeExpectancy": 78.222,
       "fertilityRate": 1.538,
       "populationGrowth": -1.10223367296906,
       "inflation": 0.273169431045468,
@@ -3224,6 +3369,7 @@
     "YEM": {
       "population": 41773878,
       "gdpPerCapita": 1362.1738120601,
+      "lifeExpectancy": 69.439,
       "fertilityRate": 4.499,
       "landArea": 527970,
       "renewableElectricity": 3.7,
@@ -3236,9 +3382,9 @@
     "ZAF": {
       "population": 64747319,
       "gdpPerCapita": 6112.27382485974,
+      "lifeExpectancy": 66.312,
       "educationExpenditure": 5.59868001937866,
       "fertilityRate": 2.205,
-      "literacyRate": 95.0199966430664,
       "landArea": 1213090,
       "renewableElectricity": 9.7,
       "populationGrowth": 1.14969203871645,
@@ -3252,6 +3398,7 @@
     "ZMB": {
       "population": 21913874,
       "gdpPerCapita": 1295.87788680068,
+      "lifeExpectancy": 66.528,
       "educationExpenditure": 3.72964000701904,
       "fertilityRate": 4.036,
       "landArea": 743390,
@@ -3266,8 +3413,8 @@
     "ZWE": {
       "population": 16950795,
       "gdpPerCapita": 1387.12632595026,
+      "lifeExpectancy": 63.064,
       "fertilityRate": 3.674,
-      "literacyRate": 93.2300033569336,
       "landArea": 386850,
       "renewableElectricity": 82.4,
       "populationGrowth": 1.88435182354047,
