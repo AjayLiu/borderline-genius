@@ -7,18 +7,18 @@
     "educationExpenditure": 2017,
     "fertilityRate": 2024,
     "literacyRate": 2019,
-    "landArea": 2021,
+    "landArea": null,
     "renewableElectricity": 2021,
-    "populationGrowth": null,
+    "populationGrowth": 2025,
     "unemploymentRate": 2021,
-    "inflation": 2016,
-    "netMigration": 2025,
+    "inflation": 2019,
+    "netMigration": null,
     "deathRate": 2024,
     "diabetesPrevalence": 2024,
     "giniIndex": 2018,
-    "intentionalHomicides": 2019
+    "intentionalHomicides": null
   },
-  "generatedAt": "2026-08-09T01:12:20.131Z",
+  "generatedAt": "2026-08-16T01:10:43.267Z",
   "indicators": [
     "population",
     "gdpPerCapita",
@@ -44,10 +44,9 @@
       "lifeExpectancy": 76.5,
       "educationExpenditure": 4.45581996127504,
       "fertilityRate": 1.606,
-      "landArea": 180,
       "renewableElectricity": 8.8,
-      "inflation": -0.93119598707956,
-      "netMigration": 111,
+      "populationGrowth": 0.728852751394889,
+      "inflation": 4.25746204335427,
       "deathRate": 7.778,
       "diabetesPrevalence": 4.6
     },
@@ -57,14 +56,12 @@
       "lifeExpectancy": 66.289,
       "educationExpenditure": 4.34319019317627,
       "fertilityRate": 4.761,
-      "landArea": 652230,
       "renewableElectricity": 20,
+      "populationGrowth": 2.76719430653303,
       "unemploymentRate": 12.006,
-      "inflation": 4.38389195513915,
-      "netMigration": -74404,
+      "inflation": 2.30237251516834,
       "deathRate": 5.702,
-      "diabetesPrevalence": 11.7,
-      "intentionalHomicides": 7.16396695794585
+      "diabetesPrevalence": 11.7
     },
     "AGO": {
       "population": 39040039,
@@ -72,11 +69,10 @@
       "lifeExpectancy": 64.805,
       "educationExpenditure": 2.46687881104886,
       "fertilityRate": 5.048,
-      "landArea": 1246700,
       "renewableElectricity": 52.9,
+      "populationGrowth": 3.00100954627922,
       "unemploymentRate": 15.799,
-      "inflation": 30.6944150806719,
-      "netMigration": -3524,
+      "inflation": 17.080954143438,
       "deathRate": 6.84,
       "diabetesPrevalence": 4.9,
       "giniIndex": 51.3
@@ -87,15 +83,13 @@
       "lifeExpectancy": 79.776,
       "educationExpenditure": 3.54673004150391,
       "fertilityRate": 1.341,
-      "landArea": 27400,
       "renewableElectricity": 41.9,
+      "populationGrowth": -1.16564475393365,
       "unemploymentRate": 11.474,
-      "inflation": 1.27543168367423,
-      "netMigration": -24230,
+      "inflation": 1.41109078954242,
       "deathRate": 8.457,
       "diabetesPrevalence": 10.6,
-      "giniIndex": 30.1,
-      "intentionalHomicides": 2.25302550996799
+      "giniIndex": 30.1
     },
     "AND": {
       "population": 82904,
@@ -103,9 +97,8 @@
       "lifeExpectancy": 84.188,
       "educationExpenditure": 3.21708989143372,
       "fertilityRate": 1.087,
-      "landArea": 470,
       "renewableElectricity": 18.4,
-      "netMigration": 843,
+      "populationGrowth": 1.17204481645642,
       "deathRate": 6.139,
       "diabetesPrevalence": 10.1
     },
@@ -113,15 +106,11 @@
       "population": 11513149,
       "gdpPerCapita": 44910.3458860776,
       "lifeExpectancy": 83.069,
-      "fertilityRate": 1.213,
-      "landArea": 71020,
+      "literacyRate": 97.7799987792969,
       "renewableElectricity": 1,
+      "populationGrowth": 4.68316292656212,
       "unemploymentRate": 3.105,
-      "inflation": 1.61748808904198,
-      "deathRate": 0.972,
-      "diabetesPrevalence": 20.7,
-      "giniIndex": 26.4,
-      "intentionalHomicides": 0.68245938100401
+      "giniIndex": 26.4
     },
     "ARG": {
       "population": 45851378,
@@ -129,14 +118,13 @@
       "lifeExpectancy": 77.543,
       "educationExpenditure": 5.45432996749878,
       "fertilityRate": 1.504,
-      "landArea": 2736690,
       "renewableElectricity": 9.2,
+      "populationGrowth": 0.339100654860035,
       "unemploymentRate": 8.736,
-      "netMigration": 2859,
+      "inflation": 53.5483043492339,
       "deathRate": 7.732,
       "diabetesPrevalence": 14,
-      "giniIndex": 41.7,
-      "intentionalHomicides": 5.13191495105041
+      "giniIndex": 41.7
     },
     "ARM": {
       "population": 3086700,
@@ -145,24 +133,21 @@
       "educationExpenditure": 2.70759010314941,
       "fertilityRate": 1.7,
       "literacyRate": 100,
-      "landArea": 28197.09,
       "renewableElectricity": 9.1,
+      "populationGrowth": 1.73854906675217,
       "unemploymentRate": 15.469,
-      "inflation": -1.403607559009,
-      "netMigration": -29013,
+      "inflation": 1.44344660770698,
       "deathRate": 8.4,
       "diabetesPrevalence": 7.7,
-      "giniIndex": 34.4,
-      "intentionalHomicides": 2.51379877522903
+      "giniIndex": 34.4
     },
     "ASM": {
       "population": 46029,
       "gdpPerCapita": 12727.4102651386,
       "lifeExpectancy": 72.992,
       "fertilityRate": 2.267,
-      "landArea": 200,
       "renewableElectricity": 0.4,
-      "netMigration": -1051,
+      "populationGrowth": -1.5863427255336,
       "deathRate": 7.293
     },
     "ATG": {
@@ -171,28 +156,24 @@
       "lifeExpectancy": 77.766,
       "educationExpenditure": 2.28158315038897,
       "fertilityRate": 1.582,
-      "landArea": 440,
       "renewableElectricity": 0.9,
-      "inflation": -0.489437796230499,
-      "netMigration": 12,
+      "populationGrowth": 0.464941443253073,
+      "inflation": 1.43135598182984,
       "deathRate": 7.028,
-      "diabetesPrevalence": 11.6,
-      "intentionalHomicides": 3.28358699042834
+      "diabetesPrevalence": 11.6
     },
     "AUS": {
       "population": 27614411,
       "gdpPerCapita": 56970.3613028094,
       "lifeExpectancy": 83.0512195121951,
       "fertilityRate": 1.481,
-      "landArea": 7692020,
       "renewableElectricity": 12.3,
+      "populationGrowth": 1.53308964338105,
       "unemploymentRate": 5.022,
-      "inflation": 1.27699365720306,
-      "netMigration": 137109,
+      "inflation": 1.610770929127,
       "deathRate": 6.884,
       "diabetesPrevalence": 7.4,
-      "giniIndex": 34.3,
-      "intentionalHomicides": 0.882951478402183
+      "giniIndex": 34.3
     },
     "AUT": {
       "population": 9208163,
@@ -200,15 +181,13 @@
       "lifeExpectancy": 81.9951219512195,
       "educationExpenditure": 5.40181016921997,
       "fertilityRate": 1.31,
-      "landArea": 82520,
       "renewableElectricity": 36,
+      "populationGrowth": 0.328301850203979,
       "unemploymentRate": 6.459,
-      "inflation": 0.891591752655362,
-      "netMigration": 11254,
+      "inflation": 1.53089564152644,
       "deathRate": 9.6,
       "diabetesPrevalence": 5.4,
-      "giniIndex": 30.8,
-      "intentionalHomicides": 0.86703158562286
+      "giniIndex": 30.8
     },
     "AZE": {
       "population": 10246996,
@@ -217,14 +196,12 @@
       "educationExpenditure": 2.4738199710846,
       "fertilityRate": 1.43,
       "literacyRate": 99.8000030517578,
-      "landArea": 82650,
       "renewableElectricity": 1.3,
+      "populationGrowth": 0.431945667113889,
       "unemploymentRate": 6.04,
-      "inflation": 12.4433748584372,
-      "netMigration": 8731,
+      "inflation": 2.61057182799215,
       "deathRate": 5.8,
-      "diabetesPrevalence": 10.2,
-      "intentionalHomicides": 1.66164299896889
+      "diabetesPrevalence": 10.2
     },
     "BDI": {
       "population": 14390003,
@@ -232,11 +209,10 @@
       "lifeExpectancy": 63.818,
       "educationExpenditure": 4.76202011108398,
       "fertilityRate": 4.789,
-      "landArea": 25680,
       "renewableElectricity": 83.1,
+      "populationGrowth": 2.40689260858279,
       "unemploymentRate": 1.118,
-      "inflation": 5.55768961400965,
-      "netMigration": -34727,
+      "inflation": -0.686772170797359,
       "deathRate": 6.67,
       "diabetesPrevalence": 4.3
     },
@@ -246,11 +222,10 @@
       "lifeExpectancy": 82.3,
       "educationExpenditure": 6.44915008544922,
       "fertilityRate": 1.44,
-      "landArea": 30494,
       "renewableElectricity": 11.7,
+      "populationGrowth": 0.698907329339411,
       "unemploymentRate": 6.248,
-      "inflation": 1.97385264653163,
-      "netMigration": 31989,
+      "inflation": 1.43681956996438,
       "deathRate": 9.5,
       "diabetesPrevalence": 5.9,
       "giniIndex": 27.2
@@ -262,11 +237,10 @@
       "educationExpenditure": 3.53558993339539,
       "fertilityRate": 4.48,
       "literacyRate": 49,
-      "landArea": 112760,
       "renewableElectricity": 54.5,
+      "populationGrowth": 2.40291500851022,
       "unemploymentRate": 1.833,
-      "inflation": -0.793310145785624,
-      "netMigration": -7847,
+      "inflation": 0.732849371241066,
       "deathRate": 8.71,
       "diabetesPrevalence": 8.1,
       "giniIndex": 37.9
@@ -278,11 +252,10 @@
       "educationExpenditure": 5.62846994400024,
       "fertilityRate": 4.11,
       "literacyRate": 29.6599998474121,
-      "landArea": 273600,
       "renewableElectricity": 71.2,
+      "populationGrowth": 2.20824551344995,
       "unemploymentRate": 4.511,
-      "inflation": 0.441041448058809,
-      "netMigration": -27130,
+      "inflation": -3.23338933983322,
       "deathRate": 7.915,
       "diabetesPrevalence": 4.5,
       "giniIndex": 43
@@ -294,11 +267,10 @@
       "educationExpenditure": 2.11342875356648,
       "fertilityRate": 2.138,
       "literacyRate": 74.6800003051758,
-      "landArea": 130170,
       "renewableElectricity": 25,
+      "populationGrowth": 1.21664463269168,
       "unemploymentRate": 5.457,
-      "inflation": 5.51352572692995,
-      "netMigration": -402100,
+      "inflation": 5.59199639930629,
       "deathRate": 5.105,
       "diabetesPrevalence": 13.2
     },
@@ -308,15 +280,13 @@
       "lifeExpectancy": 75.7609756097561,
       "educationExpenditure": 4.07754993438721,
       "fertilityRate": 1.72,
-      "landArea": 108560,
       "renewableElectricity": 20.4,
+      "populationGrowth": -0.126123118551665,
       "unemploymentRate": 5.166,
-      "inflation": -0.798649886453617,
-      "netMigration": -2961,
+      "inflation": 3.10372944796771,
       "deathRate": 15.6,
       "diabetesPrevalence": 7.4,
-      "giniIndex": 41.3,
-      "intentionalHomicides": 1.18988414972527
+      "giniIndex": 41.3
     },
     "BHR": {
       "population": 1600366,
@@ -324,14 +294,12 @@
       "lifeExpectancy": 81.423,
       "educationExpenditure": 2.21637010574341,
       "fertilityRate": 1.805,
-      "landArea": 790,
       "renewableElectricity": 0,
+      "populationGrowth": 0.733516488465226,
       "unemploymentRate": 1.548,
-      "inflation": 2.78679347602044,
-      "netMigration": 18128,
+      "inflation": 1.00582004702137,
       "deathRate": 2.21,
-      "diabetesPrevalence": 22.1,
-      "intentionalHomicides": 0.269238704006036
+      "diabetesPrevalence": 22.1
     },
     "BHS": {
       "population": 403033,
@@ -339,14 +307,12 @@
       "lifeExpectancy": 74.71,
       "educationExpenditure": 2.69510162053495,
       "fertilityRate": 1.374,
-      "landArea": 10010,
       "renewableElectricity": 1.1,
+      "populationGrowth": 0.43515303971882,
       "unemploymentRate": 11.078,
-      "inflation": -0.346376929989397,
-      "netMigration": 935,
+      "inflation": 2.49123527368046,
       "deathRate": 8.77,
-      "diabetesPrevalence": 8.9,
-      "intentionalHomicides": 24.0704681959437
+      "diabetesPrevalence": 8.9
     },
     "BIH": {
       "population": 3140095,
@@ -354,14 +320,12 @@
       "lifeExpectancy": 78.044,
       "educationExpenditure": 2.83868424239217,
       "fertilityRate": 1.492,
-      "landArea": 51200,
       "renewableElectricity": 36.6,
+      "populationGrowth": -0.766395454237064,
       "unemploymentRate": 14.897,
-      "inflation": -1.58400833333336,
-      "netMigration": -6994,
+      "inflation": 0.56278215406123,
       "deathRate": 13.522,
-      "diabetesPrevalence": 10.3,
-      "intentionalHomicides": 1.25540534198886
+      "diabetesPrevalence": 10.3
     },
     "BLR": {
       "population": 9085991,
@@ -370,15 +334,13 @@
       "educationExpenditure": 4.79500007629395,
       "fertilityRate": 1.217,
       "literacyRate": 99.870002746582,
-      "landArea": 202950,
       "renewableElectricity": 8.2,
+      "populationGrowth": -0.511982816210923,
       "unemploymentRate": 3.9,
-      "inflation": 11.8365807653497,
-      "netMigration": -3020,
+      "inflation": 5.59815595039848,
       "deathRate": 13.136,
       "diabetesPrevalence": 5.1,
-      "giniIndex": 25.2,
-      "intentionalHomicides": 2.38463165310244
+      "giniIndex": 25.2
     },
     "BLZ": {
       "population": 422924,
@@ -386,15 +348,13 @@
       "lifeExpectancy": 73.739,
       "educationExpenditure": 5.95071983337402,
       "fertilityRate": 2.021,
-      "landArea": 22810,
       "renewableElectricity": 26.6,
+      "populationGrowth": 1.39336251081714,
       "unemploymentRate": 10.302,
-      "inflation": 0.663427167917601,
-      "netMigration": 360,
+      "inflation": 0.187069385181424,
       "deathRate": 4.96,
       "diabetesPrevalence": 14.1,
-      "giniIndex": 39.9,
-      "intentionalHomicides": 34.7304566666278
+      "giniIndex": 39.9
     },
     "BMU": {
       "population": 64555,
@@ -402,9 +362,8 @@
       "lifeExpectancy": 82.49,
       "educationExpenditure": 1.32495999336243,
       "fertilityRate": 1.405,
-      "landArea": 54,
       "renewableElectricity": 0.9,
-      "netMigration": -2,
+      "populationGrowth": -0.125395748331922,
       "deathRate": 9.004,
       "diabetesPrevalence": 13.4
     },
@@ -414,15 +373,13 @@
       "lifeExpectancy": 68.739,
       "educationExpenditure": 8.09722995758057,
       "fertilityRate": 2.523,
-      "landArea": 1083300,
       "renewableElectricity": 12.8,
+      "populationGrowth": 1.34850560934918,
       "unemploymentRate": 5.089,
-      "inflation": 3.62321431764138,
-      "netMigration": -3179,
+      "inflation": 1.83954504969026,
       "deathRate": 7.172,
       "diabetesPrevalence": 3.4,
-      "giniIndex": 42.6,
-      "intentionalHomicides": 4.25827764835632
+      "giniIndex": 42.6
     },
     "BRA": {
       "population": 212812405,
@@ -431,15 +388,13 @@
       "educationExpenditure": 6.32047986984253,
       "fertilityRate": 1.614,
       "literacyRate": 93.8926266999537,
-      "landArea": 8358140,
       "renewableElectricity": 46.5,
+      "populationGrowth": 0.383150642409967,
       "unemploymentRate": 13.158,
-      "inflation": 8.73914352329393,
-      "netMigration": -217283,
+      "inflation": 3.73297621216894,
       "deathRate": 7.068,
       "diabetesPrevalence": 10.6,
-      "giniIndex": 53.9,
-      "intentionalHomicides": 21.2445602088385
+      "giniIndex": 53.9
     },
     "BRB": {
       "population": 282623,
@@ -447,25 +402,22 @@
       "lifeExpectancy": 76.332,
       "educationExpenditure": 3.956209897995,
       "fertilityRate": 1.708,
-      "landArea": 430,
       "renewableElectricity": 5.5,
+      "populationGrowth": 0.0552124454380577,
       "unemploymentRate": 11.015,
-      "inflation": 1.28192813061895,
-      "netMigration": -87,
+      "inflation": 1.67662473276988,
       "deathRate": 10.23,
-      "diabetesPrevalence": 13.2,
-      "intentionalHomicides": 17.0692460193985
+      "diabetesPrevalence": 13.2
     },
     "BRN": {
       "population": 466330,
       "gdpPerCapita": 30625.1287744656,
       "lifeExpectancy": 75.501,
       "fertilityRate": 1.731,
-      "landArea": 5270,
       "renewableElectricity": 0,
+      "populationGrowth": 0.776925734682091,
       "unemploymentRate": 4.905,
-      "inflation": -0.278693265753083,
-      "netMigration": 0,
+      "inflation": -0.390522069165529,
       "deathRate": 5.335,
       "diabetesPrevalence": 13.7
     },
@@ -475,14 +427,12 @@
       "lifeExpectancy": 73.262,
       "educationExpenditure": 6.61724996566772,
       "fertilityRate": 1.449,
-      "landArea": 38140,
       "renewableElectricity": 81.8,
+      "populationGrowth": 0.649540189970473,
       "unemploymentRate": 4.803,
-      "inflation": 3.21988689395718,
-      "netMigration": 455,
+      "inflation": 2.72643037388832,
       "deathRate": 6.065,
-      "diabetesPrevalence": 12,
-      "intentionalHomicides": 1.04599228057697
+      "diabetesPrevalence": 12
     },
     "BWA": {
       "population": 2562122,
@@ -490,11 +440,10 @@
       "lifeExpectancy": 69.293,
       "educationExpenditure": 7.80924443947392,
       "fertilityRate": 2.703,
-      "landArea": 566730,
       "renewableElectricity": 27.4,
+      "populationGrowth": 1.61250378521521,
       "unemploymentRate": 23.106,
-      "inflation": 2.81495791361944,
-      "netMigration": -5665,
+      "inflation": 2.77286442863321,
       "deathRate": 5.738,
       "diabetesPrevalence": 4.6
     },
@@ -505,11 +454,10 @@
       "educationExpenditure": 1.75365013911465,
       "fertilityRate": 5.954,
       "literacyRate": 42.439998626709,
-      "landArea": 622980,
       "renewableElectricity": 90.9,
+      "populationGrowth": 3.36794044132968,
       "unemploymentRate": 6.701,
-      "inflation": 4.94543276106518,
-      "netMigration": -14693,
+      "inflation": 2.68537355266787,
       "deathRate": 9.379,
       "diabetesPrevalence": 7.6
     },
@@ -519,38 +467,31 @@
       "lifeExpectancy": 82.1080487804878,
       "educationExpenditure": 4.95998001098633,
       "fertilityRate": 1.25,
-      "landArea": 8788700,
       "renewableElectricity": 23.8,
+      "populationGrowth": 0.939110272846239,
       "unemploymentRate": 7.527,
-      "inflation": 1.42875954701085,
-      "netMigration": 326204,
+      "inflation": 1.94926902411593,
       "deathRate": 7.9,
       "diabetesPrevalence": 7.7,
-      "giniIndex": 32.5,
-      "intentionalHomicides": 1.82357460879594
+      "giniIndex": 32.5
     },
     "CHE": {
       "population": 9092436,
       "gdpPerCapita": 85265.06205193,
       "lifeExpectancy": 84.4073170731707,
-      "fertilityRate": 1.29,
-      "landArea": 39509.63,
+      "educationExpenditure": 5.01765012741089,
       "renewableElectricity": 27.7,
+      "populationGrowth": 0.95982517858888,
       "unemploymentRate": 5.013,
-      "inflation": -0.434618664285815,
-      "deathRate": 8,
-      "diabetesPrevalence": 5.3,
-      "giniIndex": 33.1,
-      "intentionalHomicides": 0.53628529631628
+      "giniIndex": 33.1
     },
     "CHI": {
       "population": 168466,
       "gdpPerCapita": 61847.8212238857,
       "lifeExpectancy": 81.2,
       "fertilityRate": 1.37,
-      "landArea": 198,
+      "populationGrowth": 0.202025072,
       "unemploymentRate": 6.643,
-      "netMigration": 675,
       "deathRate": 10.4
     },
     "CHL": {
@@ -559,29 +500,25 @@
       "lifeExpectancy": 81.359,
       "educationExpenditure": 5.43278980255127,
       "fertilityRate": 1.14,
-      "landArea": 742831.64,
       "renewableElectricity": 24.2,
+      "populationGrowth": 0.480257021978241,
       "unemploymentRate": 9.281,
-      "inflation": 3.78619355893118,
-      "netMigration": 51712,
+      "inflation": 2.55754475703327,
       "deathRate": 6.58,
-      "diabetesPrevalence": 12.2,
-      "intentionalHomicides": 4.81306553520039
+      "diabetesPrevalence": 12.2
     },
     "CHN": {
       "population": 1406585000,
       "gdpPerCapita": 8175.33285077393,
       "lifeExpectancy": 78.017,
       "fertilityRate": 1.013,
-      "landArea": 9388210,
       "renewableElectricity": 15.2,
+      "populationGrowth": -0.169770885652674,
       "unemploymentRate": 4.55,
-      "inflation": 2.00000182191943,
-      "netMigration": -268126,
+      "inflation": 2.89923416358227,
       "deathRate": 7.76,
       "diabetesPrevalence": 11.9,
-      "giniIndex": 38.5,
-      "intentionalHomicides": 0.518362801144556
+      "giniIndex": 38.5
     },
     "CIV": {
       "population": 32711547,
@@ -590,13 +527,9 @@
       "educationExpenditure": 3.73654007911682,
       "fertilityRate": 4.23,
       "literacyRate": 56.9592400560829,
-      "landArea": 318000,
       "renewableElectricity": 58.2,
+      "populationGrowth": 2.40496595908985,
       "unemploymentRate": 2.623,
-      "inflation": 0.723178457513308,
-      "netMigration": 11305,
-      "deathRate": 7.607,
-      "diabetesPrevalence": 5,
       "giniIndex": 37.2
     },
     "CMR": {
@@ -605,11 +538,10 @@
       "lifeExpectancy": 63.968,
       "educationExpenditure": 3.05961990356445,
       "fertilityRate": 4.261,
-      "landArea": 472710,
       "renewableElectricity": 79.2,
+      "populationGrowth": 2.56133847709635,
       "unemploymentRate": 3.976,
-      "inflation": 0.874190383288856,
-      "netMigration": -15379,
+      "inflation": 2.45280214062732,
       "deathRate": 7.032,
       "diabetesPrevalence": 6.9
     },
@@ -619,13 +551,9 @@
       "lifeExpectancy": 62.074,
       "educationExpenditure": 1.45494997501373,
       "fertilityRate": 5.981,
-      "landArea": 2267050,
       "renewableElectricity": 96.3,
-      "unemploymentRate": 5.289,
-      "inflation": 2.88585107289988,
-      "netMigration": -27309,
-      "deathRate": 8.424,
-      "diabetesPrevalence": 7.7
+      "populationGrowth": 3.20249618590858,
+      "unemploymentRate": 5.289
     },
     "COG": {
       "population": 6484437,
@@ -633,13 +561,9 @@
       "lifeExpectancy": 66.001,
       "educationExpenditure": 4.17235994338989,
       "fertilityRate": 4.109,
-      "landArea": 341500,
       "renewableElectricity": 71.4,
-      "unemploymentRate": 21.998,
-      "inflation": 3.19056179723773,
-      "netMigration": -2999,
-      "deathRate": 6.241,
-      "diabetesPrevalence": 8.1
+      "populationGrowth": 2.36370989746216,
+      "unemploymentRate": 21.998
     },
     "COL": {
       "population": 53425635,
@@ -648,28 +572,22 @@
       "educationExpenditure": 4.53551006317139,
       "fertilityRate": 1.634,
       "literacyRate": 95.25,
-      "landArea": 1109500,
       "renewableElectricity": 29.7,
+      "populationGrowth": 1.01451696044498,
       "unemploymentRate": 13.898,
-      "inflation": 7.51346024627675,
-      "netMigration": 129139,
+      "inflation": 3.52301932741447,
       "deathRate": 5.466,
       "diabetesPrevalence": 8.4,
-      "giniIndex": 51.6,
-      "intentionalHomicides": 23.3990612924966
+      "giniIndex": 51.6
     },
     "COM": {
       "population": 882847,
       "gdpPerCapita": 1329.37048235986,
       "lifeExpectancy": 67.023,
       "fertilityRate": 3.822,
-      "landArea": 1861,
       "renewableElectricity": 41.2,
-      "unemploymentRate": 4.394,
-      "inflation": 0.797517430888487,
-      "netMigration": -2127,
-      "deathRate": 7.123,
-      "diabetesPrevalence": 10.8
+      "populationGrowth": 1.85420936957363,
+      "unemploymentRate": 4.394
     },
     "CPV": {
       "population": 527326,
@@ -677,14 +595,12 @@
       "lifeExpectancy": 76.224,
       "educationExpenditure": 4.59278011322021,
       "fertilityRate": 1.511,
-      "landArea": 4030,
       "renewableElectricity": 22.6,
+      "populationGrowth": 0.465500368710652,
       "unemploymentRate": 13.932,
-      "inflation": -1.40781637091706,
-      "netMigration": -1284,
+      "inflation": 1.10666674296063,
       "deathRate": 5.096,
-      "diabetesPrevalence": 6.8,
-      "intentionalHomicides": 6.41893469025722
+      "diabetesPrevalence": 6.8
     },
     "CRI": {
       "population": 5152950,
@@ -692,15 +608,10 @@
       "lifeExpectancy": 80.996,
       "educationExpenditure": 7.06981992721558,
       "fertilityRate": 1.318,
-      "landArea": 51060,
       "renewableElectricity": 34.2,
+      "populationGrowth": 0.448125104429705,
       "unemploymentRate": 15.139,
-      "inflation": -0.0174788505908217,
-      "netMigration": 1000,
-      "deathRate": 5.566,
-      "diabetesPrevalence": 9.8,
-      "giniIndex": 48,
-      "intentionalHomicides": 11.2610056078008
+      "giniIndex": 48
     },
     "CUB": {
       "population": 10937203,
@@ -709,13 +620,9 @@
       "educationExpenditure": 8.44413540438793,
       "fertilityRate": 1.445,
       "literacyRate": 97.6500015258789,
-      "landArea": 103800,
       "renewableElectricity": 20.9,
-      "unemploymentRate": 2.11,
-      "netMigration": -22244,
-      "deathRate": 10.375,
-      "diabetesPrevalence": 9.4,
-      "intentionalHomicides": 4.46315139638841
+      "populationGrowth": -0.388557565092683,
+      "unemploymentRate": 2.11
     },
     "CUW": {
       "population": 156263,
@@ -723,25 +630,18 @@
       "lifeExpectancy": 76.989,
       "educationExpenditure": 5.91444785594951,
       "fertilityRate": 1.4,
-      "landArea": 444,
       "renewableElectricity": 2.8,
-      "inflation": -0.0472079848940293,
-      "netMigration": 470,
-      "deathRate": 10.1,
-      "diabetesPrevalence": 13.4
+      "populationGrowth": 0.189603874500038
     },
     "CYM": {
       "population": 75844,
       "gdpPerCapita": 76379.2095108681,
       "lifeExpectancy": 80.54,
       "fertilityRate": 1.525,
-      "landArea": 240,
       "renewableElectricity": 0,
-      "inflation": -0.62525835861814,
-      "netMigration": 888,
+      "populationGrowth": 1.84568216276921,
       "deathRate": 4.863,
-      "diabetesPrevalence": 11.1,
-      "intentionalHomicides": 2.97057644035825
+      "diabetesPrevalence": 11.1
     },
     "CYP": {
       "population": 1370754,
@@ -749,15 +649,10 @@
       "lifeExpectancy": 81.821,
       "educationExpenditure": 5.69961977005005,
       "fertilityRate": 1.38,
-      "landArea": 9240,
       "renewableElectricity": 15.6,
+      "populationGrowth": 0.914028750872649,
       "unemploymentRate": 7.513,
-      "inflation": -1.42916666666665,
-      "netMigration": 7749,
-      "deathRate": 7.016,
-      "diabetesPrevalence": 10,
-      "giniIndex": 32.7,
-      "intentionalHomicides": 1.16579872951254
+      "giniIndex": 32.7
     },
     "CZE": {
       "population": 10886878,
@@ -765,15 +660,10 @@
       "lifeExpectancy": 79.9780487804878,
       "educationExpenditure": 3.75574994087219,
       "fertilityRate": 1.36,
-      "landArea": 77186.83,
       "renewableElectricity": 17.2,
+      "populationGrowth": -0.16657564691038,
       "unemploymentRate": 2.803,
-      "inflation": 0.683504209385703,
-      "netMigration": -112188,
-      "deathRate": 10.3,
-      "diabetesPrevalence": 7.6,
-      "giniIndex": 25,
-      "intentionalHomicides": 0.862160849844266
+      "giniIndex": 25
     },
     "DEU": {
       "population": 83491249,
@@ -781,15 +671,10 @@
       "lifeExpectancy": 80.7926829268293,
       "educationExpenditure": 4.77830982208252,
       "fertilityRate": 1.36,
-      "landArea": 349390,
       "renewableElectricity": 17.6,
+      "populationGrowth": -0.0303506708320264,
       "unemploymentRate": 3.594,
-      "inflation": 0.491747008445174,
-      "netMigration": -334072,
-      "deathRate": 12.1,
-      "diabetesPrevalence": 7.8,
-      "giniIndex": 31.9,
-      "intentionalHomicides": 0.745579302641966
+      "giniIndex": 31.9
     },
     "DJI": {
       "population": 1184076,
@@ -797,13 +682,9 @@
       "lifeExpectancy": 66.202,
       "educationExpenditure": 3.73344993591309,
       "fertilityRate": 2.618,
-      "landArea": 23180,
       "renewableElectricity": 26.6,
-      "unemploymentRate": 27.628,
-      "inflation": 2.4025290543489,
-      "netMigration": -581,
-      "deathRate": 7.487,
-      "diabetesPrevalence": 6.5
+      "populationGrowth": 1.30518794764358,
+      "unemploymentRate": 27.628
     },
     "DMA": {
       "population": 65871,
@@ -811,13 +692,8 @@
       "lifeExpectancy": 71.294,
       "educationExpenditure": 4.71605005720456,
       "fertilityRate": 1.48,
-      "landArea": 750,
       "renewableElectricity": 8.8,
-      "inflation": 0.141816225732312,
-      "netMigration": -242,
-      "deathRate": 12.623,
-      "diabetesPrevalence": 12.9,
-      "intentionalHomicides": 19.151302656875
+      "populationGrowth": -0.505770483641074
     },
     "DNK": {
       "population": 6009169,
@@ -825,15 +701,10 @@
       "lifeExpectancy": 82.2536585365854,
       "educationExpenditure": 7.3700098991394,
       "fertilityRate": 1.47,
-      "landArea": 40000,
       "renewableElectricity": 39.5,
+      "populationGrowth": 0.536903805914283,
       "unemploymentRate": 5.065,
-      "inflation": 0.250000000000031,
-      "netMigration": 22103,
-      "deathRate": 9.5,
-      "diabetesPrevalence": 6.4,
-      "giniIndex": 28.2,
-      "intentionalHomicides": 0.859901642730301
+      "giniIndex": 28.2
     },
     "DOM": {
       "population": 11520487,
@@ -842,15 +713,10 @@
       "educationExpenditure": 3.92026752279272,
       "fertilityRate": 2.222,
       "literacyRate": 93.6726916249429,
-      "landArea": 48198.02,
       "renewableElectricity": 14.8,
+      "populationGrowth": 0.809920950082305,
       "unemploymentRate": 7.702,
-      "inflation": 1.61416607245223,
-      "netMigration": -35306,
-      "deathRate": 6.249,
-      "diabetesPrevalence": 17.6,
-      "giniIndex": 43.7,
-      "intentionalHomicides": 9.41799066618377
+      "giniIndex": 43.7
     },
     "DZA": {
       "population": 47435312,
@@ -858,14 +724,12 @@
       "lifeExpectancy": 76.475,
       "educationExpenditure": 5.73482350888796,
       "fertilityRate": 2.723,
-      "landArea": 2381740,
       "renewableElectricity": 0.1,
+      "populationGrowth": 1.31780475504384,
       "unemploymentRate": 13.656,
-      "inflation": 6.39769480268757,
-      "netMigration": -27531,
+      "inflation": 1.95176821052892,
       "deathRate": 4.618,
-      "diabetesPrevalence": 17.5,
-      "intentionalHomicides": 1.19876531330297
+      "diabetesPrevalence": 17.5
     },
     "ECU": {
       "population": 18289896,
@@ -873,53 +737,37 @@
       "lifeExpectancy": 77.579,
       "educationExpenditure": 4.60667733499397,
       "fertilityRate": 1.806,
-      "landArea": 248360,
       "renewableElectricity": 18.9,
+      "populationGrowth": 0.847864596028112,
       "unemploymentRate": 4.504,
-      "inflation": 1.72826463324533,
-      "netMigration": -17219,
-      "deathRate": 5.207,
-      "diabetesPrevalence": 4.9,
-      "giniIndex": 45.4,
-      "intentionalHomicides": 6.84543557226847
+      "giniIndex": 45.4
     },
     "EGY": {
       "population": 118365995,
       "gdpPerCapita": 3306.98159414141,
       "lifeExpectancy": 71.806,
       "fertilityRate": 2.735,
-      "landArea": 995450,
       "renewableElectricity": 6.1,
-      "unemploymentRate": 7.441,
-      "inflation": 13.813606214829,
-      "netMigration": -57305,
-      "deathRate": 5.506,
-      "diabetesPrevalence": 22.4
+      "populationGrowth": 1.55618628611795,
+      "unemploymentRate": 7.441
     },
     "ERI": {
       "population": 3607003,
       "lifeExpectancy": 68.893,
       "fertilityRate": 3.68,
-      "landArea": 121178.2,
       "renewableElectricity": 80.7,
-      "unemploymentRate": 6.489,
-      "netMigration": -6698,
-      "deathRate": 5.995,
-      "diabetesPrevalence": 4.4
+      "populationGrowth": 1.99933689205926,
+      "unemploymentRate": 6.489
     },
     "ESP": {
       "population": 49355143,
       "gdpPerCapita": 25982.4416197775,
       "lifeExpectancy": 83.8878048780488,
-      "fertilityRate": 1.1,
-      "landArea": 499733.244,
+      "educationExpenditure": 4.17846012115479,
       "renewableElectricity": 19,
+      "populationGrowth": 1.03113431966787,
       "unemploymentRate": 14.914,
-      "inflation": -0.202598000426358,
-      "deathRate": 8.9,
-      "diabetesPrevalence": 9.7,
-      "giniIndex": 34.7,
-      "intentionalHomicides": 0.69779523479218
+      "giniIndex": 34.7
     },
     "EST": {
       "population": 1366475,
@@ -927,15 +775,10 @@
       "lifeExpectancy": 79.2951219512195,
       "educationExpenditure": 4.86288022994995,
       "fertilityRate": 1.18,
-      "landArea": 42750,
       "renewableElectricity": 38,
+      "populationGrowth": -0.428360939161402,
       "unemploymentRate": 6.178,
-      "inflation": 0.148684907627373,
-      "netMigration": -13350,
-      "deathRate": 11.5,
-      "diabetesPrevalence": 6.9,
-      "giniIndex": 30.3,
-      "intentionalHomicides": 1.95957029638124
+      "giniIndex": 30.3
     },
     "ETH": {
       "population": 135472051,
@@ -944,13 +787,9 @@
       "educationExpenditure": 5.49905076025271,
       "fertilityRate": 3.909,
       "literacyRate": 55.0499992370605,
-      "landArea": 1128505.6,
       "renewableElectricity": 90.6,
-      "unemploymentRate": 3.935,
-      "inflation": 6.62813337230924,
-      "netMigration": 24054,
-      "deathRate": 5.879,
-      "diabetesPrevalence": 4.4
+      "populationGrowth": 2.55107529460765,
+      "unemploymentRate": 3.935
     },
     "FIN": {
       "population": 5646436,
@@ -958,15 +797,10 @@
       "lifeExpectancy": 82.3365853658537,
       "educationExpenditure": 6.40826988220215,
       "fertilityRate": 1.25,
-      "landArea": 303947.7,
       "renewableElectricity": 50.2,
+      "populationGrowth": 0.470872218110853,
       "unemploymentRate": 7.617,
-      "inflation": 0.356684500891695,
-      "netMigration": 18246,
-      "deathRate": 10.4,
-      "diabetesPrevalence": 6.9,
-      "giniIndex": 27.3,
-      "intentionalHomicides": 1.46692385524251
+      "giniIndex": 27.3
     },
     "FJI": {
       "population": 933154,
@@ -974,13 +808,9 @@
       "lifeExpectancy": 67.463,
       "educationExpenditure": 4.65119160575452,
       "fertilityRate": 2.27,
-      "landArea": 18270,
       "renewableElectricity": 29.7,
-      "unemploymentRate": 5.225,
-      "inflation": 3.86322538221278,
-      "netMigration": -3288,
-      "deathRate": 9.511,
-      "diabetesPrevalence": 16.6
+      "populationGrowth": 0.469404246979013,
+      "unemploymentRate": 5.225
     },
     "FRA": {
       "population": 68720337,
@@ -988,26 +818,18 @@
       "lifeExpectancy": 82.9804878048781,
       "educationExpenditure": 5.46482992172241,
       "fertilityRate": 1.61,
-      "landArea": 538950,
       "renewableElectricity": 16.2,
+      "populationGrowth": 0.245766211891762,
       "unemploymentRate": 7.871,
-      "inflation": 0.183334861123765,
-      "netMigration": 91737,
-      "deathRate": 9.4,
-      "diabetesPrevalence": 6.5,
-      "giniIndex": 32.4,
-      "intentionalHomicides": 1.14560504750237
+      "giniIndex": 32.4
     },
     "FRO": {
       "population": 54900,
       "gdpPerCapita": 52638.2668218454,
       "lifeExpectancy": 83.0832463414634,
       "fertilityRate": 1.9129,
-      "landArea": 1370,
       "renewableElectricity": 5.1,
-      "netMigration": 386,
-      "deathRate": 8.203,
-      "diabetesPrevalence": 5.3
+      "populationGrowth": 0.474713325295028
     },
     "FSM": {
       "population": 113683,
@@ -1015,13 +837,8 @@
       "lifeExpectancy": 67.357,
       "educationExpenditure": 12.6815821727019,
       "fertilityRate": 2.743,
-      "landArea": 700,
       "renewableElectricity": 2.1,
-      "inflation": -1.03746806405349,
-      "netMigration": -1125,
-      "deathRate": 7.712,
-      "diabetesPrevalence": 19.2,
-      "intentionalHomicides": 0.906766290056401
+      "populationGrowth": 0.46111268735637
     },
     "GAB": {
       "population": 2593130,
@@ -1029,27 +846,19 @@
       "lifeExpectancy": 68.511,
       "educationExpenditure": 3.55570801059931,
       "fertilityRate": 3.592,
-      "landArea": 257670,
       "renewableElectricity": 91.3,
-      "unemploymentRate": 21.223,
-      "inflation": 2.10670712784054,
-      "netMigration": 1116,
-      "deathRate": 6.226,
-      "diabetesPrevalence": 8.5
+      "populationGrowth": 2.11142428155027,
+      "unemploymentRate": 21.223
     },
     "GBR": {
       "population": 69487000,
       "gdpPerCapita": 45256.040227057,
       "lifeExpectancy": 81.3868536585366,
-      "fertilityRate": 1.551,
-      "landArea": 241930,
+      "educationExpenditure": 5.45254993438721,
       "renewableElectricity": 12.2,
+      "populationGrowth": 0.296898638478743,
       "unemploymentRate": 4.864,
-      "inflation": 1.0084173681141,
-      "deathRate": 9.701,
-      "diabetesPrevalence": 7.4,
-      "giniIndex": 33.7,
-      "intentionalHomicides": 1.15033375026475
+      "giniIndex": 33.7
     },
     "GEO": {
       "population": 3935766,
@@ -1058,15 +867,10 @@
       "educationExpenditure": 3.52442002296448,
       "fertilityRate": 1.802,
       "literacyRate": 99.8757151699707,
-      "landArea": 69490,
       "renewableElectricity": 25.2,
+      "populationGrowth": 3.1815662969341,
       "unemploymentRate": 11.785,
-      "inflation": 2.13492713939121,
-      "netMigration": 1283,
-      "deathRate": 11.836,
-      "diabetesPrevalence": 6.7,
-      "giniIndex": 36.4,
-      "intentionalHomicides": 2.02806499553233
+      "giniIndex": 36.4
     },
     "GHA": {
       "population": 35064272,
@@ -1074,23 +878,16 @@
       "lifeExpectancy": 65.695,
       "educationExpenditure": 3.53362989425659,
       "fertilityRate": 3.344,
-      "landArea": 227533,
       "renewableElectricity": 39,
-      "unemploymentRate": 3.2,
-      "inflation": 17.4546347070868,
-      "netMigration": -17079,
-      "deathRate": 7.009,
-      "diabetesPrevalence": 2.7,
-      "intentionalHomicides": 1.82667713193775
+      "populationGrowth": 1.83295547173437,
+      "unemploymentRate": 3.2
     },
     "GIB": {
       "population": 40126,
       "lifeExpectancy": 83.63,
       "fertilityRate": 1.885,
-      "landArea": 10,
       "renewableElectricity": 0,
-      "netMigration": 549,
-      "deathRate": 6.589
+      "populationGrowth": 2.00623430210837
     },
     "GIN": {
       "population": 15099727,
@@ -1098,13 +895,9 @@
       "lifeExpectancy": 60.904,
       "educationExpenditure": 2.3203399181366,
       "fertilityRate": 4.131,
-      "landArea": 245720,
       "renewableElectricity": 66.8,
+      "populationGrowth": 2.31092272302565,
       "unemploymentRate": 5.815,
-      "inflation": 8.17268112275132,
-      "netMigration": -16282,
-      "deathRate": 9.028,
-      "diabetesPrevalence": 4.6,
       "giniIndex": 29.6
     },
     "GMB": {
@@ -1113,13 +906,9 @@
       "lifeExpectancy": 66.057,
       "educationExpenditure": 2.45919445096525,
       "fertilityRate": 3.907,
-      "landArea": 10120,
       "renewableElectricity": 48.6,
-      "unemploymentRate": 6.213,
-      "inflation": 7.22879272057922,
-      "netMigration": -2984,
-      "deathRate": 6.249,
-      "diabetesPrevalence": 5.5
+      "populationGrowth": 2.22524763449017,
+      "unemploymentRate": 6.213
     },
     "GNB": {
       "population": 2249515,
@@ -1127,13 +916,9 @@
       "lifeExpectancy": 64.254,
       "fertilityRate": 3.757,
       "literacyRate": 54.8800010681152,
-      "landArea": 28120,
       "renewableElectricity": 87.4,
+      "populationGrowth": 2.16429203622489,
       "unemploymentRate": 3.016,
-      "inflation": 1.50312055861088,
-      "netMigration": -1373,
-      "deathRate": 7.009,
-      "diabetesPrevalence": 4.8,
       "giniIndex": 34.8
     },
     "GNQ": {
@@ -1141,13 +926,9 @@
       "gdpPerCapita": 9068.91003238645,
       "lifeExpectancy": 63.906,
       "fertilityRate": 4.116,
-      "landArea": 28050,
       "renewableElectricity": 5.2,
-      "unemploymentRate": 8.821,
-      "inflation": 1.41193915479015,
-      "netMigration": 3812,
-      "deathRate": 7.851,
-      "diabetesPrevalence": 8.2
+      "populationGrowth": 2.39717222444002,
+      "unemploymentRate": 8.821
     },
     "GRC": {
       "population": 10413962,
@@ -1155,15 +936,10 @@
       "lifeExpectancy": 81.8390243902439,
       "educationExpenditure": 3.46778011322021,
       "fertilityRate": 1.24,
-      "landArea": 128900,
       "renewableElectricity": 21.5,
+      "populationGrowth": 0.0848067613416544,
       "unemploymentRate": 14.656,
-      "inflation": -0.825653978390973,
-      "netMigration": 16636,
-      "deathRate": 12.1,
-      "diabetesPrevalence": 8,
-      "giniIndex": 32.9,
-      "intentionalHomicides": 0.727708640014711
+      "giniIndex": 32.9
     },
     "GRD": {
       "population": 117303,
@@ -1171,25 +947,17 @@
       "lifeExpectancy": 75.367,
       "educationExpenditure": 3.17379999160767,
       "fertilityRate": 1.472,
-      "landArea": 340,
       "renewableElectricity": 10.2,
-      "inflation": 1.65038994431573,
-      "netMigration": -185,
-      "deathRate": 8.918,
-      "diabetesPrevalence": 11.3,
-      "giniIndex": 43.8,
-      "intentionalHomicides": 13.7953035613438
+      "populationGrowth": 0.081872845816827,
+      "giniIndex": 43.8
     },
     "GRL": {
       "population": 56831,
       "gdpPerCapita": 44536.3549705377,
       "lifeExpectancy": 70.2734146341463,
       "fertilityRate": 1.706,
-      "landArea": 410450,
       "renewableElectricity": 11.6,
-      "netMigration": -265,
-      "deathRate": 9.3,
-      "diabetesPrevalence": 4.3
+      "populationGrowth": -0.00879762816511268
     },
     "GTM": {
       "population": 18687881,
@@ -1197,27 +965,18 @@
       "lifeExpectancy": 72.746,
       "educationExpenditure": 2.95009994506836,
       "fertilityRate": 2.287,
-      "landArea": 107160,
       "renewableElectricity": 62.1,
-      "unemploymentRate": 2.174,
-      "inflation": 4.44844199942827,
-      "netMigration": -7959,
-      "deathRate": 4.86,
-      "diabetesPrevalence": 13.2,
-      "intentionalHomicides": 25.9415998284592
+      "populationGrowth": 1.5179036167086,
+      "unemploymentRate": 2.174
     },
     "GUM": {
       "population": 168999,
       "gdpPerCapita": 35165.7014644795,
       "lifeExpectancy": 77.422,
       "fertilityRate": 2.748,
-      "landArea": 540,
       "renewableElectricity": 4.5,
-      "unemploymentRate": 6,
-      "netMigration": -493,
-      "deathRate": 6.92,
-      "diabetesPrevalence": 20.3,
-      "intentionalHomicides": 4.32611490161179
+      "populationGrowth": 0.725708104538761,
+      "unemploymentRate": 6
     },
     "GUY": {
       "population": 835986,
@@ -1225,14 +984,9 @@
       "lifeExpectancy": 70.319,
       "educationExpenditure": 4.6647801399231,
       "fertilityRate": 2.395,
-      "landArea": 211140,
       "renewableElectricity": 13.2,
-      "unemploymentRate": 14.576,
-      "inflation": 0.826177341246544,
-      "netMigration": -5092,
-      "deathRate": 7.477,
-      "diabetesPrevalence": 16.4,
-      "intentionalHomicides": 16.8386645453251
+      "populationGrowth": 0.58773840166977,
+      "unemploymentRate": 14.576
     },
     "HKG": {
       "population": 7498900,
@@ -1240,14 +994,9 @@
       "lifeExpectancy": 85.3926829268293,
       "educationExpenditure": 3.30989003181458,
       "fertilityRate": 0.841,
-      "landArea": 1050,
       "renewableElectricity": 0.4,
-      "unemploymentRate": 5.174,
-      "inflation": 2.40930743862224,
-      "netMigration": 17863,
-      "deathRate": 7,
-      "diabetesPrevalence": 8.2,
-      "intentionalHomicides": 0.320606459178181
+      "populationGrowth": -0.33548590342358,
+      "unemploymentRate": 5.174
     },
     "HND": {
       "population": 11005850,
@@ -1256,15 +1005,10 @@
       "educationExpenditure": 5.74434396129576,
       "fertilityRate": 2.476,
       "literacyRate": 88.5100021362305,
-      "landArea": 111890,
       "renewableElectricity": 45.9,
+      "populationGrowth": 1.65037355718421,
       "unemploymentRate": 8.506,
-      "inflation": 2.72461223295289,
-      "netMigration": -4778,
-      "deathRate": 4.519,
-      "diabetesPrevalence": 5,
-      "giniIndex": 48.9,
-      "intentionalHomicides": 41.0111655865032
+      "giniIndex": 48.9
     },
     "HRV": {
       "population": 3876200,
@@ -1272,15 +1016,10 @@
       "lifeExpectancy": 78.9292682926829,
       "educationExpenditure": 3.87207007408142,
       "fertilityRate": 1.46,
-      "landArea": 55960,
       "renewableElectricity": 34.1,
+      "populationGrowth": 0.258317977905583,
       "unemploymentRate": 7.483,
-      "inflation": -1.12500000000002,
-      "netMigration": -3481,
-      "deathRate": 13.2,
-      "diabetesPrevalence": 10.5,
-      "giniIndex": 29.7,
-      "intentionalHomicides": 0.827828171469303
+      "giniIndex": 29.7
     },
     "HTI": {
       "population": 11906095,
@@ -1288,13 +1027,9 @@
       "lifeExpectancy": 65.119,
       "educationExpenditure": 1.49846994876862,
       "fertilityRate": 2.625,
-      "landArea": 27560,
       "renewableElectricity": 76.7,
-      "unemploymentRate": 15.296,
-      "inflation": 11.5029073942666,
-      "netMigration": -32052,
-      "deathRate": 7.804,
-      "diabetesPrevalence": 8.5
+      "populationGrowth": 1.12793089533676,
+      "unemploymentRate": 15.296
     },
     "HUN": {
       "population": 9514251,
@@ -1302,14 +1037,9 @@
       "lifeExpectancy": 76.7243902439025,
       "educationExpenditure": 4.64034986495972,
       "fertilityRate": 1.41,
-      "landArea": 91260,
       "renewableElectricity": 15.3,
-      "unemploymentRate": 4.021,
-      "inflation": 0.394769306686392,
-      "netMigration": -16331,
-      "deathRate": 13.4,
-      "diabetesPrevalence": 8.3,
-      "intentionalHomicides": 0.66527835015882
+      "populationGrowth": -0.501292808614035,
+      "unemploymentRate": 4.021
     },
     "IDN": {
       "population": 285721236,
@@ -1317,13 +1047,9 @@
       "lifeExpectancy": 71.288,
       "educationExpenditure": 1.05324382490056,
       "fertilityRate": 2.115,
-      "landArea": 1892555.47,
       "renewableElectricity": 20.2,
+      "populationGrowth": 0.784708535785041,
       "unemploymentRate": 3.827,
-      "inflation": 3.52580452815451,
-      "netMigration": -39509,
-      "deathRate": 7.624,
-      "diabetesPrevalence": 11.3,
       "giniIndex": 36.3
     },
     "IMN": {
@@ -1331,11 +1057,8 @@
       "gdpPerCapita": 84753.5187422732,
       "lifeExpectancy": 81.091,
       "fertilityRate": 1.544,
-      "landArea": 570,
       "renewableElectricity": 3.2,
-      "netMigration": 166,
-      "deathRate": 10.649,
-      "diabetesPrevalence": 7.5
+      "populationGrowth": -0.0499173996269448
     },
     "IND": {
       "population": 1463865525,
@@ -1344,14 +1067,9 @@
       "educationExpenditure": 4.30543994903565,
       "fertilityRate": 1.962,
       "literacyRate": 74.8938629973395,
-      "landArea": 2973190,
       "renewableElectricity": 34.9,
-      "unemploymentRate": 6.38,
-      "inflation": 4.94821634062134,
-      "netMigration": -495753,
-      "deathRate": 6.587,
-      "diabetesPrevalence": 10.5,
-      "intentionalHomicides": 2.94997162020176
+      "populationGrowth": 0.887183543977214,
+      "unemploymentRate": 6.38
     },
     "IRL": {
       "population": 5484367,
@@ -1359,15 +1077,10 @@
       "lifeExpectancy": 83.009756097561,
       "educationExpenditure": 3.37737011909485,
       "fertilityRate": 1.47,
-      "landArea": 68890,
       "renewableElectricity": 12.7,
+      "populationGrowth": 1.62826615443033,
       "unemploymentRate": 6.357,
-      "inflation": 0.0201247735963237,
-      "netMigration": 35417,
-      "deathRate": 6.5,
-      "diabetesPrevalence": 3.6,
-      "giniIndex": 30.6,
-      "intentionalHomicides": 0.648627918850972
+      "giniIndex": 30.6
     },
     "IRN": {
       "population": 92417681,
@@ -1376,13 +1089,9 @@
       "educationExpenditure": 3.45956993103027,
       "fertilityRate": 1.684,
       "literacyRate": 87.3788306734933,
-      "landArea": 1622500,
       "renewableElectricity": 0.9,
+      "populationGrowth": 0.923930875479985,
       "unemploymentRate": 9.282,
-      "inflation": 7.24542548952979,
-      "netMigration": 116786,
-      "deathRate": 4.754,
-      "diabetesPrevalence": 9,
       "giniIndex": 37.4
     },
     "IRQ": {
@@ -1390,13 +1099,9 @@
       "gdpPerCapita": 4440.14189252367,
       "lifeExpectancy": 72.424,
       "fertilityRate": 3.221,
-      "landArea": 434130,
       "renewableElectricity": 1.1,
-      "unemploymentRate": 16.173,
-      "inflation": 0.556521397155548,
-      "netMigration": -1064,
-      "deathRate": 4.166,
-      "diabetesPrevalence": 13.4
+      "populationGrowth": 2.10351548706844,
+      "unemploymentRate": 16.173
     },
     "ISL": {
       "population": 392404,
@@ -1404,15 +1109,10 @@
       "lifeExpectancy": 82.809756097561,
       "educationExpenditure": 7.58384990692139,
       "fertilityRate": 1.56,
-      "landArea": 100830,
       "renewableElectricity": 82.4,
+      "populationGrowth": 1.51445294794602,
       "unemploymentRate": 6.029,
-      "inflation": 1.69692761997734,
-      "netMigration": 2709,
-      "deathRate": 6.8,
-      "diabetesPrevalence": 6.9,
-      "giniIndex": 26.6,
-      "intentionalHomicides": 0.277239086829896
+      "giniIndex": 26.6
     },
     "ISR": {
       "population": 10122800,
@@ -1420,15 +1120,10 @@
       "lifeExpectancy": 83.1975609756098,
       "educationExpenditure": 6.00425004959106,
       "fertilityRate": 2.87,
-      "landArea": 21640,
       "renewableElectricity": 6.2,
+      "populationGrowth": 1.19852366348133,
       "unemploymentRate": 4.812,
-      "inflation": -0.535168195718695,
-      "netMigration": 11466,
-      "deathRate": 5.3,
-      "diabetesPrevalence": 10.1,
-      "giniIndex": 38.6,
-      "intentionalHomicides": 1.6402012873501
+      "giniIndex": 38.6
     },
     "ITA": {
       "population": 58915656,
@@ -1437,15 +1132,10 @@
       "educationExpenditure": 4.02662992477417,
       "fertilityRate": 1.18,
       "literacyRate": 99.3499984741211,
-      "landArea": 295717,
       "renewableElectricity": 17.5,
+      "populationGrowth": -0.0628633523365352,
       "unemploymentRate": 9.497,
-      "inflation": -0.09401665691575,
-      "netMigration": 75448,
-      "deathRate": 11,
-      "diabetesPrevalence": 7.7,
-      "giniIndex": 35.2,
-      "intentionalHomicides": 0.527189893600108
+      "giniIndex": 35.2
     },
     "JAM": {
       "population": 2837077,
@@ -1453,15 +1143,10 @@
       "lifeExpectancy": 71.606,
       "educationExpenditure": 5.26015996932983,
       "fertilityRate": 1.351,
-      "landArea": 10830,
       "renewableElectricity": 10.5,
+      "populationGrowth": -0.0739220209228623,
       "unemploymentRate": 5.188,
-      "inflation": 2.35102197485846,
-      "netMigration": -11053,
-      "deathRate": 8.206,
-      "diabetesPrevalence": 12.5,
-      "giniIndex": 35.3,
-      "intentionalHomicides": 47.462677157099
+      "giniIndex": 35.3
     },
     "JOR": {
       "population": 11520684,
@@ -1469,14 +1154,9 @@
       "lifeExpectancy": 77.981,
       "educationExpenditure": 3.21305990219116,
       "fertilityRate": 2.604,
-      "landArea": 88794,
       "renewableElectricity": 11.5,
-      "unemploymentRate": 19.837,
-      "inflation": -0.778430463054142,
-      "netMigration": -303267,
-      "deathRate": 3.121,
-      "diabetesPrevalence": 20.5,
-      "intentionalHomicides": 1.14319003336944
+      "populationGrowth": -0.279038179525473,
+      "unemploymentRate": 19.837
     },
     "JPN": {
       "population": 123366734,
@@ -1484,15 +1164,10 @@
       "lifeExpectancy": 84.0363414634146,
       "educationExpenditure": 3.13057994842529,
       "fertilityRate": 1.15,
-      "landArea": 364500,
       "renewableElectricity": 8.8,
+      "populationGrowth": -0.492142838725375,
       "unemploymentRate": 2.808,
-      "inflation": -0.127258844489754,
-      "netMigration": 140579,
-      "deathRate": 13.3,
-      "diabetesPrevalence": 8.1,
-      "giniIndex": 32.9,
-      "intentionalHomicides": 0.251776994076062
+      "giniIndex": 32.9
     },
     "KAZ": {
       "population": 20843754,
@@ -1500,13 +1175,9 @@
       "lifeExpectancy": 74.531,
       "educationExpenditure": 2.75081992149353,
       "fertilityRate": 2.984,
-      "landArea": 2699700,
       "renewableElectricity": 2,
+      "populationGrowth": 1.21239553353742,
       "unemploymentRate": 5.568,
-      "inflation": 14.3610942386248,
-      "netMigration": -8834,
-      "deathRate": 6.697,
-      "diabetesPrevalence": 6.8,
       "giniIndex": 27.8
     },
     "KEN": {
@@ -1515,14 +1186,9 @@
       "lifeExpectancy": 63.834,
       "educationExpenditure": 4.96308994293213,
       "fertilityRate": 3.167,
-      "landArea": 580876.3,
       "renewableElectricity": 67.7,
-      "unemploymentRate": 5.693,
-      "inflation": 6.29724953814625,
-      "netMigration": -27330,
-      "deathRate": 7.18,
-      "diabetesPrevalence": 3.1,
-      "intentionalHomicides": 3.07795502113628
+      "populationGrowth": 1.92967823977399,
+      "unemploymentRate": 5.693
     },
     "KGZ": {
       "population": 7343064,
@@ -1530,15 +1196,10 @@
       "lifeExpectancy": 72.4,
       "educationExpenditure": 6.02618980407715,
       "fertilityRate": 2.6,
-      "landArea": 191800,
       "renewableElectricity": 27.6,
+      "populationGrowth": 1.66425490124613,
       "unemploymentRate": 5.149,
-      "inflation": 0.388838296895799,
-      "netMigration": 1815,
-      "deathRate": 4.4,
-      "diabetesPrevalence": 7.6,
-      "giniIndex": 27.7,
-      "intentionalHomicides": 2.19768195988342
+      "giniIndex": 27.7
     },
     "KHM": {
       "population": 17847982,
@@ -1546,11 +1207,10 @@
       "lifeExpectancy": 70.817,
       "fertilityRate": 2.548,
       "literacyRate": 87.6600036621094,
-      "landArea": 176520,
       "renewableElectricity": 52.4,
+      "populationGrowth": 1.17893708663597,
       "unemploymentRate": 0.396,
-      "inflation": 3.01913975139128,
-      "netMigration": -31469,
+      "inflation": 1.94257500833107,
       "deathRate": 6.454,
       "diabetesPrevalence": 7.5
     },
@@ -1560,24 +1220,16 @@
       "lifeExpectancy": 66.6,
       "educationExpenditure": 11.4761649484536,
       "fertilityRate": 3.124,
-      "landArea": 810,
       "renewableElectricity": 42.2,
-      "inflation": 1.91731090233378,
-      "netMigration": -462,
-      "deathRate": 7.059,
-      "diabetesPrevalence": 24.6
+      "populationGrowth": 1.45386795887331
     },
     "KNA": {
       "population": 46922,
       "gdpPerCapita": 20328.8003530109,
       "lifeExpectancy": 72.281,
-      "fertilityRate": 1.526,
-      "landArea": 260,
+      "educationExpenditure": 2.77100327979144,
       "renewableElectricity": 1.6,
-      "inflation": -0.687037123294039,
-      "deathRate": 9.977,
-      "diabetesPrevalence": 13.8,
-      "intentionalHomicides": 25.55828887256
+      "populationGrowth": 0.168506412185747
     },
     "KOR": {
       "population": 51684564,
@@ -1585,15 +1237,10 @@
       "lifeExpectancy": 83.6292682926829,
       "educationExpenditure": 4.10775995254517,
       "fertilityRate": 0.748,
-      "landArea": 97600,
       "renewableElectricity": 3.6,
+      "populationGrowth": -0.128584337535563,
       "unemploymentRate": 3.639,
-      "inflation": 0.971685739912168,
-      "netMigration": 65731,
-      "deathRate": 7,
-      "diabetesPrevalence": 9.6,
-      "giniIndex": 33.7,
-      "intentionalHomicides": 0.573715197653771
+      "giniIndex": 33.7
     },
     "KWT": {
       "population": 4865298,
@@ -1601,14 +1248,9 @@
       "lifeExpectancy": 84.580487804878,
       "educationExpenditure": 6.35444222156987,
       "fertilityRate": 1.56,
-      "landArea": 17820,
       "renewableElectricity": 0.1,
-      "unemploymentRate": 2.97,
-      "inflation": 3.19839776658374,
-      "netMigration": 42775,
-      "deathRate": 1.52,
-      "diabetesPrevalence": 25.6,
-      "intentionalHomicides": 0.360182418888326
+      "populationGrowth": -0.654851001278566,
+      "unemploymentRate": 2.97
     },
     "LAO": {
       "population": 7873046,
@@ -1616,13 +1258,9 @@
       "lifeExpectancy": 69.225,
       "educationExpenditure": 2.49797261414021,
       "fertilityRate": 2.397,
-      "landArea": 230800,
       "renewableElectricity": 51.5,
+      "populationGrowth": 1.31981575540414,
       "unemploymentRate": 2.08,
-      "inflation": 1.59691227583204,
-      "netMigration": -10645,
-      "deathRate": 6.187,
-      "diabetesPrevalence": 6.7,
       "giniIndex": 38.8
     },
     "LBN": {
@@ -1632,14 +1270,9 @@
       "educationExpenditure": 2.21606844423238,
       "fertilityRate": 2.227,
       "literacyRate": 92.0099744752418,
-      "landArea": 10230,
       "renewableElectricity": 6.8,
-      "unemploymentRate": 12.715,
-      "inflation": -0.783359624361508,
-      "netMigration": -10230,
-      "deathRate": 6.035,
-      "diabetesPrevalence": 12.3,
-      "intentionalHomicides": 3.14085853124481
+      "populationGrowth": 0.745736135898232,
+      "unemploymentRate": 12.715
     },
     "LBR": {
       "population": 5731206,
@@ -1647,64 +1280,45 @@
       "lifeExpectancy": 62.324,
       "educationExpenditure": 2.66330003738403,
       "fertilityRate": 3.864,
-      "landArea": 96320,
       "renewableElectricity": 93.2,
-      "unemploymentRate": 3.844,
-      "inflation": 8.83424868336488,
-      "netMigration": -9870,
-      "deathRate": 8.016,
-      "diabetesPrevalence": 9.2
+      "populationGrowth": 2.08732472424606,
+      "unemploymentRate": 3.844
     },
     "LBY": {
       "population": 7458555,
       "gdpPerCapita": 7458.48917756374,
       "lifeExpectancy": 71.121,
       "fertilityRate": 2.298,
-      "landArea": 1759540,
       "renewableElectricity": 3.1,
-      "unemploymentRate": 19.779,
-      "inflation": 25.853874212446,
-      "netMigration": -172,
-      "deathRate": 6.534,
-      "diabetesPrevalence": 15.8
+      "populationGrowth": 1.04494488295615,
+      "unemploymentRate": 19.779
     },
     "LCA": {
       "population": 180149,
       "gdpPerCapita": 10334.9860823918,
       "lifeExpectancy": 72.846,
-      "fertilityRate": 1.385,
-      "landArea": 610,
+      "educationExpenditure": 3.6273152206015,
       "renewableElectricity": 9.7,
-      "unemploymentRate": 20.514,
-      "inflation": -3.07821765676927,
-      "deathRate": 8.712,
-      "diabetesPrevalence": 11.4,
-      "intentionalHomicides": 25.8919349436991
+      "populationGrowth": 0.225066989889272,
+      "unemploymentRate": 20.514
     },
     "LIE": {
       "population": 41024,
       "gdpPerCapita": 167187.15730982,
       "lifeExpectancy": 84.2,
       "fertilityRate": 1.37,
-      "landArea": 160,
       "renewableElectricity": 53.6,
-      "netMigration": 194,
-      "deathRate": 7.5,
-      "diabetesPrevalence": 7.2,
-      "intentionalHomicides": 2.60145681581686
+      "populationGrowth": 1.4090617793704
     },
     "LKA": {
       "population": 21756000,
       "gdpPerCapita": 4057.71582716521,
       "lifeExpectancy": 77.672,
-      "fertilityRate": 1.952,
-      "landArea": 61860,
+      "educationExpenditure": 2.59316992759705,
+      "literacyRate": 92.25,
       "renewableElectricity": 48.8,
-      "unemploymentRate": 4.981,
-      "inflation": 3.9588884659307,
-      "deathRate": 7.8,
-      "diabetesPrevalence": 10.2,
-      "intentionalHomicides": 3.31094038448808
+      "populationGrowth": -0.732738211545502,
+      "unemploymentRate": 4.981
     },
     "LSO": {
       "population": 2363325,
@@ -1713,13 +1327,9 @@
       "educationExpenditure": 8.1553201675415,
       "fertilityRate": 2.664,
       "literacyRate": 92.3961659464955,
-      "landArea": 30360,
       "renewableElectricity": 33.6,
-      "unemploymentRate": 18.214,
-      "inflation": 6.59650490696543,
-      "netMigration": -5192,
-      "deathRate": 10.478,
-      "diabetesPrevalence": 6.2
+      "populationGrowth": 1.1020485314959,
+      "unemploymentRate": 18.214
     },
     "LTU": {
       "population": 2888774,
@@ -1727,15 +1337,10 @@
       "lifeExpectancy": 77.1951219512195,
       "educationExpenditure": 3.81236004829407,
       "fertilityRate": 1.11,
-      "landArea": 62610,
       "renewableElectricity": 33.2,
+      "populationGrowth": 0.0171713878019065,
       "unemploymentRate": 7.112,
-      "inflation": 0.905525075460342,
-      "netMigration": -24618,
-      "deathRate": 13,
-      "diabetesPrevalence": 7.5,
-      "giniIndex": 35.7,
-      "intentionalHomicides": 3.36307869103253
+      "giniIndex": 35.7
     },
     "LUX": {
       "population": 686970,
@@ -1743,15 +1348,10 @@
       "lifeExpectancy": 83.1951219512195,
       "educationExpenditure": 3.48645997047424,
       "fertilityRate": 1.25,
-      "landArea": 2574.46,
       "renewableElectricity": 20.5,
+      "populationGrowth": 1.46016251329208,
       "unemploymentRate": 5.571,
-      "inflation": 0.290833333333225,
-      "netMigration": 5237,
-      "deathRate": 6.6,
-      "diabetesPrevalence": 5.8,
-      "giniIndex": 35.4,
-      "intentionalHomicides": 0.644991719918795
+      "giniIndex": 35.4
     },
     "LVA": {
       "population": 1847785,
@@ -1759,15 +1359,10 @@
       "lifeExpectancy": 76.4292682926829,
       "educationExpenditure": 4.52905988693237,
       "fertilityRate": 1.24,
-      "landArea": 62230,
       "renewableElectricity": 44,
+      "populationGrowth": -0.987592806179397,
       "unemploymentRate": 7.513,
-      "inflation": 0.140633334505327,
-      "netMigration": -7330,
-      "deathRate": 14.3,
-      "diabetesPrevalence": 7.1,
-      "giniIndex": 35.1,
-      "intentionalHomicides": 3.39556267869149
+      "giniIndex": 35.1
     },
     "MAC": {
       "population": 685900,
@@ -1775,21 +1370,14 @@
       "lifeExpectancy": 83.3317073170732,
       "educationExpenditure": 2.70949006080627,
       "fertilityRate": 0.582,
-      "landArea": 33,
       "renewableElectricity": 13.6,
-      "unemploymentRate": 2.221,
-      "inflation": 2.36895749705898,
-      "netMigration": -328,
-      "deathRate": 3.6,
-      "diabetesPrevalence": 8.1,
-      "intentionalHomicides": 0.29807414296232
+      "populationGrowth": -0.160244771707362,
+      "unemploymentRate": 2.221
     },
     "MAF": {
       "population": 24941,
       "lifeExpectancy": 80.438,
-      "fertilityRate": 2.673,
-      "landArea": 50,
-      "deathRate": 9.657
+      "populationGrowth": -4.65327729336626
     },
     "MAR": {
       "population": 38430770,
@@ -1797,14 +1385,9 @@
       "lifeExpectancy": 75.493,
       "educationExpenditure": 4.73564982004448,
       "fertilityRate": 2.208,
-      "landArea": 446300,
       "renewableElectricity": 10.9,
-      "unemploymentRate": 10.551,
-      "inflation": 1.63531114327064,
-      "netMigration": -56254,
-      "deathRate": 5.726,
-      "diabetesPrevalence": 11.9,
-      "intentionalHomicides": 2.77264595868349
+      "populationGrowth": 0.913842778572571,
+      "unemploymentRate": 10.551
     },
     "MCO": {
       "population": 38341,
@@ -1812,10 +1395,7 @@
       "lifeExpectancy": 86.497,
       "educationExpenditure": 1.45816004276276,
       "fertilityRate": 2.102,
-      "landArea": 2.084,
-      "netMigration": 100,
-      "deathRate": 20.141,
-      "diabetesPrevalence": 6.9
+      "populationGrowth": -0.753524326194984
     },
     "MDA": {
       "population": 2360527,
@@ -1823,15 +1403,10 @@
       "lifeExpectancy": 71.332,
       "educationExpenditure": 5.71017980575562,
       "fertilityRate": 1.726,
-      "landArea": 32890,
       "renewableElectricity": 21.4,
+      "populationGrowth": -1.75442101889586,
       "unemploymentRate": 0.794,
-      "inflation": 6.35930898037931,
-      "netMigration": -29766,
-      "deathRate": 13.823,
-      "diabetesPrevalence": 6.3,
-      "giniIndex": 25.7,
-      "intentionalHomicides": 3.88747276359475
+      "giniIndex": 25.7
     },
     "MDG": {
       "population": 32740678,
@@ -1839,13 +1414,9 @@
       "lifeExpectancy": 63.835,
       "educationExpenditure": 2.70137416707567,
       "fertilityRate": 3.912,
-      "landArea": 581800,
       "renewableElectricity": 83.6,
-      "unemploymentRate": 3.498,
-      "inflation": 6.03575858154679,
-      "netMigration": -2227,
-      "deathRate": 7.471,
-      "diabetesPrevalence": 4.6
+      "populationGrowth": 2.39781026296956,
+      "unemploymentRate": 3.498
     },
     "MDV": {
       "population": 529676,
@@ -1854,14 +1425,9 @@
       "educationExpenditure": 3.82268559882407,
       "fertilityRate": 1.56,
       "literacyRate": 98.2099990844727,
-      "landArea": 300,
       "renewableElectricity": 1.4,
-      "unemploymentRate": 5.016,
-      "inflation": 0.502509413611612,
-      "netMigration": -2283,
-      "deathRate": 2.364,
-      "diabetesPrevalence": 9.5,
-      "intentionalHomicides": 0.615093155858455
+      "populationGrowth": 0.35499694483684,
+      "unemploymentRate": 5.016
     },
     "MEX": {
       "population": 131946900,
@@ -1870,15 +1436,10 @@
       "educationExpenditure": 4.39752006530762,
       "fertilityRate": 1.892,
       "literacyRate": 95.3889403219417,
-      "landArea": 1943950,
       "renewableElectricity": 13,
+      "populationGrowth": 0.826382426690595,
       "unemploymentRate": 4.019,
-      "inflation": 2.8217078474766,
-      "netMigration": -108037,
-      "deathRate": 6.219,
-      "diabetesPrevalence": 16.4,
-      "giniIndex": 46,
-      "intentionalHomicides": 29.150867187807
+      "giniIndex": 46
     },
     "MHL": {
       "population": 36282,
@@ -1886,25 +1447,17 @@
       "lifeExpectancy": 67.075,
       "fertilityRate": 2.864,
       "literacyRate": 98.1800003051758,
-      "landArea": 180,
       "renewableElectricity": 12.1,
-      "netMigration": -1698,
-      "deathRate": 7.131,
-      "diabetesPrevalence": 25.7
+      "populationGrowth": -3.42983639556145
     },
     "MKD": {
       "population": 1820909,
       "gdpPerCapita": 5262.68671928674,
       "lifeExpectancy": 76.6165853658537,
-      "fertilityRate": 1.4,
-      "landArea": 25220,
       "renewableElectricity": 19.5,
+      "populationGrowth": -0.189286550678574,
       "unemploymentRate": 15.801,
-      "inflation": -0.239290787684501,
-      "deathRate": 11.1,
-      "diabetesPrevalence": 7.4,
-      "giniIndex": 33,
-      "intentionalHomicides": 1.21203114814657
+      "giniIndex": 33
     },
     "MLI": {
       "population": 25198821,
@@ -1912,13 +1465,9 @@
       "lifeExpectancy": 60.675,
       "educationExpenditure": 3.18063998222351,
       "fertilityRate": 5.51,
-      "landArea": 1220190,
       "renewableElectricity": 71.2,
+      "populationGrowth": 2.89981455024173,
       "unemploymentRate": 4.006,
-      "inflation": -1.79964707083386,
-      "netMigration": -48019,
-      "deathRate": 8.51,
-      "diabetesPrevalence": 4.8,
       "giniIndex": 36
     },
     "MLT": {
@@ -1927,43 +1476,30 @@
       "lifeExpectancy": 82.9560975609756,
       "educationExpenditure": 4.34281015396118,
       "fertilityRate": 1.01,
-      "landArea": 320,
       "renewableElectricity": 8.6,
+      "populationGrowth": 1.8906123268828,
       "unemploymentRate": 3.754,
-      "inflation": 0.642702771527304,
-      "netMigration": 5161,
-      "deathRate": 7.3,
-      "diabetesPrevalence": 10,
-      "giniIndex": 28.7,
-      "intentionalHomicides": 0.992032983112623
+      "giniIndex": 28.7
     },
     "MMR": {
       "population": 54850648,
       "gdpPerCapita": 1166.73305546337,
       "lifeExpectancy": 67.095,
-      "fertilityRate": 2.098,
-      "landArea": 652670,
+      "educationExpenditure": 2.16652989387512,
+      "literacyRate": 89.0699996948242,
       "renewableElectricity": 62.9,
-      "unemploymentRate": 4.34,
-      "inflation": 6.92882525816076,
-      "deathRate": 9.176,
-      "diabetesPrevalence": 6.7,
-      "intentionalHomicides": 2.8855992129134
+      "populationGrowth": 0.641162929716532,
+      "unemploymentRate": 4.34
     },
     "MNE": {
       "population": 623129,
       "gdpPerCapita": 6421.00005731419,
       "lifeExpectancy": 77.890243902439,
       "fertilityRate": 1.8,
-      "landArea": 13450,
       "renewableElectricity": 39.6,
+      "populationGrowth": -0.0635300593940256,
       "unemploymentRate": 16.543,
-      "inflation": -0.271385023385176,
-      "netMigration": -9279,
-      "deathRate": 10.2,
-      "diabetesPrevalence": 10.7,
-      "giniIndex": 36.8,
-      "intentionalHomicides": 3.76021900823406
+      "giniIndex": 36.8
     },
     "MNG": {
       "population": 3568978,
@@ -1972,50 +1508,35 @@
       "educationExpenditure": 4.06898021697998,
       "fertilityRate": 2.5,
       "literacyRate": 98.4599990844727,
-      "landArea": 1557507,
       "renewableElectricity": 3,
+      "populationGrowth": 1.24589876857071,
       "unemploymentRate": 7.871,
-      "inflation": 0.733272227314397,
-      "netMigration": 79,
-      "deathRate": 5.5,
-      "diabetesPrevalence": 10.3,
-      "giniIndex": 32.7,
-      "intentionalHomicides": 6.34259904548525
+      "giniIndex": 32.7
     },
     "MNP": {
       "population": 43541,
       "gdpPerCapita": 17665.1007493109,
       "lifeExpectancy": 78.947,
-      "fertilityRate": 2.324,
-      "landArea": 460,
       "renewableElectricity": 0.5,
-      "deathRate": 4.977
+      "populationGrowth": -1.67849167730668
     },
     "MOZ": {
       "population": 35631653,
       "gdpPerCapita": 610.563774706589,
       "lifeExpectancy": 63.797,
-      "fertilityRate": 4.69,
-      "landArea": 786380,
+      "educationExpenditure": 5.48664999008179,
       "renewableElectricity": 76.9,
-      "unemploymentRate": 5.413,
-      "inflation": 17.4180418197597,
-      "deathRate": 6.908,
-      "diabetesPrevalence": 3
+      "populationGrowth": 2.84630186701375,
+      "unemploymentRate": 5.413
     },
     "MRT": {
       "population": 5315065,
       "gdpPerCapita": 1558.84205473416,
       "lifeExpectancy": 68.713,
       "fertilityRate": 4.625,
-      "landArea": 1030700,
       "renewableElectricity": 22.1,
-      "unemploymentRate": 11.131,
-      "inflation": 1.47171045650004,
-      "netMigration": -5044,
-      "deathRate": 5.414,
-      "diabetesPrevalence": 5.2,
-      "intentionalHomicides": 1.07437639165317
+      "populationGrowth": 2.77895808619534,
+      "unemploymentRate": 11.131
     },
     "MUS": {
       "population": 1243741,
@@ -2023,14 +1544,9 @@
       "lifeExpectancy": 73.7890243902439,
       "educationExpenditure": 4.87887001037598,
       "fertilityRate": 1.44,
-      "landArea": 1997,
       "renewableElectricity": 8.6,
-      "unemploymentRate": 7.719,
-      "inflation": 0.977675134718965,
-      "netMigration": -2784,
-      "deathRate": 10,
-      "diabetesPrevalence": 20.1,
-      "intentionalHomicides": 2.09909272547754
+      "populationGrowth": -0.163726377394902,
+      "unemploymentRate": 7.719
     },
     "MWI": {
       "population": 22216120,
@@ -2038,13 +1554,9 @@
       "lifeExpectancy": 67.561,
       "educationExpenditure": 2.76899003982544,
       "fertilityRate": 3.59,
-      "landArea": 94280,
       "renewableElectricity": 71.1,
-      "unemploymentRate": 5.652,
-      "inflation": 21.7111132136499,
-      "netMigration": -5628,
-      "deathRate": 5.292,
-      "diabetesPrevalence": 5.7
+      "populationGrowth": 2.55685698114353,
+      "unemploymentRate": 5.652
     },
     "MYS": {
       "population": 35977838,
@@ -2053,455 +1565,331 @@
       "educationExpenditure": 4.6753101348877,
       "fertilityRate": 1.543,
       "literacyRate": 94.9700012207031,
-      "landArea": 328550,
       "renewableElectricity": 7.5,
+      "populationGrowth": 1.17471679693395,
       "unemploymentRate": 4.64,
-      "inflation": 2.09056659525742,
-      "netMigration": 166615,
-      "deathRate": 5.273,
-      "diabetesPrevalence": 21.1,
-      "giniIndex": 41.2,
-      "intentionalHomicides": 0.9270169844912
+      "giniIndex": 41.2
     },
     "NAM": {
       "population": 3092816,
       "gdpPerCapita": 4774.10650865775,
       "lifeExpectancy": 67.516,
-      "fertilityRate": 3.211,
-      "landArea": 823290,
+      "educationExpenditure": 1.39524534605831,
       "renewableElectricity": 30,
-      "unemploymentRate": 20.931,
-      "inflation": 6.72858234593338,
-      "deathRate": 6.176,
-      "diabetesPrevalence": 5.3,
-      "intentionalHomicides": 12.0354899812092
+      "populationGrowth": 2.04761498541566,
+      "unemploymentRate": 20.931
     },
     "NCL": {
       "population": 295333,
       "gdpPerCapita": 30858.7237060533,
       "lifeExpectancy": 78.921,
-      "fertilityRate": 1.964,
-      "landArea": 18280,
       "renewableElectricity": 8.3,
-      "unemploymentRate": 11.574,
-      "inflation": 0.578317435520754,
-      "deathRate": 6.251,
-      "diabetesPrevalence": 22
+      "populationGrowth": 0.916376579929707,
+      "unemploymentRate": 11.574
     },
     "NER": {
       "population": 27917831,
       "gdpPerCapita": 485.662574175279,
       "lifeExpectancy": 61.433,
-      "fertilityRate": 5.935,
-      "landArea": 1266700,
+      "educationExpenditure": 2.57818007469177,
       "renewableElectricity": 79.6,
+      "populationGrowth": 3.22289981385576,
       "unemploymentRate": 0.806,
-      "inflation": 1.65388922387806,
-      "deathRate": 8.719,
-      "diabetesPrevalence": 4.1,
       "giniIndex": 37.3
     },
     "NGA": {
       "population": 237527782,
       "gdpPerCapita": 2585.73360671797,
       "lifeExpectancy": 54.635,
-      "fertilityRate": 4.382,
-      "landArea": 910770,
+      "educationExpenditure": 0.396354013591345,
       "renewableElectricity": 80.3,
+      "populationGrowth": 2.06227178599451,
       "unemploymentRate": 5.404,
-      "inflation": 15.6968126387972,
-      "deathRate": 11.641,
-      "diabetesPrevalence": 3,
-      "giniIndex": 35.1,
-      "intentionalHomicides": 21.099298161443
+      "giniIndex": 35.1
     },
     "NIC": {
       "population": 7007502,
       "gdpPerCapita": 2074.45620634731,
       "lifeExpectancy": 75.1,
-      "fertilityRate": 2.206,
-      "landArea": 120340,
+      "educationExpenditure": 4.35768985748291,
       "renewableElectricity": 50.4,
-      "unemploymentRate": 6.076,
-      "inflation": 3.52317317628473,
-      "deathRate": 4.636,
-      "diabetesPrevalence": 10.4,
-      "intentionalHomicides": 7.94304819024202
+      "populationGrowth": 1.31234789341176,
+      "unemploymentRate": 6.076
     },
     "NLD": {
       "population": 18087633,
       "gdpPerCapita": 45793.8135434697,
       "lifeExpectancy": 81.9658536585366,
-      "fertilityRate": 1.43,
-      "landArea": 33670,
+      "educationExpenditure": 5.08747005462646,
       "renewableElectricity": 12.2,
+      "populationGrowth": 0.521869714098474,
       "unemploymentRate": 4.209,
-      "inflation": 0.316666666666652,
-      "deathRate": 9.6,
-      "diabetesPrevalence": 5,
-      "giniIndex": 28.1,
-      "intentionalHomicides": 0.712758090417298
+      "giniIndex": 28.1
     },
     "NOR": {
       "population": 5610870,
       "gdpPerCapita": 77220.9524311414,
       "lifeExpectancy": 83.1609756097561,
-      "fertilityRate": 1.45,
-      "landArea": 364270,
+      "educationExpenditure": 7.84599018096924,
       "renewableElectricity": 61.4,
+      "populationGrowth": 0.690166127329719,
       "unemploymentRate": 4.359,
-      "inflation": 3.55000000000007,
-      "deathRate": 7.9,
-      "diabetesPrevalence": 4.8,
-      "giniIndex": 27.6,
-      "intentionalHomicides": 0.523586594350632
+      "giniIndex": 27.6
     },
     "NPL": {
       "population": 29618118,
       "gdpPerCapita": 875.543635474862,
       "lifeExpectancy": 70.636,
-      "fertilityRate": 1.961,
-      "landArea": 143350,
+      "educationExpenditure": 4.76723003387451,
+      "literacyRate": 68.7099990844727,
       "renewableElectricity": 73.7,
-      "unemploymentRate": 12.241,
-      "inflation": 8.7903433200464,
-      "deathRate": 6.972,
-      "diabetesPrevalence": 7.7,
-      "intentionalHomicides": 1.95325811107588
+      "populationGrowth": -0.111140420150509,
+      "unemploymentRate": 12.241
     },
     "NRU": {
       "population": 12025,
       "gdpPerCapita": 7747.25584993607,
       "lifeExpectancy": 62.279,
-      "fertilityRate": 3.29,
-      "landArea": 20,
+      "educationExpenditure": 6.27397517241379,
       "renewableElectricity": 1.6,
-      "deathRate": 7.574,
-      "diabetesPrevalence": 21.8
+      "populationGrowth": 0.650761515673821
     },
     "NZL": {
       "population": 5324700,
       "gdpPerCapita": 38648.7302562109,
       "lifeExpectancy": 82.009756097561,
-      "fertilityRate": 1.57,
-      "landArea": 263310,
+      "educationExpenditure": 5.27543020248413,
       "renewableElectricity": 28.9,
-      "unemploymentRate": 3.776,
-      "inflation": 0.646240284454524,
-      "deathRate": 7.13,
-      "diabetesPrevalence": 6.7,
-      "intentionalHomicides": 2.28484272415384
+      "populationGrowth": 0.653812611006536,
+      "unemploymentRate": 3.776
     },
     "OMN": {
       "population": 5494691,
       "gdpPerCapita": 18808.3077921839,
       "lifeExpectancy": 80.246,
-      "fertilityRate": 2.508,
-      "landArea": 309500,
+      "educationExpenditure": 5.99594020843506,
       "renewableElectricity": 0.1,
-      "unemploymentRate": 1.9,
-      "inflation": 1.10920805807027,
-      "deathRate": 1.904,
-      "diabetesPrevalence": 17,
-      "intentionalHomicides": 0.500953881532248
+      "populationGrowth": 3.95650101545376,
+      "unemploymentRate": 1.9
     },
     "PAK": {
       "population": 255219554,
       "gdpPerCapita": 1380.47020838317,
       "lifeExpectancy": 67.799,
-      "fertilityRate": 3.547,
-      "landArea": 770880,
+      "educationExpenditure": 2.57617998123169,
+      "literacyRate": 58,
       "renewableElectricity": 41.6,
+      "populationGrowth": 1.55994397009632,
       "unemploymentRate": 6.338,
-      "inflation": 3.7651191635658,
-      "deathRate": 6.445,
-      "diabetesPrevalence": 31.4,
-      "giniIndex": 29.6,
-      "intentionalHomicides": 3.47225684652177
+      "giniIndex": 29.6
     },
     "PAN": {
       "population": 4571189,
       "gdpPerCapita": 14082.6548502728,
       "lifeExpectancy": 79.775,
-      "fertilityRate": 2.106,
-      "landArea": 74180,
+      "educationExpenditure": 3.37834000587463,
+      "literacyRate": 95.7399978637695,
       "renewableElectricity": 28,
+      "populationGrowth": 1.22403711826792,
       "unemploymentRate": 10.177,
-      "inflation": 0.73973402529995,
-      "deathRate": 4.914,
-      "diabetesPrevalence": 11.1,
-      "giniIndex": 49.2,
-      "intentionalHomicides": 11.3349220328569
+      "giniIndex": 49.2
     },
     "PER": {
       "population": 34576665,
       "gdpPerCapita": 6231.71150338894,
       "lifeExpectancy": 77.941,
-      "fertilityRate": 1.965,
-      "landArea": 1280000,
+      "educationExpenditure": 3.93130993843079,
       "renewableElectricity": 30.6,
+      "populationGrowth": 1.04316532874658,
       "unemploymentRate": 5.097,
-      "inflation": 3.55717663556279,
-      "deathRate": 5.595,
-      "diabetesPrevalence": 6.4,
-      "giniIndex": 42.4,
-      "intentionalHomicides": 7.3499267457301
+      "giniIndex": 42.4
     },
     "PHL": {
       "population": 116786962,
       "gdpPerCapita": 2909.85818010301,
       "lifeExpectancy": 69.946,
-      "fertilityRate": 1.894,
-      "landArea": 298170,
+      "educationExpenditure": 3.96384087403915,
+      "literacyRate": 96.2799987792969,
       "renewableElectricity": 28,
+      "populationGrowth": 0.810982768568445,
       "unemploymentRate": 3.398,
-      "inflation": 1.25369880080982,
-      "deathRate": 6.35,
-      "diabetesPrevalence": 7.5,
-      "giniIndex": 42.3,
-      "intentionalHomicides": 4.2994572517325
+      "giniIndex": 42.3
     },
     "PLW": {
       "population": 17663,
       "gdpPerCapita": 15938.3652222848,
       "lifeExpectancy": 69.383,
-      "fertilityRate": 1.883,
-      "landArea": 460,
       "renewableElectricity": 0.9,
-      "inflation": -1.04230533415074,
-      "deathRate": 11.729,
-      "diabetesPrevalence": 19.3
+      "populationGrowth": -0.181005762412027
     },
     "PNG": {
       "population": 10762817,
       "gdpPerCapita": 2484.5963398603,
       "lifeExpectancy": 66.256,
-      "fertilityRate": 3.072,
-      "landArea": 452860,
+      "educationExpenditure": 1.96493005752563,
       "renewableElectricity": 54.5,
-      "unemploymentRate": 3.03,
-      "inflation": 6.6737288135593,
-      "deathRate": 6.554,
-      "diabetesPrevalence": 14.1
+      "populationGrowth": 1.74625754996746,
+      "unemploymentRate": 3.03
     },
     "POL": {
       "population": 36435861,
       "gdpPerCapita": 12637.5220324406,
       "lifeExpectancy": 78.409756097561,
-      "fertilityRate": 1.14,
-      "landArea": 306100,
+      "educationExpenditure": 4.54246997833252,
       "renewableElectricity": 15.2,
+      "populationGrowth": -0.338028518667454,
       "unemploymentRate": 3.268,
-      "inflation": -0.664767331433962,
-      "deathRate": 11.2,
-      "diabetesPrevalence": 8.1,
-      "giniIndex": 30.2,
-      "intentionalHomicides": 0.661855188726895
+      "giniIndex": 30.2
     },
     "PRI": {
       "population": 3184835,
       "gdpPerCapita": 29242.041465085,
       "lifeExpectancy": 81.902,
-      "fertilityRate": 0.92,
-      "landArea": 8870,
+      "educationExpenditure": 2.72538873126429,
       "renewableElectricity": 2.6,
-      "unemploymentRate": 7.9,
-      "deathRate": 10.3,
-      "diabetesPrevalence": 10.9,
-      "intentionalHomicides": 19.2516608739342
+      "populationGrowth": -0.553782979963777,
+      "unemploymentRate": 7.9
     },
     "PRK": {
       "population": 26571036,
       "lifeExpectancy": 73.743,
       "fertilityRate": 1.784,
-      "landArea": 120410,
       "renewableElectricity": 14.7,
-      "unemploymentRate": 3.692,
-      "netMigration": -2787,
-      "deathRate": 9.858,
-      "diabetesPrevalence": 9.9
+      "populationGrowth": 0.272143344374275,
+      "unemploymentRate": 3.692
     },
     "PRT": {
       "population": 10804871,
       "gdpPerCapita": 19215.7813014347,
       "lifeExpectancy": 82.3829268292683,
-      "fertilityRate": 1.41,
-      "landArea": 91605.6,
+      "educationExpenditure": 5.02685022354126,
       "renewableElectricity": 32.3,
+      "populationGrowth": 1.02505359028502,
       "unemploymentRate": 6.712,
-      "inflation": 0.607397074641719,
-      "deathRate": 11.1,
-      "diabetesPrevalence": 10.5,
-      "giniIndex": 33.5,
-      "intentionalHomicides": 0.705776821960449
+      "giniIndex": 33.5
     },
     "PRY": {
       "population": 7013078,
       "gdpPerCapita": 5879.33792308671,
       "lifeExpectancy": 73.982,
-      "fertilityRate": 2.416,
-      "landArea": 397300,
+      "educationExpenditure": 3.09062070242279,
+      "literacyRate": 93.2099990844727,
       "renewableElectricity": 58.8,
+      "populationGrowth": 1.20391081847026,
       "unemploymentRate": 7.311,
-      "inflation": 4.08682280577241,
-      "deathRate": 5.697,
-      "diabetesPrevalence": 9.4,
-      "giniIndex": 46,
-      "intentionalHomicides": 8.50337786708883
+      "giniIndex": 46
     },
     "PSE": {
       "population": 5413596,
       "gdpPerCapita": 3272.15432360708,
       "lifeExpectancy": 69.213,
-      "fertilityRate": 3.25,
-      "landArea": 6025,
+      "educationExpenditure": 4.72153997421265,
+      "literacyRate": 97.379997253418,
       "renewableElectricity": 15.4,
-      "unemploymentRate": 26.39,
-      "inflation": -0.219106604907316,
-      "deathRate": 5.87,
-      "diabetesPrevalence": 15.5,
-      "intentionalHomicides": 0.322725871803602
+      "populationGrowth": 2.32556364928187,
+      "unemploymentRate": 26.39
     },
     "PYF": {
       "population": 282465,
       "gdpPerCapita": 19166.9594761931,
       "lifeExpectancy": 84.192,
       "fertilityRate": 1.491,
-      "landArea": 3471,
       "renewableElectricity": 7.4,
-      "unemploymentRate": 12.558,
-      "netMigration": -1199,
-      "deathRate": 3.808,
-      "diabetesPrevalence": 22.8
+      "populationGrowth": 0.23322096373719,
+      "unemploymentRate": 12.558
     },
     "QAT": {
       "population": 2972215,
       "gdpPerCapita": 68985.2946961507,
       "lifeExpectancy": 82.522,
-      "fertilityRate": 1.717,
-      "landArea": 11490,
+      "educationExpenditure": 2.96745991706848,
       "renewableElectricity": 0,
-      "unemploymentRate": 0.14,
-      "inflation": 2.6765917009819,
-      "deathRate": 1.051,
-      "diabetesPrevalence": 24.6,
-      "intentionalHomicides": 0.393149056031246
+      "populationGrowth": 3.92476698437933,
+      "unemploymentRate": 0.14
     },
     "ROU": {
       "population": 19020271,
       "gdpPerCapita": 8977.01748158196,
       "lifeExpectancy": 76.4585365853659,
-      "fertilityRate": 1.39,
-      "landArea": 230080,
+      "educationExpenditure": 3.11819005012512,
       "renewableElectricity": 23.6,
+      "populationGrowth": -0.165649007627974,
       "unemploymentRate": 5.59,
-      "inflation": -1.54479666813897,
-      "deathRate": 12.8,
-      "diabetesPrevalence": 7.5,
-      "giniIndex": 35.8,
-      "intentionalHomicides": 1.25118311157138
+      "giniIndex": 35.8
     },
     "RUS": {
       "population": 143513328,
       "gdpPerCapita": 9277.7138671875,
       "lifeExpectancy": 73.4404878048781,
-      "fertilityRate": 1.418,
-      "landArea": 16376870,
+      "educationExpenditure": 4.68990993499756,
       "renewableElectricity": 3.5,
+      "populationGrowth": -0.108864402490546,
       "unemploymentRate": 4.749,
-      "inflation": 7.04243725413707,
-      "deathRate": 12.4,
-      "diabetesPrevalence": 5.9,
-      "giniIndex": 35.3,
-      "intentionalHomicides": 7.64469087376708
+      "giniIndex": 35.3
     },
     "RWA": {
       "population": 14569341,
       "gdpPerCapita": 725.691418696952,
       "lifeExpectancy": 68.017,
-      "fertilityRate": 3.645,
-      "landArea": 24670,
+      "educationExpenditure": 3.1247398853302,
       "renewableElectricity": 79.4,
-      "unemploymentRate": 15.775,
-      "inflation": 7.17434301982009,
-      "deathRate": 5.895,
-      "diabetesPrevalence": 2.1,
-      "intentionalHomicides": 3.16215359253131
+      "populationGrowth": 2.17017465948949,
+      "unemploymentRate": 15.775
     },
     "SAU": {
       "population": 36973555,
       "gdpPerCapita": 23256.1549553531,
       "lifeExpectancy": 78.982,
-      "fertilityRate": 2.308,
-      "landArea": 2149690,
       "renewableElectricity": 0.1,
-      "unemploymentRate": 6.621,
-      "inflation": 2.05347076823965,
-      "deathRate": 2.337,
-      "diabetesPrevalence": 23.1,
-      "intentionalHomicides": 0.935259944754359
+      "populationGrowth": 4.63120314543082,
+      "unemploymentRate": 6.621
     },
     "SDN": {
       "population": 51662147,
       "gdpPerCapita": 1292.37963867188,
       "lifeExpectancy": 66.521,
-      "fertilityRate": 4.264,
-      "landArea": 1868000,
       "renewableElectricity": 61,
-      "unemploymentRate": 11.087,
-      "inflation": 17.750253831196,
-      "deathRate": 6.335,
-      "diabetesPrevalence": 19
+      "populationGrowth": 2.3763155422004,
+      "unemploymentRate": 11.087
     },
     "SEN": {
       "population": 18931966,
       "gdpPerCapita": 1218.00613555438,
       "lifeExpectancy": 68.924,
-      "fertilityRate": 3.765,
-      "landArea": 192530,
+      "educationExpenditure": 4.74007987976074,
+      "literacyRate": 46.8300018310547,
       "renewableElectricity": 35.4,
+      "populationGrowth": 2.29738465638923,
       "unemploymentRate": 3.436,
-      "inflation": 0.837284942557434,
-      "deathRate": 5.505,
-      "diabetesPrevalence": 3.8,
       "giniIndex": 38.3
     },
     "SGP": {
       "population": 6111175,
       "gdpPerCapita": 55645.6068614606,
       "lifeExpectancy": 83.3463414634146,
-      "fertilityRate": 0.97,
-      "landArea": 718,
+      "educationExpenditure": 2.87916382421742,
+      "literacyRate": 97.4800033569336,
       "renewableElectricity": 1.1,
-      "unemploymentRate": 4.64,
-      "inflation": -0.529809760375464,
-      "deathRate": 6,
-      "diabetesPrevalence": 11.4,
-      "intentionalHomicides": 0.211656543163604
+      "populationGrowth": 1.22350531679895,
+      "unemploymentRate": 4.64
     },
     "SLB": {
       "population": 838645,
       "gdpPerCapita": 2045.47721526649,
       "lifeExpectancy": 70.694,
-      "fertilityRate": 3.513,
-      "landArea": 27990,
       "renewableElectricity": 49.1,
-      "unemploymentRate": 0.879,
-      "inflation": 0.512485626268792,
-      "deathRate": 5.083,
-      "diabetesPrevalence": 12
+      "populationGrowth": 2.34616812843002,
+      "unemploymentRate": 0.879
     },
     "SLE": {
       "population": 8819794,
       "gdpPerCapita": 964.575980888989,
       "lifeExpectancy": 61.964,
-      "fertilityRate": 3.703,
-      "landArea": 72180,
+      "educationExpenditure": 3.0150101184845,
+      "literacyRate": 43.5800018310547,
       "renewableElectricity": 71.1,
+      "populationGrowth": 2.03619305233604,
       "unemploymentRate": 3.551,
-      "inflation": 10.8860609413903,
-      "deathRate": 8.211,
-      "diabetesPrevalence": 4.8,
       "giniIndex": 35.7
     },
     "SLV": {
@@ -2511,129 +1899,94 @@
       "educationExpenditure": 3.7252299785614,
       "fertilityRate": 1.768,
       "literacyRate": 89.1399993896484,
-      "landArea": 20720,
       "renewableElectricity": 21.9,
+      "populationGrowth": 0.429954275845337,
       "unemploymentRate": 4.327,
-      "inflation": 0.60404908699661,
-      "netMigration": -23934,
-      "deathRate": 7.47,
-      "diabetesPrevalence": 12.7,
-      "giniIndex": 38.6,
-      "intentionalHomicides": 38.5386955905095
+      "giniIndex": 38.6
     },
     "SMR": {
       "population": 34109,
       "gdpPerCapita": 43146.8035302005,
       "lifeExpectancy": 85.817,
-      "fertilityRate": 1.158,
-      "landArea": 60,
-      "inflation": 0.644075340346552,
-      "deathRate": 7.5,
-      "diabetesPrevalence": 8.6
+      "educationExpenditure": 3.36997008323669,
+      "populationGrowth": 0.387745396648668
     },
     "SOM": {
       "population": 19654739,
       "gdpPerCapita": 445.583080073396,
       "lifeExpectancy": 58.967,
-      "fertilityRate": 6.013,
-      "landArea": 627340,
+      "literacyRate": 63.6579378279423,
       "renewableElectricity": 95.4,
-      "unemploymentRate": 19.662,
-      "deathRate": 9.741,
-      "diabetesPrevalence": 5.8
+      "populationGrowth": 3.3397984923678,
+      "unemploymentRate": 19.662
     },
     "SRB": {
       "population": 6549143,
       "gdpPerCapita": 5820.3215576888,
       "lifeExpectancy": 75.9682926829268,
-      "fertilityRate": 1.64,
-      "landArea": 84090,
+      "educationExpenditure": 3.56539011001587,
+      "literacyRate": 99.4800033569336,
       "renewableElectricity": 27.2,
+      "populationGrowth": -0.56842544719633,
       "unemploymentRate": 9.843,
-      "inflation": 1.12231397417769,
-      "deathRate": 14.9,
-      "diabetesPrevalence": 10.5,
-      "giniIndex": 35,
-      "intentionalHomicides": 1.26325112750546
+      "giniIndex": 35
     },
     "SSD": {
       "population": 12188788,
       "gdpPerCapita": 1080.14718624765,
       "lifeExpectancy": 57.738,
-      "fertilityRate": 3.785,
-      "landArea": 631930,
       "renewableElectricity": 32.4,
-      "unemploymentRate": 13.95,
-      "inflation": 379.999585624026,
-      "deathRate": 9.821,
-      "diabetesPrevalence": 4.6
+      "populationGrowth": 2.0337018417734,
+      "unemploymentRate": 13.95
     },
     "STP": {
       "population": 240254,
       "gdpPerCapita": 1298.10946596396,
       "lifeExpectancy": 69.905,
-      "fertilityRate": 3.596,
-      "landArea": 960,
+      "educationExpenditure": 5.87489986419678,
+      "literacyRate": 87.4400024414062,
       "renewableElectricity": 40.8,
-      "unemploymentRate": 9.563,
-      "inflation": 5.43051966119156,
-      "deathRate": 5.53,
-      "diabetesPrevalence": 12.1
+      "populationGrowth": 1.98329290197673,
+      "unemploymentRate": 9.563
     },
     "SUR": {
       "population": 639850,
       "gdpPerCapita": 8813.61705392067,
       "lifeExpectancy": 73.757,
-      "fertilityRate": 2.231,
-      "landArea": 160507.61,
+      "educationExpenditure": 5.45861311514349,
       "renewableElectricity": 14.5,
-      "unemploymentRate": 8.706,
-      "inflation": 55.4123879763196,
-      "deathRate": 6.841,
-      "diabetesPrevalence": 13.8,
-      "intentionalHomicides": 4.95239101438174
+      "populationGrowth": 0.850523968746845,
+      "unemploymentRate": 8.706
     },
     "SVK": {
       "population": 5413813,
       "gdpPerCapita": 16442.0760860018,
       "lifeExpectancy": 78.3707317073171,
-      "fertilityRate": 1.46,
-      "landArea": 48080,
+      "educationExpenditure": 3.91876006126404,
       "renewableElectricity": 17.9,
+      "populationGrowth": -0.152382641257418,
       "unemploymentRate": 6.894,
-      "inflation": -0.520010196278358,
-      "deathRate": 9.9,
-      "diabetesPrevalence": 7.1,
-      "giniIndex": 25,
-      "intentionalHomicides": 1.39433538407656
+      "giniIndex": 25
     },
     "SVN": {
       "population": 2130986,
       "gdpPerCapita": 20697.2748530619,
       "lifeExpectancy": 82.2853658536585,
-      "fertilityRate": 1.52,
-      "landArea": 20136.4,
+      "educationExpenditure": 4.82381010055542,
       "renewableElectricity": 23.4,
+      "populationGrowth": 0.168420657387838,
       "unemploymentRate": 4.744,
-      "inflation": -0.0549995416705683,
-      "deathRate": 10.1,
-      "diabetesPrevalence": 7,
-      "giniIndex": 24.6,
-      "intentionalHomicides": 0.671965756625042
+      "giniIndex": 24.6
     },
     "SWE": {
       "population": 10596620,
       "gdpPerCapita": 51188.1652120493,
       "lifeExpectancy": 84.0634146341463,
-      "fertilityRate": 1.43,
-      "landArea": 407280,
+      "educationExpenditure": 7.63849020004272,
       "renewableElectricity": 57.9,
+      "populationGrowth": 0.254281358853672,
       "unemploymentRate": 8.803,
-      "inflation": 0.984269244577992,
-      "deathRate": 8.6,
-      "diabetesPrevalence": 5.8,
-      "giniIndex": 30,
-      "intentionalHomicides": 1.07985845098683
+      "giniIndex": 30
     },
     "SWZ": {
       "population": 1256174,
@@ -2641,58 +1994,41 @@
       "lifeExpectancy": 64.264,
       "educationExpenditure": 6.177914116856,
       "fertilityRate": 2.718,
-      "landArea": 17200,
       "renewableElectricity": 65.4,
-      "unemploymentRate": 34.153,
-      "inflation": 7.8472745908568,
-      "netMigration": -5775,
-      "deathRate": 7.731,
-      "diabetesPrevalence": 7.9
+      "populationGrowth": 1.06859931393766,
+      "unemploymentRate": 34.153
     },
     "SXM": {
       "population": 43923,
       "gdpPerCapita": 37839.6283815163,
       "lifeExpectancy": 76.528,
-      "fertilityRate": 1.44,
-      "landArea": 34,
       "renewableElectricity": 0,
-      "inflation": 0.111682655737579,
-      "deathRate": 8.303
+      "populationGrowth": 1.3131397652904
     },
     "SYC": {
       "population": 122730,
       "gdpPerCapita": 15333.1051727105,
       "lifeExpectancy": 76.2951219512195,
-      "fertilityRate": 1.85,
-      "landArea": 460,
+      "educationExpenditure": 3.34617325657655,
       "renewableElectricity": 1.7,
-      "inflation": -1.01548191697626,
-      "deathRate": 7,
-      "diabetesPrevalence": 9.3,
-      "giniIndex": 32.1,
-      "intentionalHomicides": 8.49975138227207
+      "populationGrowth": 1.12749264749076,
+      "giniIndex": 32.1
     },
     "SYR": {
       "population": 25620427,
       "gdpPerCapita": 847.731545352582,
       "lifeExpectancy": 72.56,
-      "fertilityRate": 2.7,
-      "landArea": 183630,
       "renewableElectricity": 1.1,
-      "unemploymentRate": 14.887,
-      "inflation": 47.7051615298923,
-      "deathRate": 4.932,
-      "diabetesPrevalence": 19
+      "populationGrowth": 3.76901619394327,
+      "unemploymentRate": 14.887
     },
     "TCA": {
       "population": 46855,
       "gdpPerCapita": 29457.0140691162,
       "lifeExpectancy": 78.181,
-      "fertilityRate": 1.452,
-      "landArea": 950,
+      "educationExpenditure": 2.47278207606746,
       "renewableElectricity": 0.8,
-      "deathRate": 7.39,
-      "intentionalHomicides": 30.1166440791836
+      "populationGrowth": 0.685300893811321
     },
     "TCD": {
       "population": 21003705,
@@ -2701,11 +2037,10 @@
       "educationExpenditure": 1.8390200138092,
       "fertilityRate": 6.028,
       "literacyRate": 30.6299991607666,
-      "landArea": 1259200,
       "renewableElectricity": 69.9,
+      "populationGrowth": 3.41211675890953,
       "unemploymentRate": 1.53,
-      "inflation": -0.792440525236102,
-      "netMigration": -123104,
+      "inflation": -0.971939175419401,
       "deathRate": 11.08,
       "diabetesPrevalence": 7.3,
       "giniIndex": 37.5
@@ -2714,353 +2049,264 @@
       "population": 8591626,
       "gdpPerCapita": 813.894676975085,
       "lifeExpectancy": 62.935,
-      "fertilityRate": 4.121673,
-      "landArea": 54390,
+      "educationExpenditure": 3.76526999473572,
+      "literacyRate": 66.5400009155273,
       "renewableElectricity": 75.1,
+      "populationGrowth": 2.17758924189303,
       "unemploymentRate": 2.344,
-      "inflation": 1.28544847051417,
-      "deathRate": 8.486,
-      "diabetesPrevalence": 4.8,
       "giniIndex": 42.5
     },
     "THA": {
       "population": 71619863,
       "gdpPerCapita": 5688.85335397884,
       "lifeExpectancy": 76.564,
-      "fertilityRate": 1.204,
-      "landArea": 510890,
+      "educationExpenditure": 3.46532147640365,
+      "literacyRate": 91.2699966430664,
       "renewableElectricity": 19,
+      "populationGrowth": -0.0672045728198196,
       "unemploymentRate": 1.215,
-      "inflation": 0.186235191075453,
-      "deathRate": 9.033,
-      "diabetesPrevalence": 10.2,
       "giniIndex": 36.4
     },
     "TJK": {
       "population": 10786734,
       "gdpPerCapita": 956.916310930656,
       "lifeExpectancy": 71.927,
-      "fertilityRate": 3.036,
-      "landArea": 138790,
+      "educationExpenditure": 5.54471764262202,
       "renewableElectricity": 34.9,
-      "unemploymentRate": 7.687,
-      "inflation": 6.00458082322139,
-      "deathRate": 4.591,
-      "diabetesPrevalence": 8
+      "populationGrowth": 1.83193545840317,
+      "unemploymentRate": 7.687
     },
     "TKM": {
       "population": 7618847,
       "gdpPerCapita": 5759.497903834,
       "lifeExpectancy": 70.201,
-      "fertilityRate": 2.661,
-      "landArea": 469930,
       "renewableElectricity": 0.1,
-      "unemploymentRate": 4.458,
-      "deathRate": 5.836,
-      "diabetesPrevalence": 7.1
+      "populationGrowth": 1.64558945876185,
+      "unemploymentRate": 4.458
     },
     "TLS": {
       "population": 1418517,
       "gdpPerCapita": 1319.59297370991,
       "lifeExpectancy": 67.904,
-      "fertilityRate": 2.627,
-      "landArea": 14870,
+      "educationExpenditure": 7.17093992233276,
       "renewableElectricity": 12.1,
-      "unemploymentRate": 2.344,
-      "inflation": -1.33853876185163,
-      "deathRate": 7.219,
-      "diabetesPrevalence": 3.2
+      "populationGrowth": 1.26841125849065,
+      "unemploymentRate": 2.344
     },
     "TON": {
       "population": 103742,
       "gdpPerCapita": 4123.90347238813,
       "lifeExpectancy": 73.07,
-      "fertilityRate": 3.1,
-      "landArea": 720,
+      "educationExpenditure": 4.63626808288478,
+      "literacyRate": 91.0500030517578,
       "renewableElectricity": 1.8,
-      "unemploymentRate": 2.111,
-      "inflation": 2.57815515245081,
-      "deathRate": 6.442,
-      "diabetesPrevalence": 19.6,
-      "intentionalHomicides": 0.946346864516251
+      "populationGrowth": -0.416512960445247,
+      "unemploymentRate": 2.111
     },
     "TTO": {
       "population": 1367764,
       "gdpPerCapita": 19887.2327716498,
       "lifeExpectancy": 73.617,
-      "fertilityRate": 1.536,
-      "landArea": 5130,
+      "educationExpenditure": 3.3293687903123,
       "renewableElectricity": 0.5,
-      "unemploymentRate": 4.446,
-      "inflation": 3.07066742464024,
-      "deathRate": 8.739,
-      "diabetesPrevalence": 12.4,
-      "intentionalHomicides": 36.2988873279844
+      "populationGrowth": -0.0415920932776015,
+      "unemploymentRate": 4.446
     },
     "TUN": {
       "population": 12348573,
       "gdpPerCapita": 4014.94773686432,
       "lifeExpectancy": 76.711,
-      "fertilityRate": 1.818,
-      "landArea": 155360,
+      "literacyRate": 80.5500030517578,
       "renewableElectricity": 11.6,
-      "unemploymentRate": 16.632,
-      "inflation": 3.62939937384381,
-      "deathRate": 6.128,
-      "diabetesPrevalence": 16,
-      "intentionalHomicides": 4.80838825436222
+      "populationGrowth": 0.580403828948731,
+      "unemploymentRate": 16.632
     },
     "TUR": {
       "population": 85878556,
       "gdpPerCapita": 11064.6494504662,
       "lifeExpectancy": 77.421,
-      "fertilityRate": 1.48,
-      "landArea": 769630,
+      "educationExpenditure": 4.32369995117188,
+      "literacyRate": 96.7399978637695,
       "renewableElectricity": 12,
+      "populationGrowth": 0.419954927193433,
       "unemploymentRate": 11.969,
-      "inflation": 7.7751341532833,
-      "deathRate": 5.7,
-      "diabetesPrevalence": 16.5,
-      "giniIndex": 42.4,
-      "intentionalHomicides": 2.39580104761995
+      "giniIndex": 42.4
     },
     "TUV": {
       "population": 9492,
       "gdpPerCapita": 3352.66722400181,
       "lifeExpectancy": 67.259,
-      "fertilityRate": 3.174,
-      "landArea": 30,
       "renewableElectricity": 5,
-      "deathRate": 9.268,
-      "diabetesPrevalence": 19
+      "populationGrowth": -1.6093983073263
     },
     "TZA": {
       "population": 70545865,
       "gdpPerCapita": 939.127319335938,
       "lifeExpectancy": 67.212,
-      "fertilityRate": 4.541,
-      "landArea": 885800,
+      "educationExpenditure": 4.43052005767822,
       "renewableElectricity": 78.3,
+      "populationGrowth": 2.85515014149945,
       "unemploymentRate": 1.876,
-      "inflation": 5.17476629301493,
-      "deathRate": 5.721,
-      "diabetesPrevalence": 9.8,
-      "giniIndex": 40.5,
-      "intentionalHomicides": 4.59485426006108
+      "giniIndex": 40.5
     },
     "UGA": {
       "population": 51384894,
       "gdpPerCapita": 862.934610355811,
       "lifeExpectancy": 68.487,
-      "fertilityRate": 4.165,
-      "landArea": 200520,
+      "educationExpenditure": 2.25362992286682,
       "renewableElectricity": 91,
-      "unemploymentRate": 3.416,
-      "inflation": 5.70637504616212,
-      "deathRate": 4.767,
-      "diabetesPrevalence": 2.2,
-      "intentionalHomicides": 10.9721855213314
+      "populationGrowth": 2.70194383324801,
+      "unemploymentRate": 3.416
     },
     "UKR": {
       "population": 38980376,
       "gdpPerCapita": 2094.47387695313,
       "lifeExpectancy": 74.692,
-      "fertilityRate": 0.988,
-      "landArea": 579400,
+      "educationExpenditure": 5.41706991195679,
       "renewableElectricity": 8.9,
+      "populationGrowth": 2.91573569457478,
       "unemploymentRate": 9.834,
-      "inflation": 13.9127101997797,
-      "deathRate": 13.603,
-      "diabetesPrevalence": 6,
-      "giniIndex": 26.1,
-      "intentionalHomicides": 4.04827159044446
+      "giniIndex": 26.1
     },
     "URY": {
       "population": 3384688,
       "gdpPerCapita": 17125.9016800298,
       "lifeExpectancy": 78.287,
-      "fertilityRate": 1.397,
-      "landArea": 175020,
+      "educationExpenditure": 4.41787004470825,
+      "literacyRate": 98.7699966430664,
       "renewableElectricity": 57.8,
+      "populationGrowth": -0.0561194093953689,
       "unemploymentRate": 9.328,
-      "inflation": 9.6394134763508,
-      "deathRate": 9.933,
-      "diabetesPrevalence": 7.8,
-      "giniIndex": 39.7,
-      "intentionalHomicides": 11.5977676357818
+      "giniIndex": 39.7
     },
     "USA": {
       "population": 341784857,
       "gdpPerCapita": 56849.4697923159,
       "lifeExpectancy": 78.890243902439,
-      "fertilityRate": 1.6265,
-      "landArea": 9147420,
+      "educationExpenditure": 5.09296989440918,
       "renewableElectricity": 10.9,
+      "populationGrowth": 0.522468081877868,
       "unemploymentRate": 5.349,
-      "inflation": 1.26158320570536,
-      "deathRate": 9,
-      "diabetesPrevalence": 13.7,
-      "giniIndex": 41.8,
-      "intentionalHomicides": 4.93472178525416
+      "giniIndex": 41.8
     },
     "UZB": {
       "population": 37053428,
       "gdpPerCapita": 3172.89899391083,
       "lifeExpectancy": 72.528,
-      "fertilityRate": 3.486,
-      "landArea": 440653,
+      "educationExpenditure": 4.48249006271362,
+      "literacyRate": 100,
       "renewableElectricity": 1,
-      "unemploymentRate": 5.364,
-      "inflation": 8.130886695236,
-      "deathRate": 6.034,
-      "diabetesPrevalence": 7.5,
-      "intentionalHomicides": 1.20128497449438
+      "populationGrowth": 1.88404754637167,
+      "unemploymentRate": 5.364
     },
     "VCT": {
       "population": 99924,
       "gdpPerCapita": 7353.73556054184,
       "lifeExpectancy": 71.382,
-      "fertilityRate": 1.761,
-      "landArea": 390,
+      "educationExpenditure": 5.37974977493286,
       "renewableElectricity": 5,
-      "unemploymentRate": 20.356,
-      "inflation": -0.149641647633284,
-      "deathRate": 11.536,
-      "diabetesPrevalence": 8.6,
-      "intentionalHomicides": 18.2399416321868
+      "populationGrowth": -0.690139370317183,
+      "unemploymentRate": 20.356
     },
     "VEN": {
       "population": 28516896,
       "gdpPerCapita": 4096.61989137473,
       "lifeExpectancy": 72.673,
-      "fertilityRate": 2.077,
-      "landArea": 882050,
       "renewableElectricity": 33.7,
-      "unemploymentRate": 7.027,
-      "inflation": 254.948534781816,
-      "deathRate": 7.678,
-      "diabetesPrevalence": 8.6,
-      "intentionalHomicides": 41.0324133949647
+      "populationGrowth": 0.39124515392802,
+      "unemploymentRate": 7.027
     },
     "VGB": {
       "population": 39732,
       "lifeExpectancy": 77.431,
       "educationExpenditure": 2.4570894097885,
       "fertilityRate": 1.048,
-      "landArea": 150,
       "renewableElectricity": 1.3,
-      "netMigration": 153,
+      "populationGrowth": 0.659068330129875,
       "deathRate": 6.049
     },
     "VIR": {
       "population": 103792,
       "gdpPerCapita": 34007.3529411765,
       "lifeExpectancy": 80.7707317073171,
-      "fertilityRate": 1.97,
-      "landArea": 350,
       "renewableElectricity": 5.9,
-      "unemploymentRate": 13.508,
-      "deathRate": 9.2,
-      "diabetesPrevalence": 9.1
+      "populationGrowth": -0.562044819338406,
+      "unemploymentRate": 13.508
     },
     "VNM": {
       "population": 101598527,
       "gdpPerCapita": 2577.56885340113,
       "lifeExpectancy": 74.736,
-      "fertilityRate": 1.895,
-      "landArea": 313429,
+      "educationExpenditure": 3.41865686539527,
+      "literacyRate": 95.75,
       "renewableElectricity": 24.2,
+      "populationGrowth": 0.603044839155161,
       "unemploymentRate": 2.383,
-      "inflation": 2.66824816969082,
-      "deathRate": 6.646,
-      "diabetesPrevalence": 3.4,
       "giniIndex": 35.7
     },
     "VUT": {
       "population": 335169,
       "gdpPerCapita": 3214.41948587141,
       "lifeExpectancy": 71.654,
-      "fertilityRate": 3.569,
-      "landArea": 12190,
+      "educationExpenditure": 4.53353023529053,
+      "literacyRate": 92.4744486976738,
       "renewableElectricity": 24.6,
-      "unemploymentRate": 4.776,
-      "inflation": 0.842069084035061,
-      "deathRate": 5.018,
-      "diabetesPrevalence": 19.7,
-      "intentionalHomicides": 0.684967866444965
+      "populationGrowth": 2.23013831174813,
+      "unemploymentRate": 4.776
     },
     "WSM": {
       "population": 219306,
       "gdpPerCapita": 4084.36083819933,
       "lifeExpectancy": 71.826,
-      "fertilityRate": 3.801,
-      "landArea": 2780,
+      "educationExpenditure": 4.18871569584785,
+      "literacyRate": 97.9899978637695,
       "renewableElectricity": 36,
-      "unemploymentRate": 6.664,
-      "inflation": 1.30471869303179,
-      "deathRate": 6.16,
-      "diabetesPrevalence": 25.4
+      "populationGrowth": 0.58857998761608,
+      "unemploymentRate": 6.664
     },
     "XKX": {
       "population": 1576876,
       "gdpPerCapita": 3520.62685324451,
       "lifeExpectancy": 78.222,
       "fertilityRate": 1.538,
-      "inflation": 0.273169431045468,
-      "netMigration": -18380,
-      "deathRate": 5.973,
-      "diabetesPrevalence": 10.4,
-      "giniIndex": 44.6,
-      "intentionalHomicides": 1.36748864129747
+      "populationGrowth": -1.10223367296906,
+      "giniIndex": 44.6
     },
     "YEM": {
       "population": 41773878,
       "gdpPerCapita": 1362.1738120601,
       "lifeExpectancy": 69.439,
-      "fertilityRate": 4.499,
-      "landArea": 527970,
       "renewableElectricity": 3.7,
-      "unemploymentRate": 18.312,
-      "deathRate": 4.734,
-      "diabetesPrevalence": 5.5
+      "populationGrowth": 2.8917915150724,
+      "unemploymentRate": 18.312
     },
     "ZAF": {
       "population": 64747319,
       "gdpPerCapita": 6112.27382485974,
       "lifeExpectancy": 66.312,
-      "fertilityRate": 2.205,
-      "landArea": 1213090,
+      "educationExpenditure": 5.59868001937866,
+      "literacyRate": 95.0199966430664,
       "renewableElectricity": 9.7,
-      "unemploymentRate": 34.007,
-      "inflation": 6.60290842394872,
-      "deathRate": 9.237,
-      "diabetesPrevalence": 7.2,
-      "intentionalHomicides": 35.7874756270719
+      "populationGrowth": 1.14969203871645,
+      "unemploymentRate": 34.007
     },
     "ZMB": {
       "population": 21913874,
       "gdpPerCapita": 1295.87788680068,
       "lifeExpectancy": 66.528,
-      "fertilityRate": 4.036,
-      "landArea": 743390,
+      "educationExpenditure": 3.72964000701904,
       "renewableElectricity": 83,
-      "unemploymentRate": 5.197,
-      "inflation": 17.8697300795268,
-      "deathRate": 5.165,
-      "diabetesPrevalence": 10.3
+      "populationGrowth": 2.77109662765952,
+      "unemploymentRate": 5.197
     },
     "ZWE": {
       "population": 16950795,
       "gdpPerCapita": 1387.12632595026,
       "lifeExpectancy": 63.064,
-      "fertilityRate": 3.674,
-      "landArea": 386850,
+      "literacyRate": 93.2300033569336,
       "renewableElectricity": 82.4,
-      "unemploymentRate": 9.54,
-      "inflation": -1.54366960054161,
-      "deathRate": 7.498,
-      "diabetesPrevalence": 1.5,
-      "intentionalHomicides": 5.1730796210621
+      "populationGrowth": 1.88435182354047,
+      "unemploymentRate": 9.54
     }
   }
 }
